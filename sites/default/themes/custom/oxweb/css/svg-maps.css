@@ -1,0 +1,161 @@
+.svg-map{
+    position:relative;
+    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+.svg-map .map {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding-top: 43%;
+}
+.svg-map svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.svg-map path{
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    stroke: #fff;
+    stroke-width: 0.3;
+    fill: #AAA;
+}
+
+#svg-map-regions .map-root g:hover path,
+#svg-map-microsites #microsites g:hover path{
+    fill: #124e41;
+    cursor: pointer;
+}
+
+#svg-map-microsites #microsites path{
+    fill: #3277ae;
+}
+#svg-map-microsites #microsites g:hover path,
+#svg-map-microsites #microsites g.hover path{
+    fill: #124e41;
+    cursor: pointer;
+}
+#svg-map-microsites .text-links,
+#svg-map-microsites .text-links li{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+#svg-map-microsites  .text-links li{ 
+    position:absolute;
+    z-index:1;
+    white-space: nowrap
+}
+#svg-map-microsites .text-links a{
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    border-radius:3px;
+    text-decoration:none;
+    padding:0.2em 0.4em;
+    line-height:2em;
+    display:block;
+    vertical-align:middle;
+    background-color:white;
+    border: 1px solid #124e41;
+    text-transform:uppercase;
+    font-size:13px;
+    box-shadow:2px 2px 2px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow:2px 2px 2px 0 rgba(0,0,0,0.2);
+}
+#svg-map-microsites  .text-links a span{
+    display:inline-block;
+    vertical-align:middle;
+    width:18.66px;
+    height:14px;
+    background-size: cover;
+    background-position:50%;
+    background-repeat:no-repeat;
+    margin: -0.2em 0.2em 0 0;
+}
+#svg-map-microsites .text-links a:hover,
+#svg-map-microsites .text-links a.hover{
+    background-color:#124e41;
+    color:white;
+    box-shadow:none;
+    -webkit-box-shadow:none;
+}
+#map-link-canada{
+    top:17%;
+    left:30%;
+}
+#map-link-canada span{
+    background-image:url(../images/ca.svg);    
+}
+#map-link-brazil{
+    top:64%;
+    left:35%;
+}
+#map-link-brazil span{
+    background-image:url(../images/br.svg);    
+}
+#map-link-germany{
+    top:21%;
+    left:51%;
+}
+#map-link-germany span{
+    background-image:url(../images/de.svg);    
+}
+#map-link-africa{
+    top:46%;
+    left:50%;
+}
+#map-link-india{
+    top:40%;
+    left:auto;
+    right:31%;
+}
+#map-link-india span{
+    background-image:url(../images/in.svg);    
+}
+#map-link-china{
+    top:24%;
+    left:74%;
+}
+#map-link-china span{
+    background-image:url(../images/cn.svg);    
+}
+#map-link-korea{
+    top:32%;
+    left:85.5%;
+}
+#map-link-korea span{
+    background-image:url(../images/kr.svg);    
+}
+#map-link-australia{
+    top:74%;
+    left:auto;
+    right:18%;
+}
+#map-link-australia span{
+    background-image:url(../images/au.svg);    
+}
+#map-link-usa{
+    top:28%;
+    left:15%;
+}
+#map-link-usa span{
+    background-image:url(../images/us.svg);    
+}
+
+@media only screen and (max-width:600px){
+    #svg-map-microsites .text-links a{
+        font-size:10px;
+    }
+}
+@media only screen and (max-width:400px){
+    #svg-map-microsites .text-links a{
+        padding:0em 0.4em;
+    }
+    #svg-map-microsites .text-links a span{
+        display:none;
+    }
+}

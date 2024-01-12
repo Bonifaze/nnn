@@ -1,0 +1,168 @@
+/*
+	To do:
+
+	1. Check font size of accordion and timeline lables and titles and make consistent. Labels should be 15px for all screen widths.
+	2. Implement icons in HTML and style them here.
+*/
+
+.accordion { margin-top: 30px; width: 100%; }
+.accordion-item { margin: 0; padding: 30px 0; border-bottom: 1px solid #eaeaea; }
+.landing .accordion-item { padding: 30px 3%; }
+.accordion-item:first-child { border-top: 1px solid #eaeaea; /*padding-top: 0;*/ }
+.accordion-item:last-child { padding-bottom: 30px; }
+
+.timeline { position: relative; }
+
+.timeline .accordion-item { margin: 0 0 20px 0; padding: 20px; border: none; box-shadow: rgba(0,0,0,0.2) 0 0 32px -10px; position: relative; }
+.landing .timeline .accordion-item { padding: 20px 3%; }
+.timeline .accordion-item:last-child { margin: 0; }
+
+.timeline:before { background: #000; content: ""; height: calc(100% - 40px); top: 40px; right: 37px; position: absolute; width: 1px; z-index: -1; }
+.landing .timeline:before { right: calc(3% + 17.5px); }
+/*.timeline .accordion-item:first-child:before { background: #fff; content: ""; height: 40px; top: 0; right: 37px; position: absolute; width: 1px; z-index: -1; }*/
+.timeline .accordion-item:last-child:after { background: #fff; content: ""; height: calc(100% - 30px); top: 30px; right: 37px; position: absolute; width: 1px; z-index: -1; }
+.landing .timeline .accordion-item:last-child:after { right: calc(3% + 17.5px); }
+
+/*
+.timeline .accordion-item:not(:first-child) button:before { background: #000; content: ""; height: 40px; top: 0; right: 37px; position: absolute; width: 1px; z-index: -1; }
+.timeline .accordion-item:not(:last-child) button:after { background: #000; content: ""; height: calc(100% - 30px); top: 40px; right: 37px; position: absolute; width: 1px; z-index: -1; }
+*/
+
+.accordion-item > h2,
+.accordion-item > h3,
+.accordion-item > h4,
+.accordion-item > h5 { margin-bottom: 0; padding: 0 !important; background-color: transparent; font-size: 1.692308em; font-weight: 300; }
+
+.accordion-item-button { font-weight: 300; }
+
+.accordion-item > h2 .text,
+.accordion-item > h3 .text,
+.accordion-item > h4 .text,
+.accordion-item > h5 .text { padding: 0; border-bottom: 1px solid #fff; }
+
+.accordion-item > h2:hover button:not([disabled]) .text,
+.accordion-item > h3:hover button:not([disabled]) .text,
+.accordion-item > h4:hover button:not([disabled]) .text,
+.accordion-item > h5:hover button:not([disabled]) .text { border-bottom: 1px solid #000; }
+/*
+.accordion-item > h2:hover button:focus .text,
+.accordion-item > h3:hover button:focus .text,
+.accordion-item > h4:hover button:focus .text,
+.accordion-item > h5:hover button:focus .text { border-bottom: 1px solid #fff; }
+*/
+.accordion-item .text span { display: block; }
+.accordion-item .text .label { display: flex; text-transform: uppercase; color: #767676; font-size: 0.714286em; font-weight: 400; margin-bottom: 10px; align-items: center; }
+.accordion-item .text .label img { margin-right: 8px; width: 20px; }
+
+.accordion-item-button { display: flex; align-items: center; position: relative; border: 0; padding: 0; width: 100%; text-align: left; font-family: 'Open Sans',sans-serif; /*font-weight: 300;*/ line-height: 1.2; color: #111; background: #fff; }
+.inner .accordion-item-button { justify-content: space-between; }
+.timeline .accordion-item-button { align-items: flex-start; background-color: transparent; justify-content: space-between; }
+
+.accordion-item-button .icon { display: inline-block; position: relative; background: #000; width: 36px; min-width: 36px; height: 36px; margin: 0 0 0 10px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; transition: background-color 0.5s ease; }
+.landing .accordion-item-button .icon { margin: 0 10px 0 0; }
+.inner .accordion-item-button .icon,
+.timeline .accordion-item-button .icon { margin: 0 0 0 10px; }
+.accordion-item-button[disabled] .icon { width: 15px; min-width: 15px; height: 15px; margin-right: 10.5px; }
+
+.accordion-item-button:not([disabled]) .icon:before,
+.accordion-item-button:not([disabled]) .icon:after { background: #fff; content: ""; height: 2px; top: calc(50% - 1px); left: 25%; position: absolute; width: 18px; transition: transform 500ms ease, background-color 500ms ease; }
+.accordion-item-button:not([disabled]) .icon:before { transform: rotate(180deg); }
+.accordion-item-button:not([disabled]) .icon:after { transform-origin: center; transform: rotate(90deg); }
+
+/*
+.accordion-item-button .icon:before,
+.accordion-item-button .icon:after { background: #fff; content: ""; height: 2px; top: calc(50% - 1px); left: 25%; position: absolute; width: 18px; transition: transform 500ms ease; }
+*/
+
+.accordion-item-button:not([disabled]) .icon:before { transform: rotate(180deg); }
+.accordion-item-button:not([disabled]) .icon:after { transform-origin: center; transform: rotate(90deg); }
+
+.accordion-item-button[aria-expanded="true"] .icon:before,
+.accordion-item-button[aria-expanded="true"] .icon:after { transform: rotate(0deg); }
+
+.accordion-item-button:not([disabled])[aria-expanded="true"] .icon { background: #eaeaea; }
+.accordion-item-button[aria-expanded="true"] .icon:before,
+.accordion-item-button[aria-expanded="true"] .icon:after { background: #000; }
+
+/*.accordion-item-button:not([disabled]):focus .icon,*/
+.accordion-item-button:not([disabled]):hover .icon { background-color: #6b2c91; }
+/*.accordion-item-button:not([disabled]):focus .icon:before,*/
+.accordion-item-button:not([disabled]):hover .icon:before,
+/*.accordion-item-button:not([disabled]):focus .icon:after,*/
+.accordion-item-button:not([disabled]):hover .icon:after { background-color: #fff; }
+
+.accordion-item-content { margin: 0; padding: 20px 0 0 0; }
+.timeline .accordion-item-content { margin: 0 46px 0 0; }
+/*.accordion-item-content > * { max-width: calc(100% - 51px); }*/
+.accordion-item-content > p:last-child,
+.accordion-item-content > ol:last-child,
+.accordion-item-content > ul:last-child { padding-bottom: 0; }
+
+.accordion-item-content .cta a { margin: 10px 0 0 0; display: inline-block; padding: 6px 15px; border: 1px solid #6b2c91; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background-color: #6b2c91; color: #fff; font-weight: 600; text-decoration: none; }
+.accordion-item-content .cta a:focus,
+.accordion-item-content .cta a:hover { text-decoration: underline; }
+
+@media (min-width: 400px) {
+	.landing .timeline:before { right: calc(5% + 17.5px); }
+	.landing .accordion-item { padding: 30px 5%; }
+	.landing .timeline .accordion-item { padding: 20px 5%; }
+	.landing .timeline .accordion-item:last-child:after { right: calc(5% + 17.5px); }
+}
+
+@media (min-width: 500px) {
+	.accordion-item-content { margin: 0; padding-left: 46px; }
+	.inner .accordion-item-content,
+	.timeline .accordion-item-content { margin: 0 60px 0 0; padding-left: 0; }
+}
+
+@media (min-width: 600px) {
+	.landing .timeline:before { right: 40px; }
+	.landing .accordion-item { padding: 30px 20px; }
+	.timeline .accordion-item { padding: 30px; }
+	.landing .timeline .accordion-item { padding: 20px; }
+
+	.accordion-item > h2,
+	.accordion-item > h3,
+	.accordion-item > h4,
+	.accordion-item > h5 { font-size: 1.846154em; font-weight: 300; }
+
+	.timeline .accordion-item > h2,
+	.timeline .accordion-item > h3,
+	.timeline .accordion-item > h4,
+	.timeline .accordion-item > h5 { font-size: 1.615385em; }
+
+	.accordion-item-button { font-weight: 300; }
+	.accordion-item-button .icon { width: 40px; min-width: 40px; height: 40px; margin-right: 20px; }
+	.landing .accordion-item-button .icon { margin: 0 15px 0 0; }
+	.landing .timeline .accordion-item-button .icon { margin-left: 10px; }
+	.inner .accordion-item-button .icon { margin-right: 10px; }
+	.timeline .accordion-item-button .icon { margin-right: 0; }
+	.accordion-item-button:not([disabled]) .icon:before,
+	.accordion-item-button:not([disabled]) .icon:after { width: 20px; }
+	.accordion-item-button[disabled] .icon { margin-right: 12.5px; }
+	.accordion-item .text .label { font-size: 0.714286em; }
+	.timeline:before { right: 50px; }
+	.accordion-item-button .icon:before,
+	.accordion-item-button .icon:after { width: 20px; }
+	.timeline .accordion-item:first-child:before { right: 50px; }
+	.timeline .accordion-item:last-child:after { right: 50px; }
+	.landing .timeline .accordion-item:last-child:after { right: 40px; }
+
+	.accordion-item-content { padding-left: 55px; }
+	/*.accordion-item-content { margin: 0 60px 0 0; }*/
+	.timeline .accordion-item-content { margin: 0 50px 0 0; }
+	.landing .accordion-item-content { max-width: 75rem; }
+/*
+	.inner .accordion-item-content > *,
+	.timeline .accordion-item-content > * { max-width: min(60rem, calc(100% - 60px)); }
+	.landing .accordion-item-content > * { max-width: min(75rem, calc(100% - 60px)); }
+*/
+}
+
+@media (min-width: 700px) {
+	.accordion-item-content { margin: 0; }
+}
+
+@media (min-width: 800px) {
+	.timeline .accordion-item-content { margin: 0 60px 0 0; }
+}
