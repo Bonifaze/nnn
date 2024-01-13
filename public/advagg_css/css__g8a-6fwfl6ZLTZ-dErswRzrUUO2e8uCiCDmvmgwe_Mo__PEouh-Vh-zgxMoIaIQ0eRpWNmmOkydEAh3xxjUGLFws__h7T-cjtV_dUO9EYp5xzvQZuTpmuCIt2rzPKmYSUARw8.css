@@ -202,7 +202,7 @@ object {
     filter: alpha(opacity=80);
     width: 42px;
     height: 42px;
-    background: url(../../../default/themes/custom/oxweb/images/whopper.png) no-repeat center center #124e41;
+    background: url(../image/handburger.png) no-repeat center center #124e41;
     display: block;
     float: right;
 }
@@ -1111,7 +1111,7 @@ object {
 
     .logo a.square,
     .logo a.rect {
-        background: url(../../../default/themes/custom/oxweb/images/oxweb-logo-square.svg) no-repeat center center;
+        /* background: url(../image/logomobile.png) no-repeat center center; */
         background-size: 100% 100%;
         -ms-interpolation-mode: bicubic;
         image-rendering: optimizeQuality;
@@ -1120,22 +1120,22 @@ object {
     }
 
     .logo a.rect {
-        background: url(../../../default/themes/custom/oxweb/images/oxweb-logo-rect.svg) no-repeat center center;
+        background: url(../image/mobile.jpg) no-repeat center center;
         background-size: 100% 100%;
     }
 
     .page-footer .row .site-map .sitemap-item.footer-logo-wrapper {
-        background: url(../../../default/themes/custom/oxweb/images/oxweb-logo-square.svg) right center no-repeat;
+        /* background: url(../image/logomobile.png) right center no-repeat; */
         background-size: 128px;
     }
 
     .page-footer .row .footer-logo-wrapper {
-        background: url(../../../default/themes/custom/oxweb/images/oxweb-logo-square.svg) no-repeat right center;
+        /* background: url(../image/logomobile.png) no-repeat right center; */
         background-size: 100% 100%;
     }
 
     .page-footer .row .social-links .social li a {
-        background: url(../../../default/themes/custom/oxweb/images/oxweb-footer-icons-v8.png) no-repeat;
+        /* background: url(../image/logomobile.png) no-repeat; */
         background-size: 604px 85px;
     }
 
