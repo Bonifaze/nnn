@@ -1,333 +1,1583 @@
 <!doctype html>
 <html lang="en" dir="ltr" class="no-js">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2.0 user-scalable=yes" />
-  <!--[if IE]><![endif]-->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.eu01.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"535911619",accountID:"3286951",trustKey:"3286951",xpid:"VwQPV19WCRAEUVdaDgQAU1w=",licenseKey:"NRJS-fccd3ad23e6014d5d85",applicationID:"456895758"};;/*! For license information please see nr-loader-spa-1.249.0.min.js.LICENSE.txt */
-(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>m,Mt:()=>b,C5:()=>s,DL:()=>A,OP:()=>N,lF:()=>j,Yu:()=>E,Dg:()=>v,CX:()=>c,GE:()=>x,sU:()=>R});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",h=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},g="All configuration objects require an agent identifier!";function m(e){if(!e)throw new Error(g);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function v(e,t){if(!e)throw new Error(g);p[e]=(0,i.D)(t,h());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(g);var r=m(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},w={};function A(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!w[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return w[e]}function x(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");w[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=w[e])}const E=(0,n.mF)().o;var _=r(385),T=r(6818);const S={buildEnv:T.Re,customTransaction:void 0,disabled:!1,distMethod:T.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(_._A?.performance?.timeOrigin||_._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+_._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof _._A.XMLHttpRequest?.prototype?.addEventListener,version:T.q4,denyList:void 0},D={};function N(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,S);const r=(0,n.ek)(e);r&&(r.runtime=D[e])}function j(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,lF:()=>a,q4:()=>n});const n="1.249.0",i="PROD",o="CDN",a="2.0.0-alpha.11"},385:(e,t,r)=>{"use strict";r.d(t,{FN:()=>c,IF:()=>l,LW:()=>a,Nk:()=>h,Tt:()=>u,_A:()=>o,cv:()=>p,iS:()=>s,il:()=>n,ux:()=>d,v6:()=>i,w1:()=>f});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a="complete"===o?.document?.readyState,s=Boolean("hidden"===o?.document?.visibilityState),c=""+o?.location,u=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=(()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),f=Boolean(n&&window.document.documentMode),h=!!o.navigator?.sendBeacon,p=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=[...s[e]];function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((t=>{let[r]=t;s[e].delete(r),a(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},f=!1;try{f=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var h={on:g,addEventListener:g,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=p(n),c=m(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var f=b()[s[e]];f&&f.push([h,e,r,a]);return a},get:v,listeners:m,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",h.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function p(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function g(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(h,t)}function b(){return h.backlog}}(void 0,"globalEE"),d=(0,n.fP)();function l(){u.aborted=!0,u.backlog={}}d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Ht:()=>u,M:()=>c,Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,++i).toString(16));return a.join("")}function c(){return s(16)}function u(){return s(32)}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>o,oD:()=>i});const n="NRBA",i=144e5,o=18e5},7894:(e,t,r)=>{"use strict";function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},7243:(e,t,r)=>{"use strict";r.d(t,{e:()=>i});var n=r(385);function i(e){if(0===(e||"").indexOf("data:"))return{protocol:"data"};try{const t=new URL(e,location.href),r={port:t.port,hostname:t.hostname,pathname:t.pathname,search:t.search,protocol:t.protocol.slice(0,t.protocol.indexOf(":")),sameOrigin:t.protocol===n._A?.location?.protocol&&t.host===n._A?.location?.host};return r.port&&""!==r.port||("http:"===t.protocol&&(r.port="80"),"https:"===t.protocol&&(r.port="443")),r.pathname&&""!==r.pathname?r.pathname.startsWith("/")||(r.pathname="/".concat(r.pathname)):r.pathname="/",r}catch(e){return{}}}},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>d,T:()=>l});var n=r(8325),i=r(5546),o=r(3325),a=r(385);const s="newrelic";const c={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]},u=new Set;function d(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,n]=e;c[t]?c[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),l[t]=Boolean(n)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{a._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(7894),i=r(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,n.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},1214:(e,t,r)=>{"use strict";r.d(t,{em:()=>b,u5:()=>D,QU:()=>j,_L:()=>I,Gm:()=>H,Lg:()=>L,BV:()=>G,Kf:()=>Y});var n=r(8325),i=r(3117);const o="nr@original:".concat(i.a);var a=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,o){n||(n="");const a="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],u=e[c];d(u)||(e[c]=r(u,a?c+n:n,i,c,o))}},r.flag=o,r;function r(t,r,n,s,c){return d(t)?t:(r||(r=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){u([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,a,d,l;try{a=this,o=[...arguments],d="function"==typeof n?n(o,a):n||{}}catch(t){u([t,"",[o,a,s],d],e)}i(r+"start",[o,a,s],d,c);try{return l=t.apply(a,o)}catch(e){throw i(r+"err",[o,a,e],d,c),e}finally{i(r+"end",[o,a,l],d,c)}}}function i(r,n,i,o){if(!s||t){var a=s;s=!0;try{e.emit(r,n,i,t,o)}catch(t){u([t,r,n,i],e)}s=a}}}function u(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function d(e){return!(e&&"function"==typeof e&&e.apply&&!e[o])}var l=r(2210),f=r(385);const h={},p=f._A.XMLHttpRequest,g="addEventListener",m="removeEventListener",v="nr@wrapped:".concat(n.A);function b(e){var t=function(e){return(e||n.ee).get("events")}(e);if(h[t.debugId]++)return t;h[t.debugId]=1;var r=c(t,!0);function i(e){r.inPlace(e,[g,m],"-",o)}function o(e,t){return e[1]}return"getPrototypeOf"in Object&&(f.il&&y(document,i),y(f._A,i),y(p.prototype,i)),t.on(g+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,l.X)(n,v,(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(m+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function y(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,g);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),o=2;o<n;o++)i[o-2]=arguments[o];r&&t(r,...i)}var w="fetch-",A=w+"body-",x=["arrayBuffer","blob","json","text","formData"],E=f._A.Request,_=f._A.Response,T="prototype";const S={};function D(e){const t=function(e){return(e||n.ee).get("fetch")}(e);if(!(E&&_&&f._A.fetch))return t;if(S[t.debugId]++)return t;function r(e,r,i){var o=e[r];"function"==typeof o&&(e[r]=function(){var e,r=[...arguments],a={};t.emit(i+"before-start",[r],a),a[n.A]&&a[n.A].dt&&(e=a[n.A].dt);var s=o.apply(this,r);return t.emit(i+"start",[r,e],s),s.then((function(e){return t.emit(i+"end",[null,e],s),e}),(function(e){throw t.emit(i+"end",[e],s),e}))})}return S[t.debugId]=1,x.forEach((e=>{r(E[T],e,A),r(_[T],e,A)})),r(f._A,"fetch",w),t.on(w+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(w+"done",[null,r],n)}else t.emit(w+"done",[e],n)})),t}const N={},R=["pushState","replaceState"];function j(e){const t=function(e){return(e||n.ee).get("history")}(e);return!f.il||N[t.debugId]++||(N[t.debugId]=1,c(t).inPlace(window.history,R,"-")),t}var C=r(3239);const O={},P=["appendChild","insertBefore","replaceChild"];function I(e){const t=function(e){return(e||n.ee).get("jsonp")}(e);if(!f.il||O[t.debugId])return t;O[t.debugId]=!0;var r=c(t),i=/[?&](?:callback|cb)=([^&#]+)/,o=/(.*)\.([^.]+)/,a=/^(\w+)(\.|$)(.*)$/;function s(e,t){if(!e)return t;const r=e.match(a),n=r[1];return s(r[3],t[n])}return r.inPlace(Node.prototype,P,"dom-"),t.on("dom-start",(function(e){!function(e){if(!e||"string"!=typeof e.nodeName||"script"!==e.nodeName.toLowerCase())return;if("function"!=typeof e.addEventListener)return;var n=(a=e.src,c=a.match(i),c?c[1]:null);var a,c;if(!n)return;var u=function(e){var t=e.match(o);if(t&&t.length>=3)return{key:t[2],parent:s(t[1],window)};return{key:e,parent:window}}(n);if("function"!=typeof u.parent[u.key])return;var d={};function l(){t.emit("jsonp-end",[],d),e.removeEventListener("load",l,(0,C.m$)(!1)),e.removeEventListener("error",f,(0,C.m$)(!1))}function f(){t.emit("jsonp-error",[],d),t.emit("jsonp-end",[],d),e.removeEventListener("load",l,(0,C.m$)(!1)),e.removeEventListener("error",f,(0,C.m$)(!1))}r.inPlace(u.parent,[u.key],"cb-",d),e.addEventListener("load",l,(0,C.m$)(!1)),e.addEventListener("error",f,(0,C.m$)(!1)),t.emit("new-jsonp",[e.src],d)}(e[0])})),t}const k={};function H(e){const t=function(e){return(e||n.ee).get("mutation")}(e);if(!f.il||k[t.debugId])return t;k[t.debugId]=!0;var r=c(t),i=f._A.MutationObserver;return i&&(window.MutationObserver=function(e){return this instanceof i?new i(r(e,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype),t}const M={};function L(e){const t=function(e){return(e||n.ee).get("promise")}(e);if(M[t.debugId])return t;M[t.debugId]=!0;var r=t.context,i=c(t),a=f._A.Promise;return a&&function(){function e(r){var n=t.context(),o=i(r,"executor-",n,null,!1);const s=Reflect.construct(a,[o],e);return t.context(s).getCtx=function(){return n},s}f._A.Promise=e,Object.defineProperty(e,"name",{value:"Promise"}),e.toString=function(){return a.toString()},Object.setPrototypeOf(e,a),["all","race"].forEach((function(r){const n=a[r];e[r]=function(e){let i=!1;[...e||[]].forEach((e=>{this.resolve(e).then(a("all"===r),a(!1))}));const o=n.apply(this,arguments);return o;function a(e){return function(){t.emit("propagate",[null,!i],o,!1,!1),i=i||!e}}}})),["resolve","reject"].forEach((function(r){const n=a[r];e[r]=function(e){const r=n.apply(this,arguments);return e!==r&&t.emit("propagate",[e,!0],r,!1,!1),r}})),e.prototype=a.prototype;const n=a.prototype.then;a.prototype.then=function(){var e=this,o=r(e);o.promise=e;for(var a=arguments.length,s=new Array(a),c=0;c<a;c++)s[c]=arguments[c];s[0]=i(s[0],"cb-",o,null,!1),s[1]=i(s[1],"cb-",o,null,!1);const u=n.apply(this,s);return o.nextPromise=u,t.emit("propagate",[e,!0],u,!1,!1),u},a.prototype.then[o]=n,t.on("executor-start",(function(e){e[0]=i(e[0],"resolve-",this,null,!1),e[1]=i(e[1],"resolve-",this,null,!1)})),t.on("executor-err",(function(e,t,r){e[1](r)})),t.on("cb-end",(function(e,r,n){t.emit("propagate",[n,!0],this.nextPromise,!1,!1)})),t.on("propagate",(function(e,r,n){this.getCtx&&!r||(this.getCtx=function(){if(e instanceof Promise)var r=t.context(e);return r&&r.getCtx?r.getCtx():this})}))}(),t}const z={},B="setTimeout",F="setInterval",U="clearTimeout",Z="-start",V="-",q=[B,"setImmediate",F,U,"clearImmediate"];function G(e){const t=function(e){return(e||n.ee).get("timer")}(e);if(z[t.debugId]++)return t;z[t.debugId]=1;var r=c(t);return r.inPlace(f._A,q.slice(0,2),B+V),r.inPlace(f._A,q.slice(2,3),F+V),r.inPlace(f._A,q.slice(3),U+V),t.on(F+Z,(function(e,t,n){e[0]=r(e[0],"fn-",null,n)})),t.on(B+Z,(function(e,t,n){this.method=n,this.timerDuration=isNaN(e[1])?0:+e[1],e[0]=r(e[0],"fn-",this,n)})),t}var W=r(50);const X={},K=["open","send"];function Y(e){var t=e||n.ee;const r=function(e){return(e||n.ee).get("xhr")}(t);if(X[r.debugId]++)return r;X[r.debugId]=1,b(t);var i=c(r),o=f._A.XMLHttpRequest,a=f._A.MutationObserver,s=f._A.Promise,u=f._A.setInterval,d="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],h=[],p=f._A.XMLHttpRequest=function(e){const t=new o(e),n=r.context(t);try{r.emit("new-xhr",[t],n),t.addEventListener(d,(a=n,function(){var e=this;e.readyState>3&&!a.resolved&&(a.resolved=!0,r.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",A)}),(0,C.m$)(!1))}catch(e){(0,W.Z)("An error occurred while intercepting XHR",e);try{r.emit("internal-error",[e])}catch(e){}}var a;return t};function g(e,t){i.inPlace(t,["onreadystatechange"],"fn-",A)}if(function(e,t){for(var r in e)t[r]=e[r]}(o,p),p.prototype=o.prototype,i.inPlace(p.prototype,K,"-xhr-",A),r.on("send-xhr-start",(function(e,t){g(e,t),function(e){h.push(e),a&&(m?m.then(w):u?u(w):(v=-v,y.data=v))}(t)})),r.on("open-xhr-start",g),a){var m=s&&s.resolve();if(!u&&!s){var v=1,y=document.createTextNode(v);new a(w).observe(y,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===d||w()}));function w(){for(var e=0;e<h.length;e++)g(0,h[e]);h.length&&(h=[])}function A(e,t){return t}return r}},7825:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.ajax},6660:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.jserrors},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},4649:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageAction},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.sessionReplay},3614:(e,t,r)=>{"use strict";r.d(t,{BST_RESOURCE:()=>i,END:()=>s,FEATURE_NAME:()=>n,FN_END:()=>u,FN_START:()=>c,PUSH_STATE:()=>d,RESOURCE:()=>o,START:()=>a});const n=r(3325).D.sessionTrace,i="bstResource",o="resource",a="-start",s="-end",c="fn"+a,u="fn"+s,d="pushState"},7836:(e,t,r)=>{"use strict";r.d(t,{BODY:()=>x,CB_END:()=>E,CB_START:()=>u,END:()=>A,FEATURE_NAME:()=>i,FETCH:()=>T,FETCH_BODY:()=>v,FETCH_DONE:()=>m,FETCH_START:()=>g,FN_END:()=>c,FN_START:()=>s,INTERACTION:()=>f,INTERACTION_API:()=>d,INTERACTION_EVENTS:()=>o,JSONP_END:()=>b,JSONP_NODE:()=>p,JS_TIME:()=>_,MAX_TIMER_BUDGET:()=>a,REMAINING:()=>l,SPA_NODE:()=>h,START:()=>w,originalSetTimeout:()=>y});var n=r(234);const i=r(3325).D.spa,o=["click","submit","keypress","keydown","keyup","change"],a=999,s="fn-start",c="fn-end",u="cb-start",d="api-ixn-",l="remaining",f="interaction",h="spaNode",p="jsonpNode",g="fetch-start",m="fetch-done",v="fetch-body-",b="jsonp-end",y=n.Yu.ST,w="-start",A="-end",x="-body",E="cb"+A,_="jsTime",T="fetch"},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},7530:(e,t,r)=>{"use strict";r.d(t,{j:()=>b});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(7894),c=r(8e3),u=r(3960),d=r(385),l=r(50),f=r(3081),h=r(8632);function p(){const e=(0,h.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var g=r(2825);const m=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let v=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:x,runtime:E={loaderType:b},exposed:_=!0}=t;const T=(0,h.gG)();A||(w=T.init,A=T.info,x=T.loader_config),(0,i.Dg)(e.agentIdentifier,w||{}),(0,i.GE)(e.agentIdentifier,x||{}),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,A);const S=(0,i.P_)(e.agentIdentifier),D=[A.beacon,A.errorBeacon];v||(S.proxy.assets&&(m(S.proxy.assets),D.push(S.proxy.assets)),S.proxy.beacon&&D.push(S.proxy.beacon),p(),(0,h.EZ)("activatedFeatures",g.T)),E.denyList=[...S.ajax.deny_list||[],...S.ajax.block_internal?D:[]],(0,i.sU)(e.agentIdentifier,E),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const h={};var p=a.ee.get(e),g=p.get("tracer"),m="api-",v=m+"ixn-";function b(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),A(m,n,!0,o||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{h[e]=A(m,e,!0,"api")})),h.addPageAction=A(m,"addPageAction",!0,n.D.pageAction),h.setCurrentRouteName=A(m,"routeName",!0,n.D.spa),h.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,A(m,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},h.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},h.recordReplay=function(){(0,o.p)(f.xS,["API/recordReplay/called"],void 0,n.D.metrics,p),(0,o.p)("recordReplay",[],void 0,n.D.sessionReplay,p)},h.pauseReplay=function(){(0,o.p)(f.xS,["API/pauseReplay/called"],void 0,n.D.metrics,p),(0,o.p)("pauseReplay",[],void 0,n.D.sessionReplay,p)},h.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(f.xS,["API/createTracer/called"],void 0,n.D.metrics,p),(0,o.p)(v+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(g.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw g.emit("fn-err",[arguments,this,e],r),e}finally{g.emit("fn-end",[(0,s.z)()],r)}}}};function A(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function x(){r.e(111).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(v,e,void 0,n.D.spa)})),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.il?(0,u.b2)((()=>x()),!0):x(),h}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=_),v=!0}},1926:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>({111:"nr-spa",164:"nr-spa-compressor",433:"nr-spa-recorder"}[e]+"-1.249.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.249.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={111:"sha512-rcwC3TQKAe2v/8lLef/QtCPf7aXHaINQK4rrQfRSqEniSzjfHKp2puNRiDg83LlvldPaSMD6aDSwKPMP36tEEg==",433:"sha512-JeWgZm97pm4zAk+MvNNodtuNUNFe082xN5Zj2RU/N/yCAq3qZMnaiENIF3swHo/Ae+Ju06jx3VeGAH/rqoAEoA==",164:"sha512-yrd1XMobAelLE0xAoM/hP3axL+jcB+V8KhqdTQItU7063qODLZOtgHB/y5KPY0H0Cev/2f7LVwp1KY0//grUmg=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var h=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(h.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=h.bind(null,s.onerror),s.onload=h.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={801:0,92:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.249.0.PROD"]=self["webpackChunk:NRBA-1.249.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(1926);var e=i(50);class t{#e(e){return"Call to agent api ".concat(e," failed. The agent is not currently initialized.")}addPageAction(t,r){(0,e.Z)(this.#e("addPageAction"))}setPageViewName(t,r){(0,e.Z)(this.#e("setPageViewName"))}setCustomAttribute(t,r,n){(0,e.Z)(this.#e("setCustomAttribute"))}noticeError(t,r){(0,e.Z)(this.#e("noticeError"))}setUserId(t){(0,e.Z)(this.#e("setUserId"))}setApplicationVersion(t){(0,e.Z)(this.#e("setApplicationVersion"))}setErrorHandler(t){(0,e.Z)(this.#e("setErrorHandler"))}finished(t){(0,e.Z)(this.#e("finished"))}addRelease(t,r){(0,e.Z)(this.#e("addRelease"))}start(t){(0,e.Z)(this.#e("start"))}recordReplay(){(0,e.Z)(this.#e("recordReplay"))}pauseReplay(){(0,e.Z)(this.#e("pauseReplay"))}}var r=i(3325),n=i(234);const o=Object.values(r.D);function a(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let o;this.onAggregateImported=new Promise((e=>{o=e}));const a=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(111).then(i.bind(i,3228));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void o(!1);const{lazyFeatureLoader:e}=await i.e(111).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),o(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),o(!1)}};l.il?(0,d.b2)((()=>a()),!0):a()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var h=i(7633);class p extends f{static featureName=h.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,h.t,r),this.importAggregator()}}var g=i(1117),m=i(1284);class v extends g.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,m.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,m.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=b(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=w(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,m.D)(e,A)}function A(e,t){return t}var x=i(8632),E=i(4402),_=i(4351);var T=i(5546),S=i(7956),D=i(3239),N=i(7894),R=i(9251);class j extends f{static featureName=R.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,r),l.il&&((0,S.N)((()=>(0,T.p)("docHidden",[(0,N.z)()],void 0,R.t,this.ee)),!0),(0,D.bP)("pagehide",(()=>(0,T.p)("winPagehide",[(0,N.z)()],void 0,R.t,this.ee))),this.importAggregator())}}var C=i(3081);class O extends f{static featureName=C.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,C.t9,r),this.importAggregator()}}var P=i(6660);class I{constructor(e,t,r,n){this.name="UncaughtError",this.message=e,this.sourceURL=t,this.line=r,this.column=n}}class k extends f{static featureName=P.t;#t=new Set;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,n);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("fn-err",((e,t,n)=>{this.abortHandler&&!this.#t.has(n)&&(this.#t.add(n),(0,T.p)("err",[this.#r(n),(0,N.z)()],void 0,r.D.jserrors,this.ee))})),this.ee.on("internal-error",(e=>{this.abortHandler&&(0,T.p)("ierr",[this.#r(e),(0,N.z)(),!0],void 0,r.D.jserrors,this.ee)})),l._A.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,T.p)("err",[this.#n(e),(0,N.z)(),!1,{unhandledPromiseRejection:1}],void 0,r.D.jserrors,this.ee)}),(0,D.m$)(!1,this.removeOnAbort?.signal)),l._A.addEventListener("error",(e=>{this.abortHandler&&(this.#t.has(e.error)?this.#t.delete(e.error):(0,T.p)("err",[this.#i(e),(0,N.z)()],void 0,r.D.jserrors,this.ee))}),(0,D.m$)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#o,this.importAggregator()}#o(){this.removeOnAbort?.abort(),this.#t.clear(),this.abortHandler=void 0}#r(e){return e instanceof Error?e:void 0!==e?.message?new I(e.message,e.filename||e.sourceURL,e.lineno||e.line,e.colno||e.col):new I("string"==typeof e?e:(0,_.P)(e))}#n(e){let t="Unhandled Promise Rejection: ";if(e?.reason instanceof Error)try{return e.reason.message=t+e.reason.message,e.reason}catch(t){return e.reason}if(void 0===e.reason)return new I(t);const r=this.#r(e.reason);return r.message=t+r.message,r}#i(e){return e.error instanceof Error?e.error:new I(e.message,e.filename,e.lineno,e.colno)}}var H=i(2210);let M=1;const L="nr@id";function z(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===l._A?0:(0,H.X)(e,L,(function(){return M++}))}function B(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,_.P)(e).length}catch(e){return}}}var F=i(1214),U=i(7243);class Z{constructor(e){this.agentIdentifier=e}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,n.DL)(this.agentIdentifier);if(!t)return null;var r=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,o=(t.trustKey||"").toString()||null;if(!r||!i)return null;var a=(0,E.M)(),s=(0,E.Ht)(),c=Date.now(),u={spanId:a,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(u.traceContextParentHeader=this.generateTraceContextParentHeader(a,s),u.traceContextStateHeader=this.generateTraceContextStateHeader(a,c,r,i,o)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(u.newrelicHeader=this.generateTraceHeader(a,s,c,r,i,o)),u}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,o){if(!("function"==typeof l._A?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa((0,_.P)(a))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,n.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,n.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var i=0;i<r.allowed_origins.length;i++){var o=(0,U.e)(r.allowed_origins[i]);if(e.hostname===o.hostname&&e.protocol===o.protocol&&e.port===o.port){t=!0;break}}return t}isDtEnabled(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var V=i(7825),q=["load","error","abort","timeout"],G=q.length,W=n.Yu.REQ,X=n.Yu.XHR;class K extends f{static featureName=V.t;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,V.t,i),(0,n.OP)(e).xhrWrappable){this.dt=new Z(e),this.handler=(e,t,r,n)=>(0,T.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};l._A?.performance?.getEntriesByType("resource").forEach((t=>{if(t.initiatorType in e&&0!==t.responseStatus){const n={status:t.responseStatus},i={rxSize:t.transferSize,duration:Math.floor(t.duration),cbTime:0};Y(n,t.name),this.handler("xhr",[n,i,t.startTime,t.responseEnd,e[t.initiatorType]],void 0,r.D.ajax)}}))}catch(e){}(0,F.u5)(this.ee),(0,F.Kf)(this.ee),function(e,t,i,o){function a(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=x,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){E(t,e)}),(0,D.m$)(!1)),l.IF||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,D.m$)(!1))}function s(e){this.params={method:e[0]},Y(this,e[1]),this.metrics={}}function c(t,r){var i=(0,n.DL)(e);i.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",i.xpid);var a=o.generateTracePayload(this.parsedOrigin);if(a){var s=!1;a.newrelicHeader&&(r.setRequestHeader("newrelic",a.newrelicHeader),s=!0),a.traceContextParentHeader&&(r.setRequestHeader("traceparent",a.traceContextParentHeader),a.traceContextStateHeader&&r.setRequestHeader("tracestate",a.traceContextStateHeader),s=!0),s&&(this.dt=a)}}function u(e,r){var n=this.metrics,i=e[0],o=this;if(n&&i){var a=B(i);a&&(n.txSize=a)}this.startTime=(0,N.z)(),this.body=i,this.listener=function(e){try{"abort"!==e.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==e.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof o.end)&&o.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<G;s++)r.addEventListener(q[s],this.listener,(0,D.m$)(!1))}function d(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function f(e,t){var r=""+z(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+z(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function p(){this.endTime=(0,N.z)()}function g(e,r){r instanceof X&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function m(e,r){r instanceof X&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function v(e,t,r){t instanceof X&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,N.z)()))}function b(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,N.z)()-this.xhrCbStart,this.onload,r],r)}function y(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&l.il&&(t=""+l._A.location.href):e[0]&&e[0].url?t=e[0].url:l._A?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,U.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=o.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if(e[0]&&e[0].headers)s(e[0].headers,n)&&(this.dt=n);else{var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}}function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function w(e,t){this.params={},this.metrics={},this.startTime=(0,N.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof W?r=i.url:l._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),Y(this,r);var o=(""+(i&&i instanceof W&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.body=n.body,this.txSize=B(n.body)||0}function A(e,t){var n;this.endTime=(0,N.z)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var o={txSize:this.txSize,rxSize:n,duration:(0,N.z)()-this.startTime};i("xhr",[this.params,o,this.startTime,this.endTime,"fetch"],this,r.D.ajax)}function x(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;o<G;o++)e.removeEventListener(q[o],this.listener,!1);t.aborted||(n.duration=(0,N.z)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):E(this,e),n.cbTime=this.cbTime,i("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,r.D.ajax))}}function E(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?B(e.response):"text"===r||""===r||void 0===r?B(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",a),t.on("open-xhr-start",s),t.on("open-xhr-end",c),t.on("send-xhr-start",u),t.on("xhr-cb-time",d),t.on("xhr-load-added",f),t.on("xhr-load-removed",h),t.on("xhr-resolved",p),t.on("addEventListener-end",g),t.on("removeEventListener-end",m),t.on("fn-end",b),t.on("fetch-before-start",y),t.on("fetch-start",w),t.on("fn-start",v),t.on("fetch-done",A)}(e,this.ee,this.handler,this.dt),this.importAggregator()}}}function Y(e,t){var r=(0,U.e)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}var J=i(3614);const{BST_RESOURCE:Q,RESOURCE:ee,START:te,END:re,FEATURE_NAME:ne,FN_END:ie,FN_START:oe,PUSH_STATE:ae}=J;var se=i(7144);class ce extends f{static featureName=se.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,se.t,r),this.importAggregator()}}var ue=i(7836);const{FEATURE_NAME:de,START:le,END:fe,BODY:he,CB_END:pe,JS_TIME:ge,FETCH:me,FN_START:ve,CB_START:be,FN_END:ye}=ue;var we=i(4649);class Ae extends f{static featureName=we.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,we.t,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,E.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new v({agentIdentifier:this.agentIdentifier}),this.features={},(0,x.h5)(r,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){try{const t=a(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),n.forEach((n=>{if(t[n.featureName]||n.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(n.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has been disabled (").concat((0,_.P)(i),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,x.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[K,p,j,class extends f{static featureName=ne;constructor(e,t){if(super(e,t,ne,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!l.il)return;const n=this.ee;let i;(0,F.QU)(n),this.eventsEE=(0,F.em)(n),this.eventsEE.on(oe,(function(e,t){this.bstStart=(0,N.z)()})),this.eventsEE.on(ie,(function(e,t){(0,T.p)("bst",[e[0],t,this.bstStart,(0,N.z)()],void 0,r.D.sessionTrace,n)})),n.on(ae+te,(function(e){this.time=(0,N.z)(),this.startPath=location.pathname+location.hash})),n.on(ae+re,(function(e){(0,T.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,r.D.sessionTrace,n)}));try{i=new PerformanceObserver((e=>{const t=e.getEntries();(0,T.p)(Q,[t],void 0,r.D.sessionTrace,n)})),i.observe({type:ee,buffered:!0})}catch(e){}this.importAggregator({resourceObserver:i})}},ce,O,Ae,k,class extends f{static featureName=de;constructor(e,t){if(super(e,t,de,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!l.il)return;if(!(0,n.OP)(e).xhrWrappable)return;try{this.removeOnAbort=new AbortController}catch(e){}let r,i=0;const o=this.ee.get("tracer"),a=(0,F._L)(this.ee),s=(0,F.Lg)(this.ee),c=(0,F.BV)(this.ee),u=(0,F.Kf)(this.ee),d=this.ee.get("events"),f=(0,F.u5)(this.ee),h=(0,F.QU)(this.ee),p=(0,F.Gm)(this.ee);function g(e,t){h.emit("newURL",[""+window.location,t])}function m(){i++,r=window.location.hash,this[ve]=(0,N.z)()}function v(){i--,window.location.hash!==r&&g(0,!0);var e=(0,N.z)();this[ge]=~~this[ge]+e-this[ve],this[ye]=e}function b(e,t){e.on(t,(function(){this[t]=(0,N.z)()}))}this.ee.on(ve,m),s.on(be,m),a.on(be,m),this.ee.on(ye,v),s.on(pe,v),a.on(pe,v),this.ee.buffer([ve,ye,"xhr-resolved"],this.featureName),d.buffer([ve],this.featureName),c.buffer(["setTimeout"+fe,"clearTimeout"+le,ve],this.featureName),u.buffer([ve,"new-xhr","send-xhr"+le],this.featureName),f.buffer([me+le,me+"-done",me+he+le,me+he+fe],this.featureName),h.buffer(["newURL"],this.featureName),p.buffer([ve],this.featureName),s.buffer(["propagate",be,pe,"executor-err","resolve"+le],this.featureName),o.buffer([ve,"no-"+ve],this.featureName),a.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"],this.featureName),b(f,me+le),b(f,me+"-done"),b(a,"new-jsonp"),b(a,"jsonp-end"),b(a,"cb-start"),h.on("pushState-end",g),h.on("replaceState-end",g),window.addEventListener("hashchange",g,(0,D.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("load",g,(0,D.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("popstate",(function(){g(0,i>1)}),(0,D.m$)(!0,this.removeOnAbort?.signal)),this.abortHandler=this.#o,this.importAggregator()}#o(){this.removeOnAbort?.abort(),this.abortHandler=void 0}}],loaderType:"spa"})})()})();</script>
-<link rel="shortcut icon" href="https://www.ox.ac.uk/sites/default/themes/custom/oxweb/favicon.ico" />
-<link rel="apple-touch-icon" href="https://www.ox.ac.uk/sites/default/themes/custom/oxweb/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" href="https://www.ox.ac.uk/sites/default/themes/custom/oxweb/apple-touch-icon-114x114.png" />
-<link rel="canonical" href="https://www.ox.ac.uk/" />
-<link rel="shortlink" href="https://www.ox.ac.uk/" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.ox.ac.uk/" />
-<meta property="og:title" content="University of Oxford" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:creator" content="@UniofOxford" />
-<meta name="twitter:creator:id" content="48289662" />
-<meta name="twitter:url" content="https://www.ox.ac.uk/" />
-<meta name="twitter:title" content="University of Oxford" />
-<meta name="twitter:description" content="The University of Oxford is one of the leading universities in the world." />
-<meta name="twitter:image" content="http://www.ox.ac.uk/sites/files/oxford/field/field_image_highlight/si_top_oxfordskyline.jpg" />
-  <link rel="apple-touch-icon" sizes="144x144" href="https://www.ox.ac.uk/sites/default/themes/custom/oxweb/apple-touch-icon-144x144.png"/><link rel="apple-touch-icon" sizes="114x114" href="https://www.ox.ac.uk/sites/default/themes/custom/oxweb/apple-touch-icon-114x114.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="https://www.ox.ac.uk/sites/default/themes/custom/oxweb/apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" href="https://www.ox.ac.uk/sites/default/themes/custom/oxweb/apple-touch-icon.png"/>
-  <title>Access denied | University of Oxford</title>
-  <link rel="stylesheet" href="/sites/files/oxford/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-<link rel="stylesheet" href="/sites/files/oxford/advagg_css/css__OyUP6r6gWDd7g9HyyAPkKcCADXUItAUJ0V1T56grclU__FuqzBzxXKRNUpj8PLQAdrhyLDXCwU45tzRGQV4CBhIw__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-<link rel="stylesheet" href="/sites/files/oxford/advagg_css/css__UY0etF999x6scvHTvffNHjT4VTicfJnEfYWgom9UZQI__dNVH3JLLE0t7cJHT-k4bgEZN3astY3g0CO9bzrNM3u0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic&amp;subset=latin,latin-ext" />
-<link rel="stylesheet" href="/sites/files/oxford/advagg_css/css__SJHGAjPdqcYj_sXsTkuw7YXlTvhmFQz6mDImRcEtRTU__mLMuWQdgHSL1FMKby8FB5Rnp3RX1AGBmf0dBb7rKbSY__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-<link rel="stylesheet" href="/sites/files/oxford/advagg_css/css__11AnryNtyiBVlpoBxV0f-VzqzTBLNVztjjWS60IG0pc__sb8Ujj6tWWssQfu7D3msxBLfh4PrTezTVySEM7hOySI__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" media="print" />
+ 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="sites/default/themes/custom/oxweb/favicon.png" />
+ 
+  
+  <link rel="canonical" href="index.html" />
+  <link rel="shortlink" href="index.html" />
 
-<!--[if IE]>
-<link rel="stylesheet" href="/sites/files/oxford/advagg_css/css__n3051mkJZndgX4Np5xP6_LPRViKm3aqnvKOIBYWQ3ck__vIapzR-D86klWHFm0BMP8JUnKE0d31QyZL17ctXUiYM__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-<![endif]-->
+  <title>Veritas University Abuja</title>
+  
+  
+  <link rel="stylesheet"
+    href="public/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet"
+    href="public/advagg_css/css__OyUP6r6gWDd7g9HyyAPkKcCADXUItAUJ0V1T56grclU__FuqzBzxXKRNUpj8PLQAdrhyLDXCwU45tzRGQV4CBhIw__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet"
+    href="public/advagg_css/css__UY0etF999x6scvHTvffNHjT4VTicfJnEfYWgom9UZQI__dNVH3JLLE0t7cJHT-k4bgEZN3astY3g0CO9bzrNM3u0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic&amp;subset=latin,latin-ext" />
+  <link rel="stylesheet"
+    href="public/advagg_css/css__Oz20qOQtvbB-9QPNXbkEmvXxZkRpN5JqI3a0oW0mizY__vnEXWi1F5OQkYa79BesqDZVMtrkp_htpoYiQ075PpfI__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet"
+    href="public/advagg_css/css__SJHGAjPdqcYj_sXsTkuw7YXlTvhmFQz6mDImRcEtRTU__mLMuWQdgHSL1FMKby8FB5Rnp3RX1AGBmf0dBb7rKbSY__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet"
+    href="public/advagg_css/css__11AnryNtyiBVlpoBxV0f-VzqzTBLNVztjjWS60IG0pc__sb8Ujj6tWWssQfu7D3msxBLfh4PrTezTVySEM7hOySI__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css"
+    media="print" />
 
-<!--[if IE 8]>
-<link rel="stylesheet" href="/sites/files/oxford/advagg_css/css__jYOwXtQjEsrDRylPto2UYheb1W1m206-ziIPH7Ktm3w__0bBjwcB2RKRl-uJ3f-BxT5UMVqf7jsHwaGO7R3-J17s__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-<![endif]-->
-<style>.shared-event-styling .content-meta{margin-top:2.4em;}.shared-event-styling .node-event-past{opacity:0.5;filter:alpha(opacity=50);}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single{*zoom:1;}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline:before,.shared-event-styling .view-mode-oxweb_full_content .field-label-inline:after,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:before,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:after{display:table;content:"";line-height:0;}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline:after,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:after{clear:both;}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline .label,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .label{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;float:left;width:33.333333333333%;padding:0 0;*width:30.208333333333%;*padding:0 -0.03125px;min-width:27%;}@media only screen and (max-width:870px){.shared-event-styling .view-mode-oxweb_full_content .field-label-inline .label,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .label{width:100%;float:none;display:block;}}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline .field-item-single,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single{float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;width:66.666666666667%;padding:0 0;*width:63.541666666667%;*padding:0 -0.03125px;}@media only screen and (max-width:870px){.shared-event-styling .view-mode-oxweb_full_content .field-label-inline .field-item-single,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single{width:100%;float:none;display:block;}}.shared-event-styling .view-mode-oxweb_full_content .field-name-field-event-venue-details span.field-item-single{float:none;margin-left:33.3%;display:block;}.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;float:left;width:66.666666666667%;padding:0 0;*width:63.541666666667%;*padding:0 -0.03125px;}@media only screen and (max-width:870px){.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single{width:100%;float:none;display:block;}}.shared-event-styling .view-mode-oxweb_full_content .field-type-date{font-family:"PT Serif",Georgia,'Times New Roman',serif;}.shared-event-styling .view-mode-oxweb_full_content .group-event-meta{border-top:1px solid #e0ded9;border-bottom:1px solid #e0ded9;font-size:1.125em;line-height:1.5em;margin:0 18% 2em 0;padding:2em 0;}.shared-event-styling .view-mode-oxweb_full_content .group-event-meta .field-name-field-event-venue-details p:only-child{margin-bottom:0;}.shared-event-styling .view-mode-oxweb_full_content .leaflet-container{margin-bottom:2.5em;max-width:90%;}.hidden-accessible{position:absolute;left:-99999999px;top:auto;width:1px;height:1px;overflow:hidden;}.hidden-default{display:none;}.flex-container{display:-ms-flex;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;}.flex-item{display:flex;box-sizing:border-box;}.flex-content{display:flex;flex-direction:column;}.page-header{position:relative;}.page-header .row{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;float:left;width:100%;padding:0 2.118933698%;*width:96.875%;*padding:0 2.087683698%;min-height:160px;}@media only screen and (max-width:870px){.page-header .row{width:100%;float:none;display:block;}}.page-header .site-header-top{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-left:111px;padding-right:167px;padding-left:2.118933698%;min-height:49px;}.page-header .site-header-bottom{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-left:0;display:block;margin-left:111px;padding-left:2.118933698%;position:relative;min-height:41px;margin-top:1em;}.oxweb-primary-menu-block{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;float:left;width:58.333333333333%;padding:0 0;*width:55.208333333333%;*padding:0 -0.03125px;display:block;}@media only screen and (max-width:870px){.oxweb-primary-menu-block{width:100%;float:none;display:block;}}.oxweb-secondary-menu-block{width:100%;}#toolbar{z-index:99999;}header.page-header{text-align:center;width:100%;margin:0 auto;z-index:9999;}header.page-header .row{background:#124e41;font-family:"PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;float:none;display:block;padding-top:1.5625em;padding-bottom:1em;-webkit-transition:padding 0.35s;-moz-transition:padding 0.35s;-o-transition:padding 0.35s;transition:padding 0.35s;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.logo{float:left;width:111px;margin-right:-100%;position:relative;z-index:2;}.logo a.square{width:110px;height:110px;display:block;background:url('/sites/default/themes/custom/oxweb/images/oxweb-logo.gif') no-repeat center center;overflow:hidden;text-indent:-9999%;}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.logo a.square{background:url('/sites/default/themes/custom/oxweb/images/oxweb-logo-square.svg') no-repeat center center;background-size:100% 100%;image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:optimize-contrast;-ms-interpolation-mode:bicubic;image-rendering:optimizeQuality;}}.menu-wrapper{width:100%;float:left;}.site-header-bottom .oxweb-secondary-menu-block ul li.expanded ul li a{background:transparent;white-space:normal;}.oxweb-primary-menu-block,.oxweb-secondary-menu-block{text-align:left;text-transform:uppercase;font-family:"PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;color:#fff;}.oxweb-primary-menu-block a,.oxweb-secondary-menu-block a{color:rgba(255,255,255,0.7);}.oxweb-primary-menu-block a.active,.oxweb-primary-menu-block a:active,.oxweb-primary-menu-block a:visited,.oxweb-primary-menu-block a:hover,.oxweb-primary-menu-block a.active-trail,.oxweb-secondary-menu-block a.active,.oxweb-secondary-menu-block a:active,.oxweb-secondary-menu-block a:visited,.oxweb-secondary-menu-block a:hover,.oxweb-secondary-menu-block a.active-trail{color:#fff;text-decoration:none;}.oxweb-primary-menu-block ul,.oxweb-secondary-menu-block ul{float:left;padding:0;margin:0;}.oxweb-primary-menu-block ul li,.oxweb-primary-menu-block ul li.expanded,.oxweb-secondary-menu-block ul li,.oxweb-secondary-menu-block ul li.expanded{display:inline-block;padding:0;list-style-image:none;list-style-type:none;}.oxweb-primary-menu-block ul li a,.oxweb-primary-menu-block ul li.expanded a,.oxweb-secondary-menu-block ul li a,.oxweb-secondary-menu-block ul li.expanded a{padding:10px 25px 15px 10px;}.oxweb-primary-menu-block ul li.expanded,.oxweb-secondary-menu-block ul li.expanded{position:relative;}.oxweb-primary-menu-block ul li.expanded a,.oxweb-secondary-menu-block ul li.expanded a{background:url('/sites/default/themes/custom/oxweb/images/menu_arrow.png') 94% 1.2em no-repeat;background-position:right 10px top 1.3em;padding-right:25px;}.oxweb-primary-menu-block ul li.expanded ul a,.oxweb-secondary-menu-block ul li.expanded ul a{background-image:none;padding-right:0;}.oxweb-primary-menu-block{font-size:0.78em;}.oxweb-secondary-menu-block{display:table-row;}.oxweb-secondary-menu-block h2.title,.oxweb-secondary-menu-block ul li,.oxweb-secondary-menu-block ul li.expanded{display:table-cell;vertical-align:top;padding:0;border-right:1px solid rgba(255,255,255,0.07);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.oxweb-secondary-menu-block h2.title ul li,.oxweb-secondary-menu-block ul li ul li,.oxweb-secondary-menu-block ul li.expanded ul li{float:none;max-width:none;min-width:215px;}.oxweb-secondary-menu-block ul li,.oxweb-secondary-menu-block ul li.expanded{line-height:1.05em;max-width:200px;}.oxweb-secondary-menu-block ul li a,.oxweb-secondary-menu-block ul li.expanded a{padding:10px;padding-top:8px;line-height:1.2em;display:inline-block;}.oxweb-secondary-menu-block ul li.expanded a{padding-right:30px;}.oxweb-secondary-menu-block ul li.expanded ul a{height:auto;}.oxweb-secondary-menu-block h2.title{font-size:1.5em;line-height:1.05em;font-weight:normal;margin:0;padding:8px 36px 20px 7px;background:url('/sites/default/themes/custom/oxweb/images/menu-chevron.png') no-repeat 97.5% top;border-right:0;vertical-align:top;}.site-header-top ul li.expanded a{position:relative;z-index:7;background-position:right 9px top 1.6em;}.site-header-top ul li.expanded:hover a{background-position:right 9px top -1.95em;}.site-header-bottom ul li.expanded a{position:relative;background-position:right 15px top 0.90em;}.site-header-bottom ul li.expanded:hover a{background-position:right 15px top -101px;z-index:5;}.oxweb-secondary-menu-block-noh2 ul ul{margin-left:0;}body.sticky-header-collapsed .logo{display:none;}body.sticky-header-collapsed .page-header{position:fixed;}body.sticky-header-collapsed .page-header .row{padding-top:0.75em;padding-bottom:0.75em;-webkit-transition:padding 0.35s;-moz-transition:padding 0.35s;-o-transition:padding 0.35s;transition:padding 0.35s;min-height:72px;padding-right:0;}body.sticky-header-collapsed .block-oxweb-search input[type=submit]{top:15px;right:21px;}body.sticky-header-collapsed .site-header-top{display:none;}body.sticky-header-collapsed .site-header-bottom{width:100%;float:left;margin-top:0;margin-left:0;padding-left:0;}body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul{margin-right:65px;}body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li,body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li.expanded{vertical-align:top;}body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li.last ul{right:-65px;}body.sticky-header-collapsed .page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu{position:absolute;bottom:4px;width:58%;}body.sticky-header-collapsed .page-header-row .homepage-role-base-menu{margin-right:85px;}.page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu{position:absolute;bottom:35px;width:56%;}.page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li.expanded:hover a{background-position:right 15px top -1.3em;}.page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li.expanded:hover a:hover{background-position:right 15px top 0.90em;}.page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li a{opacity:1;filter:alpha(opacity=100);font-size:1.313em;white-space:nowrap;}.page-header-row .homepage-role-base-menu{font-size:0.813em;text-transform:none;float:right;width:52.5%;}.page-header-row .homepage-role-base-menu ul{float:right;}.page-header-row .homepage-role-base-menu ul li a{font-size:1.125em;padding-left:0;padding-right:0;margin-right:1.5em;}.page-header-row .homepage-role-base-menu ul li.last a{margin-right:0.4375em;}.page-header-row .homepage-role-base-menu ul li.expanded a{background:none;}h1,h2,h3,h4,h5,h6{font-family:"PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;margin:0 0 0.5em 0;line-height:1.2em;color:#F3F1EC;}h1{font-size:3.125em;font-weight:700;font-family:"PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;margin:0 0 0.5em 0;line-height:1.05em;}.main-content h1{margin-right:18%;}body.page-full-width .main-content h1{margin-right:2.118933698%;}h2{font-size:1.625em;font-weight:700;}h3{font-size:1.313em;font-weight:400;}h4{font-size:16px;}h5{font-size:16px;}h6{font-size:16px;}.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6{margin:1.6em 0 0.5em 0;}.block-menu h2,.block-nice-menus h2{margin:0;padding:0;height:1px;height:0px;overflow:hidden;text-indent:-9999%;}
-</style>
-<link rel="stylesheet" href="/sites/files/oxford/advagg_css/css__g8a-6fwfl6ZLTZ-dErswRzrUUO2e8uCiCDmvmgwe_Mo__PEouh-Vh-zgxMoIaIQ0eRpWNmmOkydEAh3xxjUGLFws__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-  <script src="/sites/files/oxford/advagg_js/js__ihdwYz7z62m5viS1EMhNOpB9bfVJ_3N7-eC3gKeS-sI__ATnX8WF8ltra-g2RmFaF163qjG6u_xdvxVSENyHJmQk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-<script src="/sites/files/oxford/advagg_js/js__T73ujsOjK-1cyTby7fEe8eK8r1o3_6UM-pyXbhgxLPM__WRsh3RAG-_KLWXWdUSL4k-yHTn1vu2dbvluPCCmj_wc__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-<script src="/sites/files/oxford/advagg_js/js__9o6MTP80DXWHri8ze4nKy9qC5QYGmn5CmTwGsjeqoRs__t7QMh2Q0VAdZOqg2nX8lHHSSz0oEF4l8S4NpWKqSdpE__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-<script src="/sites/files/oxford/advagg_js/js__hjj8ZSawq3pcLPy1mfNr9s30dHM00TjCjAXhXMpLbO4__JA8gUgAmbay8i7Ze25pOmyFhd7MDOsFLCpxTWXHBkzE__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-<script src="/sites/files/oxford/advagg_js/js__9q_RhUzRB9SYU1-amhF7x_iVsHaJWYLCy9mGerNNw8c__3DMxMgH3xNkeQV3vdQ2jOzvP8JjhrwlJnzuMMy2ffk8__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"oxweb","theme_token":"23_Q2Fhx_LJIE1peMC2eHH8aJBxxsGEaJ3Yj_a_mNHY","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/cache_consistent\/css\/cache_consistent.css":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"https:\/\/fonts.googleapis.com\/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic\u0026subset=latin,latin-ext":1,"sites\/all\/themes\/mothership\/mothership\/css\/reset.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/reset-html5.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/yui\/reset-min.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/yui\/base-min.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/yui\/fonts-min.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/site.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/search.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/menu.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/maintenance.css":1,"sites\/default\/themes\/custom\/oxweb\/field_collection.theme.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/alternative\/print.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie8.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/alternative\/mobile.less":1},"js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/media_colorbox\/media_colorbox.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/login-form.js":1,"misc\/progress.js":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/carouFredSel-6.2.1.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.touchSwipe.min.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery-migrate-1.2.1.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/site.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/oxweb-show-description.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/html5.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/harvey.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/media-queries.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.fitvids.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/stupidtable.min.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/oxweb-menu.js":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"returnFocus":true,"maxWidth":"100%","maxHeight":"100%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"500px","file_public_path":"\/sites\/files\/oxford","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"googleCSE":{"cx":"012531758793783812323:qgyldcso7qs","resultsWidth":600,"domain":"www.google.com","showWaterMark":1},"urlIsAjaxTrusted":{"\/sites\/files\/oxford\/styles\/ot_graphical_teaser\/s3\/images\/graphical_teasers\/UNIQ+306x205.png?itok=vTybTPCv":true},"colorbox_node":{"width":"600px","height":"600px"}});</script>
+  <style>
+    .shared-event-styling .content-meta {
+      margin-top: 2.4em;
+    }
+
+    .shared-event-styling .node-event-past {
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .field-label-inline,
+    .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single {
+      *zoom: 1;
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .field-label-inline:before,
+    .shared-event-styling .view-mode-oxweb_full_content .field-label-inline:after,
+    .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:before,
+    .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:after {
+      display: table;
+      content: "";
+      line-height: 0;
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .field-label-inline:after,
+    .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:after {
+      clear: both;
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .field-label-inline .label,
+    .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .label {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: inline;
+      float: left;
+      width: 33.333333333333%;
+      padding: 0 0;
+      *width: 30.208333333333%;
+      *padding: 0 -0.03125px;
+      min-width: 27%;
+    }
+
+    @media only screen and (max-width:870px) {
+
+      .shared-event-styling .view-mode-oxweb_full_content .field-label-inline .label,
+      .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .label {
+        width: 100%;
+        float: none;
+        display: block;
+      }
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .field-label-inline .field-item-single,
+    .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single {
+      float: left;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: inline;
+      width: 66.666666666667%;
+      padding: 0 0;
+      *width: 63.541666666667%;
+      *padding: 0 -0.03125px;
+    }
+
+    @media only screen and (max-width:870px) {
+
+      .shared-event-styling .view-mode-oxweb_full_content .field-label-inline .field-item-single,
+      .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single {
+        width: 100%;
+        float: none;
+        display: block;
+      }
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .field-name-field-event-venue-details span.field-item-single {
+      float: none;
+      margin-left: 33.3%;
+      display: block;
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: inline;
+      float: left;
+      width: 66.666666666667%;
+      padding: 0 0;
+      *width: 63.541666666667%;
+      *padding: 0 -0.03125px;
+    }
+
+    @media only screen and (max-width:870px) {
+      .shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single {
+        width: 100%;
+        float: none;
+        display: block;
+      }
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .field-type-date {
+      font-family: "PT Serif", Georgia, 'Times New Roman', serif;
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .group-event-meta {
+      border-top: 1px solid #e0ded9;
+      border-bottom: 1px solid #e0ded9;
+      font-size: 1.125em;
+      line-height: 1.5em;
+      margin: 0 18% 2em 0;
+      padding: 2em 0;
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .group-event-meta .field-name-field-event-venue-details p:only-child {
+      margin-bottom: 0;
+    }
+
+    .shared-event-styling .view-mode-oxweb_full_content .leaflet-container {
+      margin-bottom: 2.5em;
+      max-width: 90%;
+    }
+
+    .hidden-accessible {
+      position: absolute;
+      left: -99999999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .hidden-default {
+      display: none;
+    }
+
+    .flex-container {
+      display: -ms-flex;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+
+    .flex-item {
+      display: flex;
+      box-sizing: border-box;
+    }
+
+    .flex-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page-header {
+      position: relative;
+    }
+
+    .page-header .row {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: inline;
+      float: left;
+      width: 100%;
+      padding: 0 2.118933698%;
+      *width: 96.875%;
+      *padding: 0 2.087683698%;
+      min-height: 160px;
+    }
+
+    @media only screen and (max-width:870px) {
+      .page-header .row {
+        width: 100%;
+        float: none;
+        display: block;
+      }
+    }
+
+    .page-header .site-header-top {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-left: 111px;
+      padding-right: 167px;
+      padding-left: 2.118933698%;
+      min-height: 49px;
+    }
+
+    .page-header .site-header-bottom {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-left: 0;
+      display: block;
+      margin-left: 111px;
+      padding-left: 2.118933698%;
+      position: relative;
+      min-height: 41px;
+      margin-top: 1em;
+    }
+
+    .oxweb-primary-menu-block {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: inline;
+      float: left;
+      width: 58.333333333333%;
+      padding: 0 0;
+      *width: 55.208333333333%;
+      *padding: 0 -0.03125px;
+      display: block;
+    }
+
+    @media only screen and (max-width:870px) {
+      .oxweb-primary-menu-block {
+        width: 100%;
+        float: none;
+        display: block;
+      }
+    }
+
+    .oxweb-secondary-menu-block {
+      width: 100%;
+    }
+
+    #toolbar {
+      z-index: 99999;
+    }
+
+    header.page-header {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      z-index: 9999;
+    }
+
+    header.page-header .row {
+      background: #124e41;
+      font-family: "PT Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      float: none;
+      display: block;
+      padding-top: 1.5625em;
+      padding-bottom: 1em;
+      -webkit-transition: padding 0.35s;
+      -moz-transition: padding 0.35s;
+      -o-transition: padding 0.35s;
+      transition: padding 0.35s;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .logo {
+      float: left;
+      width: 111px;
+      margin-right: -100%;
+      position: relative;
+      z-index: 2;
+    }
+
+    .logo a.square {
+      width: 110px;
+      height: 110px;
+      display: block;
+      background: url('public/image/logo.png') no-repeat center center;
+      /* background: url('sites/default/themes/custom/oxweb/images/oxweb-logo.gif') no-repeat center center; */
+      overflow: hidden;
+      text-indent: -9999%;
+    }
+
+    @media (-webkit-min-device-pixel-ratio:2),
+    (min-resolution:192dpi) {
+      .logo a.square {
+        background: url('public/image/logo.png') no-repeat center center;
+        /* background: url('sites/default/themes/custom/oxweb/images/oxweb-logo-square.svg') no-repeat center center; */
+        background-size: 100% 100%;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: optimize-contrast;
+        -ms-interpolation-mode: bicubic;
+        image-rendering: optimizeQuality;
+      }
+    }
+
+    .menu-wrapper {
+      width: 100%;
+      float: left;
+    }
+
+    .site-header-bottom .oxweb-secondary-menu-block ul li.expanded ul li a {
+      background: transparent;
+      white-space: normal;
+    }
+
+    .oxweb-primary-menu-block,
+    .oxweb-secondary-menu-block {
+      text-align: left;
+      text-transform: uppercase;
+      font-family: "PT Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      color: #fff;
+    }
+
+    .oxweb-primary-menu-block a,
+    .oxweb-secondary-menu-block a {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .oxweb-primary-menu-block a.active,
+    .oxweb-primary-menu-block a:active,
+    .oxweb-primary-menu-block a:visited,
+    .oxweb-primary-menu-block a:hover,
+    .oxweb-primary-menu-block a.active-trail,
+    .oxweb-secondary-menu-block a.active,
+    .oxweb-secondary-menu-block a:active,
+    .oxweb-secondary-menu-block a:visited,
+    .oxweb-secondary-menu-block a:hover,
+    .oxweb-secondary-menu-block a.active-trail {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .oxweb-primary-menu-block ul,
+    .oxweb-secondary-menu-block ul {
+      float: left;
+      padding: 0;
+      margin: 0;
+    }
+
+    .oxweb-primary-menu-block ul li,
+    .oxweb-primary-menu-block ul li.expanded,
+    .oxweb-secondary-menu-block ul li,
+    .oxweb-secondary-menu-block ul li.expanded {
+      display: inline-block;
+      padding: 0;
+      list-style-image: none;
+      list-style-type: none;
+    }
+
+    .oxweb-primary-menu-block ul li a,
+    .oxweb-primary-menu-block ul li.expanded a,
+    .oxweb-secondary-menu-block ul li a,
+    .oxweb-secondary-menu-block ul li.expanded a {
+      padding: 10px 25px 15px 10px;
+    }
+
+    .oxweb-primary-menu-block ul li.expanded,
+    .oxweb-secondary-menu-block ul li.expanded {
+      position: relative;
+    }
+
+    .oxweb-primary-menu-block ul li.expanded a,
+    .oxweb-secondary-menu-block ul li.expanded a {
+      background: url('sites/default/themes/custom/oxweb/images/menu_arrow.png') 94% 1.2em no-repeat;
+      background-position: right 10px top 1.3em;
+      padding-right: 25px;
+    }
+
+    .oxweb-primary-menu-block ul li.expanded ul a,
+    .oxweb-secondary-menu-block ul li.expanded ul a {
+      background-image: none;
+      padding-right: 0;
+    }
+
+    .oxweb-primary-menu-block {
+      font-size: 0.78em;
+    }
+
+    .oxweb-secondary-menu-block {
+      display: table-row;
+    }
+
+    .oxweb-secondary-menu-block h2.title,
+    .oxweb-secondary-menu-block ul li,
+    .oxweb-secondary-menu-block ul li.expanded {
+      display: table-cell;
+      vertical-align: top;
+      padding: 0;
+      border-right: 1px solid rgba(255, 255, 255, 0.07);
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .oxweb-secondary-menu-block h2.title ul li,
+    .oxweb-secondary-menu-block ul li ul li,
+    .oxweb-secondary-menu-block ul li.expanded ul li {
+      float: none;
+      max-width: none;
+      min-width: 215px;
+    }
+
+    .oxweb-secondary-menu-block ul li,
+    .oxweb-secondary-menu-block ul li.expanded {
+      line-height: 1.05em;
+      max-width: 200px;
+    }
+
+    .oxweb-secondary-menu-block ul li a,
+    .oxweb-secondary-menu-block ul li.expanded a {
+      padding: 10px;
+      padding-top: 8px;
+      line-height: 1.2em;
+      display: inline-block;
+    }
+
+    .oxweb-secondary-menu-block ul li.expanded a {
+      padding-right: 30px;
+    }
+
+    .oxweb-secondary-menu-block ul li.expanded ul a {
+      height: auto;
+    }
+
+    .oxweb-secondary-menu-block h2.title {
+      font-size: 1.5em;
+      line-height: 1.05em;
+      font-weight: normal;
+      margin: 0;
+      padding: 8px 36px 20px 7px;
+      background: url('sites/default/themes/custom/oxweb/images/menu-chevron.png') no-repeat 97.5% top;
+      border-right: 0;
+      vertical-align: top;
+    }
+
+    .site-header-top ul li.expanded a {
+      position: relative;
+      z-index: 7;
+      background-position: right 9px top 1.6em;
+    }
+
+    .site-header-top ul li.expanded:hover a {
+      background-position: right 9px top -1.95em;
+    }
+
+    .site-header-bottom ul li.expanded a {
+      position: relative;
+      background-position: right 15px top 0.90em;
+    }
+
+    .site-header-bottom ul li.expanded:hover a {
+      background-position: right 15px top -101px;
+      z-index: 5;
+    }
+
+    .oxweb-secondary-menu-block-noh2 ul ul {
+      margin-left: 0;
+    }
+
+    body.sticky-header-collapsed .logo {
+      display: none;
+    }
+
+    body.sticky-header-collapsed .page-header {
+      position: fixed;
+    }
+
+    body.sticky-header-collapsed .page-header .row {
+      padding-top: 0.75em;
+      padding-bottom: 0.75em;
+      -webkit-transition: padding 0.35s;
+      -moz-transition: padding 0.35s;
+      -o-transition: padding 0.35s;
+      transition: padding 0.35s;
+      min-height: 72px;
+      padding-right: 0;
+    }
+
+    body.sticky-header-collapsed .block-oxweb-search input[type=submit] {
+      top: 15px;
+      right: 21px;
+    }
+
+    body.sticky-header-collapsed .site-header-top {
+      display: none;
+    }
+
+    body.sticky-header-collapsed .site-header-bottom {
+      width: 100%;
+      float: left;
+      margin-top: 0;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul {
+      margin-right: 65px;
+    }
+
+    body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li,
+    body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li.expanded {
+      vertical-align: top;
+    }
+
+    body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li.last ul {
+      right: -65px;
+    }
+
+    body.sticky-header-collapsed .page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu {
+      position: absolute;
+      bottom: 4px;
+      width: 58%;
+    }
+
+    body.sticky-header-collapsed .page-header-row .homepage-role-base-menu {
+      margin-right: 85px;
+    }
+
+    .page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu {
+      position: absolute;
+      bottom: 35px;
+      width: 56%;
+    }
+
+    .page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li.expanded:hover a {
+      background-position: right 15px top -1.3em;
+    }
+
+    .page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li.expanded:hover a:hover {
+      background-position: right 15px top 0.90em;
+    }
+
+    .page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li a {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      font-size: 1.313em;
+      white-space: nowrap;
+    }
+
+    .page-header-row .homepage-role-base-menu {
+      font-size: 0.813em;
+      text-transform: none;
+      float: right;
+      width: 52.5%;
+    }
+
+    .page-header-row .homepage-role-base-menu ul {
+      float: right;
+    }
+
+    .page-header-row .homepage-role-base-menu ul li a {
+      font-size: 1.125em;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 1.5em;
+    }
+
+    .page-header-row .homepage-role-base-menu ul li.last a {
+      margin-right: 0.4375em;
+    }
+
+    .page-header-row .homepage-role-base-menu ul li.expanded a {
+      background: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "PT Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      margin: 0 0 0.5em 0;
+      line-height: 1.2em;
+      color: #F3F1EC;
+    }
+
+    h1 {
+      font-size: 3.125em;
+      font-weight: 700;
+      font-family: "PT Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      margin: 0 0 0.5em 0;
+      line-height: 1.05em;
+    }
+
+    .main-content h1 {
+      margin-right: 18%;
+    }
+
+    body.page-full-width .main-content h1 {
+      margin-right: 2.118933698%;
+    }
+
+    h2 {
+      font-size: 1.625em;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 1.313em;
+      font-weight: 400;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    h6 {
+      font-size: 16px;
+    }
+
+    .main-content h2,
+    .main-content h3,
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+      margin: 1.6em 0 0.5em 0;
+    }
+
+    .block-menu h2,
+    .block-nice-menus h2 {
+      margin: 0;
+      padding: 0;
+      height: 1px;
+      height: 0px;
+      overflow: hidden;
+      text-indent: -9999%;
+    }
+    .newsTitle{
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+/* .element {
+  display: block;
+} */
+.group-discover-carousel .carousel-next-btn {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 7%;
+  min-width: 110px;
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  right: 0;
+  background-size: contain;
+  background: url('/sites/default/themes/custom/oxweb/images/discover-shadow.png') no-repeat top 60px right 0px;
+}
+
+  </style>
+
+  <link rel="stylesheet"
+    href="sites/files/oxford/advagg_css/css__VCgxAtneuJG94bSMsW3WtPydq_lTdG9D6PIvLts3ok0__JVePZqyFbFKeRYnRMRk-fUID1Dvt6cFmMcIBLRYP6O4__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet"
+    href="public/advagg_css/css__g8a-6fwfl6ZLTZ-dErswRzrUUO2e8uCiCDmvmgwe_Mo__PEouh-Vh-zgxMoIaIQ0eRpWNmmOkydEAh3xxjUGLFws__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <script
+    src="public/advagg_js/js__SlxZR0T0y0knhPGspoKKlEQqbk_RdNNsHwLrlCQRTSo__jRyIJdNHHPQDI24D74GCcZq-Uqnrf4Vs1Wh5VKn50M0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"
+    defer="defer"></script>
+  <script
+    src="public/advagg_js/js__ihdwYz7z62m5viS1EMhNOpB9bfVJ_3N7-eC3gKeS-sI__ATnX8WF8ltra-g2RmFaF163qjG6u_xdvxVSENyHJmQk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script
+    src="public/advagg_js/js__T73ujsOjK-1cyTby7fEe8eK8r1o3_6UM-pyXbhgxLPM__WRsh3RAG-_KLWXWdUSL4k-yHTn1vu2dbvluPCCmj_wc__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script
+    src="public/advagg_js/js__9o6MTP80DXWHri8ze4nKy9qC5QYGmn5CmTwGsjeqoRs__t7QMh2Q0VAdZOqg2nX8lHHSSz0oEF4l8S4NpWKqSdpE__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script
+    src="public/advagg_js/js__g6HAL4XtohiHzS9CG4SIugqNOzdAq58xVph4DbYxlNE__FXbP-shVaE-Ead14Ak6kOd0fQWhUhFFfe_k4n9WHxo8__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script
+    src="public/advagg_js/js__9q_RhUzRB9SYU1-amhF7x_iVsHaJWYLCy9mGerNNw8c__3DMxMgH3xNkeQV3vdQ2jOzvP8JjhrwlJnzuMMy2ffk8__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script>
+  jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "", "setHasJsCookie": 0, "ajaxPageState": { "theme": "oxweb", "theme_token": "9XeEWmTpxHTsxcNa-u83s3u6DizPWkyy9cBKYFR9JBg", "jquery_version": "1.10", "css": { "modules\/system\/system.base.css": 1, "modules\/system\/system.menus.css": 1, "modules\/system\/system.messages.css": 1, "modules\/system\/system.theme.css": 1, "sites\/all\/modules\/cache_consistent\/css\/cache_consistent.css": 1, "sites\/all\/modules\/colorbox_node\/colorbox_node.css": 1, "modules\/comment\/comment.css": 1, "sites\/all\/modules\/domain\/domain_nav\/domain_nav.css": 1, "modules\/field\/theme\/field.css": 1, "sites\/all\/modules\/google_cse\/google_cse.css": 1, "sites\/all\/modules\/logintoboggan\/logintoboggan.css": 1, "modules\/node\/node.css": 1, "modules\/user\/user.css": 1, "modules\/forum\/forum.css": 1, "sites\/all\/modules\/views\/css\/views.css": 1, "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css": 1, "sites\/all\/modules\/ctools\/css\/ctools.css": 1, "https:\/\/fonts.googleapis.com\/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic\u0026subset=latin,latin-ext": 1, "sites\/all\/modules\/date\/date_api\/date.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/reset.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/reset-html5.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/mothership.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/reset-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/base-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/fonts-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/site.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/search.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/menu.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/maintenance.css": 1, "sites\/default\/themes\/custom\/oxweb\/field_collection.theme.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/print.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie8.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/oxweb_homepage.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/event.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/news_item.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/mobile.less": 1 }, "js": { "public:\/\/google_tag\/google_tag.script.js": 1, "sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1, "misc\/jquery-extend-3.4.0.js": 1, "misc\/jquery-html-prefilter-3.5.0-backport.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "misc\/ajax.js": 1, "sites\/all\/modules\/jquery_update\/js\/jquery_update.js": 1, "sites\/all\/modules\/google_cse\/google_cse.js": 1, "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox.js": 1, "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox_load.js": 1, "sites\/all\/modules\/media_colorbox\/media_colorbox.js": 1, "sites\/all\/modules\/field_group\/field_group.js": 1, "misc\/progress.js": 1, "sites\/all\/modules\/colorbox_node\/colorbox_node.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/carouFredSel-6.2.1.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.touchSwipe.min.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery-migrate-1.2.1.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/site.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-show-description.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/html5.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/harvey.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/media-queries.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.fitvids.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/stupidtable.min.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-menu.js": 1 } }, "colorbox": { "transition": "elastic", "speed": "350", "opacity": "0.85", "slideshow": false, "slideshowAuto": true, "slideshowSpeed": "2500", "slideshowStart": "start slideshow", "slideshowStop": "stop slideshow", "current": "{current} of {total}", "previous": "\u00ab Prev", "next": "Next \u00bb", "close": "Close", "overlayClose": true, "returnFocus": true, "maxWidth": "100%", "maxHeight": "100%", "initialWidth": "300", "initialHeight": "250", "fixed": true, "scrolling": true, "mobiledetect": true, "mobiledevicewidth": "500px", "file_public_path": "\/sites\/files\/oxford", "specificPagesDefaultValue": "admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*" }, "googleCSE": { "cx": "012531758793783812323:qgyldcso7qs", "resultsWidth": 600, "domain": "www.google.com", "showWaterMark": 1 }, "field_group": { "div": "ow_large_feature", "usefulformatters_token_link_block": "ow_listing_teaser", "usefulformatters_link_block": "ow_small_homepage_highlight" }, "urlIsAjaxTrusted": { "\/": true }, "oxweb": { "autoPlayCarousel": false, "carouselTimeout": "12" }, "colorbox_node": { "width": "600px", "height": "600px" } });
+  </script>
 </head>
 
-<body class="not-front not-logged-in no-sidebars page-toboggan page-toboggan-denied domain-oxweb no-sidebar-first" >
+<body
+  class="front not-logged-in no-sidebars page-node page-node- page-node-1110 node-type-oxweb-homepage domain-oxweb no-sidebar-first vid-9385296">
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable skip-to-content">Skip to main content</a>
   </div>
-    
+
+  <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDB29T" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
       
   <section id="visible-body" class="visible-body">
-      <header class="page-level page-header">
-    <div class="wrapper">
-      <div id="page-header-row" class="row page-header-row">
-        <div class="logo">
-          <a class="square" href="/" title="Home" id="site-name-square">Home</a>
-          <a class="rect" href="/" title="Home" id="site-name-rec">Home</a>
-        </div>
-        <div class="menu-wrapper">
-          <div id="site-header-top" class="site-header-top">
-                      </div>
-                    <div id="site-header-bottom" class="site-header-bottom">
-           
     
-<div  id="block-oxweb-google-search-search-form" class="block block-oxweb-google-search block-oxweb-search block-oxweb-google-search-search-form ">
-  
-      
-  
-  <form action="/sites/files/oxford/styles/ot_graphical_teaser/s3/images/graphical_teasers/UNIQ+306x205.png?itok=vTybTPCv" method="post" id="oxweb-google-search-block-form" accept-charset="UTF-8"><div class="form-item form-type-textfield form-item-query">
-  <label class="element-invisible" for="edit-query">Search </label>
- <input title="Enter the terms you wish to search for." placeholder="Search..." type="text" id="edit-query" name="query" value="" size="30" maxlength="128" class="form-text" />
-</div>
-<input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /><input type="hidden" name="form_build_id" value="form-XjfKk0QTT5mjG1YOPNb1Z-_uQQ9r4iqbNsR2eNRSDQY" />
-<input type="hidden" name="form_id" value="oxweb_google_search_block_form" />
-</form>
-  </div>
-
-<nav  id="block-menu-block-4" class="block block-menu-block oxweb-secondary-menu-block oxweb-secondary-menu-block-noh2 homepage-oxweb-secondary-menu block-menu-block-4 " aria-label="Primary navigation">
-
-  
-      
-  <ul><li class="first expanded menu-mlid-2711"><a href="/admissions">Admissions</a><ul><li class="first leaf has-children menu-mlid-2511"><a href="/admissions/undergraduate">Undergraduate</a></li>
-<li class="leaf has-children menu-mlid-2878"><a href="/admissions/graduate">Graduate</a></li>
-<li class="last leaf has-children menu-mlid-10680"><a href="/admissions/continuing-education">Continuing education</a></li>
-</ul></li>
-<li class="expanded menu-mlid-2549"><a href="/research">Research</a><ul><li class="first leaf has-children menu-mlid-10889"><a href="/research/engage-with-us">Engage with us</a></li>
-<li class="leaf has-children menu-mlid-3934"><a href="/research/support-researchers">Support for researchers</a></li>
-<li class="leaf has-children menu-mlid-10887"><a href="/research/using-research-engage">Using research to engage</a></li>
-<li class="last leaf has-children menu-mlid-10878"><a href="/research/recognition">Recognition</a></li>
-</ul></li>
-<li class="expanded menu-mlid-1105"><a href="/news-and-events" title="">News &amp; Events</a><ul><li class="first leaf has-children menu-mlid-2137"><a href="/events-list">Events</a></li>
-<li class="leaf menu-mlid-10797"><a href="/news/features">Features</a></li>
-<li class="leaf menu-mlid-10804"><a href="/news-and-events/oxford-people">Oxford profiles</a></li>
-<li class="leaf menu-mlid-10320"><a href="https://www.ox.ac.uk/coronavirus" title="">Oxford and coronavirus</a></li>
-<li class="leaf menu-mlid-3014"><a href="/news-and-events/for-journalists" title="">News releases for journalists</a></li>
-<li class="leaf menu-mlid-2680"><a href="/news-and-events/filming-in-oxford">Filming in Oxford</a></li>
-<li class="last leaf menu-mlid-5738"><a href="/news-and-events/find-an-expert">Find An Expert</a></li>
-</ul></li>
-<li class="last expanded menu-mlid-1892"><a href="/about">About</a><ul><li class="first leaf has-children menu-mlid-1326"><a href="/about/organisation">Organisation</a></li>
-<li class="leaf menu-mlid-11012"><a href="https://www.ox.ac.uk/about/organisation/university-officers/vice-chancellor" title="">Vice-Chancellor</a></li>
-<li class="leaf has-children menu-mlid-1350"><a href="/about/facts-and-figures">Facts and figures</a></li>
-<li class="leaf has-children menu-mlid-2800"><a href="/about/oxford-people">Oxford people</a></li>
-<li class="leaf menu-mlid-9685"><a href="/about/oxford-access">Oxford Access</a></li>
-<li class="leaf has-children menu-mlid-4292"><a href="/about/international-oxford">International Oxford</a></li>
-<li class="leaf has-children menu-mlid-5741"><a href="/about/building-our-future">Building Our Future</a></li>
-<li class="leaf menu-mlid-1372"><a href="https://www.jobs.ox.ac.uk/" title="">Jobs</a></li>
-<li class="last leaf menu-mlid-8706"><a href="/cn" title="">牛津大学</a></li>
-</ul></li>
-</ul>
-
-  
-
-
-
-  
-</nav>
-
-<nav  id="block-menu-block-2" class="block block-menu-block oxweb-primary-menu-block homepage-role-base-menu block-menu-block-2 " aria-label="Role-based navigation">
-
-  
-      
-  <ul><li class="first leaf has-children menu-mlid-3382"><a href="https://staff.admin.ox.ac.uk/" title="Staff Gateway">Staff</a></li>
-<li class="leaf has-children menu-mlid-10176"><a href="/students">Oxford students</a></li>
-<li class="leaf menu-mlid-1112"><a href="https://www.alumni.ox.ac.uk/" title="">Alumni</a></li>
-<li class="last leaf menu-mlid-10892"><a href="/research/engage-with-us/local-community">Local community</a></li>
-</ul>
-
-  
-
-
-
-  
-</nav>
-  
-          </div>
-                  </div>
+    <header class="page-level page-header">
+      <!-- ANNOUNCEMENT TAG  -->
+      <div style="color: #F3F1EC; background-color: rgb(2, 83, 94);">
+    
+        <span>
+           <marquee behavior="" direction="">We are admitting Prospective Students who admires studying MBBS medicine and Surgery <a href="https://admissions.veritas.edu.ng">Apply&nbsp;Now</a>.</marquee>
+        </span>
+    
       </div>
-    </div>
-  </header>
-  <section id="page-content" class="page-level page-content">
-    <div class="wrapper">
-      <div class="row space-header">
+    <!-- ANNOUNCEMENT TAG ENDS -->
+      <div class="wrapper">
+        <div id="page-header-row" class="row page-header-row">
+          <div class="logo">
+            <a class="square" href="index.html" title="Home" id="site-name-square">Home</a>
+            <a class="rect" href="index.html" title="Home" id="site-name-rec">Home</a>
+          </div>
+          <div class="menu-wrapper">
+            <div id="site-header-top" class="site-header-top">
 
-        
-        <section class="page-content-level column page-content-main" id="page-content-main">
-          
-          
-          <section class="page-content-container main-content" id="main-content">
-                        <section id="breadcrumb-wrapper" class="page-level breadcrumb-wrapper">
-              <div class="wrapper">
-                <div class="row">
-                  <div class="breadcrumb"><span class='breadcrumb-link breadcrumb-depth-0 breadcrumb-even breadcrumb-first'><a href="/">Home</a></span><span class='breadcrumb-link breadcrumb-depth-1 breadcrumb-odd'><a href="/sites/files/oxford/styles/ot_graphical_teaser">Generate image style</a></span><span class='breadcrumb-link breadcrumb-depth-2 breadcrumb-even'><a href="/sites/files/oxford/styles/ot_graphical_teaser/s3">Generate image style</a></span><span class='breadcrumb-link breadcrumb-depth-3 breadcrumb-odd'><a href="/sites/files/oxford/styles/ot_graphical_teaser/s3/images">Generate image style</a></span><span class='breadcrumb-link breadcrumb-depth-4 breadcrumb-even'><a href="/sites/files/oxford/styles/ot_graphical_teaser/s3/images/graphical_teasers">Generate image style</a></span><span class='breadcrumb-link breadcrumb-depth-5 breadcrumb-odd breadcrumb-last'>Access denied</span></div>
-                </div>
+
+             
+            </div>
+            <div id="site-header-bottom" class="site-header-bottom">
+
+
+              <div id="block-oxweb-google-search-search-form"
+                class="block block-oxweb-google-search block-oxweb-search block-oxweb-google-search-search-form ">
+
+
+
+                <form action="https://www.ox.ac.uk/" method="post" id="oxweb-google-search-block-form"
+                  accept-charset="UTF-8">
+                  <div class="form-item form-type-textfield form-item-query">
+                    <label class="element-invisible" for="edit-query">Search </label>
+                    <input title="Enter the terms you wish to search for." placeholder="Search..." type="text"
+                      id="edit-query" name="query" style="color: dimgrey;" value="" size="30" maxlength="128" class="form-text" />
+                  </div>
+                  <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /><input
+                    type="hidden" name="form_build_id" value="form-mx5jOXHdss6O6BE78OPO1wr--vkhP06zipbwhjHawoU" />
+                  <input type="hidden" name="form_id" value="oxweb_google_search_block_form" />
+                </form>
+              </div>
+
+              <nav id="block-menu-block-4"
+              class="block block-menu-block oxweb-secondary-menu-block oxweb-secondary-menu-block-noh2 homepage-oxweb-secondary-menu block-menu-block-4 "
+              aria-label="Primary navigation">
+
+
+
+              <ul>
+                <li class="first expanded menu-mlid-2711"><a href="admissions.html">Home</a></li>
+                <li class="first expanded menu-mlid-2711"><a href="admissions.html">Study</a>
+                  <ul>
+                    <li class="first leaf has-children menu-mlid-2511"><a
+                        href="admissions/undergraduate.html">Faculties</a></li>
+                    <li class="leaf has-children menu-mlid-2878"><a href="admissions/graduate.html">Undergraduate</a></li>
+                    <li class="last leaf has-children menu-mlid-10680"><a
+                        href="admissions/continuing-education.html">Postgraduate</a></li>
+                    <li class="last leaf has-children menu-mlid-10680"><a
+                        href="admissions/continuing-education.html">Short Courses / Professional Certificates  </a></li>
+                    <li class="last leaf has-children menu-mlid-10680"><a
+                        href="admissions/continuing-education.html">Fees/Finance</a></li>
+                    <li class="last leaf has-children menu-mlid-10680"><a
+                        href="admissions/continuing-education.html">Campus Life</a></li>
+                    <li class="last leaf has-children menu-mlid-10680"><a
+                        href="admissions/continuing-education.html">E-Learning</a></li>
+                  </ul>
+                </li>
+                <li class="expanded menu-mlid-2549"><a href="research.html">Research</a>
+                  <ul>
+                    <li class="first leaf has-children menu-mlid-10889"><a href="research/engage-with-us.html">Faculties Research</a></li>
+                    <li class="leaf has-children menu-mlid-3934"><a href="research/support-researchers.html">Research news</a></li>
+                    <li class="leaf has-children menu-mlid-10887"><a href="research/using-research-engage.html">Contact </a></li>
+
+                  </ul>
+                </li>
+                <li class="expanded menu-mlid-1105"><a href="news-and-events.html" title="">Campus Life</a>
+                  <ul>
+                    <li class="first leaf has-children menu-mlid-2137"><a href="events-list.html">SRA</a></li>
+                    <li class="leaf menu-mlid-10797"><a href="news/features.html">NFCS</a></li>
+                    <li class="leaf menu-mlid-10804"><a href="news-and-events/oxford-people.html">Other Students’ Organizations </a>
+                    </li>
+                    <li class="leaf menu-mlid-10320"><a href="coronavirus.html" title="">Residential Halls </a>
+                    </li>
+                    <li class="leaf menu-mlid-3014"><a href="news-and-events/for-journalists.html" title="">Gallery </a></li>
+                    <li class="leaf menu-mlid-2680"><a href="news-and-events/filming-in-oxford.html">Sports </a></li>
+                    <li class="last leaf menu-mlid-5738"><a href="news-and-events/find-an-expert.html">Student Events</a></li>
+                    <li class="last leaf menu-mlid-5738"><a href="news-and-events/find-an-expert.html">Chaplaincy </a></li>
+                  </ul>
+                </li>
+                <li class="last expanded menu-mlid-1892"><a href="about.html">Explore Veritas</a>
+                  <ul>
+                    <li class="first leaf has-children menu-mlid-1326"><a
+                        href="about/organisation.html">E-notice board </a></li>
+                    <li class="leaf menu-mlid-11012"><a
+                        href="about/organisation/university-officers/vice-chancellor.html"
+                        title="">University Management </a></li>
+                    <li class="leaf has-children menu-mlid-1350"><a href="about/facts-and-figures.html">About</a></li>
+                    <li class="leaf has-children menu-mlid-2800"><a href="about/oxford-people.html">Chaplaincy  </a>
+                    </li>
+                    <li class="leaf menu-mlid-9685"><a href="about/oxford-access.html">Veritas and the Holy See</a></li>
+                    <li class="leaf has-children menu-mlid-4292"><a
+                        href="about/international-oxford.html">Exhibitions </a></li>
+                    
+                  </ul>
+                </li>
+              </ul>
+
+
+
+
+
+
+            </nav>
+
+            <nav id="block-menu-block-2"
+              class="block block-menu-block oxweb-primary-menu-block homepage-role-base-menu block-menu-block-2 "
+              aria-label="Role-based navigation">
+
+
+
+              <ul>
+                <li class="first leaf has-children menu-mlid-3382"><a href="https://staff.admin.ox.ac.uk/"
+                    title="Staff Gateway">News and Events</a></li>
+                <li class="leaf menu-mlid-1112"><a href="https://www.alumni.ox.ac.uk/" title="">Alumni</a></li>
+                <li class="leaf has-children menu-mlid-10176"><a href="students.html">Endowment Fund  </a></li>
+               
+                <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">A-Z</a></li>
+                <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">Admissions </a></li>
+                <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">FAQ</a></li>
+                <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">Library</a></li>
+              </ul>
+
+
+
+
+
+
+            </nav>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section id="page-content" class="page-level page-content">
+      <div class="wrapper">
+        <div class="row space-header">
+
+
+          <section class="page-content-level column page-content-main" id="page-content-main">
+
+
+            <section class="page-content-container main-content" id="main-content">
+
+
+
+              <div about="/content/university-oxford" typeof="sioc:Item foaf:Document"
+                class="ds-1col node node-oxweb-homepage view-mode-full clearfix">
+
+
+                    <div id="node-oxweb-homepage-full-group-main-carousel" class=" group-main-carousel field-group-div">
+
+                      <div class="field field-name-field-main-carousel field-type-node-reference field-label-hidden">
+
+
+                        <div class="field-items">
+                          <div class="field-item even">
+                            <div about="/content/carouselugdecisions" typeof="sioc:Item foaf:Document"
+                              class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
+
+
+                              <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                href="https://bit.ly/tc_3hFNfIh">
+                                <div class="link-block-bgimage-wrapper">
+
+                                  <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                    <span class="field-item-single">
+                                      <div
+                                        class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+
+
+                                        <img typeof="foaf:Image"
+                                          src="sites/files/oxford/styles/ow_large_feature/s3/bcar_ug_Jan24_offers2da8.jpg?itok=iFDAgDBl"
+                                          width="1600" height="550" alt="Young black student smiling" />
+                                        <div id="file-image-ow-large-feature-group-description-wrapper"
+                                          class=" group-description-wrapper field-group-div">
+
+                                          <div
+                                            class="field field-name-field-media-description field-type-text-long field-label-hidden">
+
+
+                                            <span class="field-item-single">listed applicants will hear the outcome
+                                              of their application on 9 January</span>
+                                          </div>
+
+
+                                          <div
+                                            class="field field-name-field-additional-description field-type-text-long field-label-hidden">
+
+
+                                            <span class="field-item-single">Credit: Joy von Waldenfels</span>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </span>
+                                  </div>
+                                  <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description"
+                                    class=" group-slide-description field-group-div">
+
+                                    <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                      <span class="field-item-single">
+                                        <h2>Decisions on undergraduate offers for 2024 entry</h2>
+                                      </span>
+                                    </div>
+
+
+                                    <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                      <span class="field-item-single">All shortlisted applicants will hear the outcome of
+                                        their application on 9 January</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+
+                          </div>
+                          <div class="field-item odd">
+                            <div about="/content/carouselgradcourses" typeof="sioc:Item foaf:Document"
+                              class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
+
+
+                              <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                href="https://bit.ly/tc_3MKqaFf">
+                                <div class="link-block-bgimage-wrapper">
+
+                                  <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                    <span class="field-item-single">
+                                      <div
+                                        class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+
+
+                                        <img typeof="foaf:Image"
+                                          src="sites/files/oxford/styles/ow_large_feature/s3/field/field_image_main/Ahmad%20El%20Naggar%2c%20Divinity%20School%20(cropped)2e0e.jpg?itok=S3gDW26l"
+                                          width="1600" height="550" alt="A student standing in the Divinity School" />
+                                        <div id="file-image-ow-large-feature-group-description-wrapper--2"
+                                          class=" group-description-wrapper field-group-div">
+
+                                          <div
+                                            class="field field-name-field-media-description field-type-text-long field-label-hidden">
+
+
+                                            <span class="field-item-single">Interior of the Divinity School</span>
+                                          </div>
+
+
+                                          <div
+                                            class="field field-name-field-additional-description field-type-text-long field-label-hidden">
+
+
+                                            <span class="field-item-single">(Image credit:&nbsp;Ahmad El Naggar / Graduate
+                                              Photography Competition)</span>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </span>
+                                  </div>
+                                  <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--2"
+                                    class=" group-slide-description field-group-div">
+
+                                    <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                      <span class="field-item-single">
+                                        <h2>Planning on applying for graduate study for entry in 2024-25?</h2>
+                                      </span>
+                                    </div>
+
+
+                                    <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                      <span class="field-item-single">Read about how to apply on your chosen course page and
+                                        start your application well in advance of your course&#039;s deadline</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+
+                          </div>
+                          <div class="field-item even field-item-last">
+                            <div about="/content/carouseluguniq" typeof="sioc:Item foaf:Document"
+                              class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
+
+
+                              <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                href="https://bit.ly/tc_3v4oWOV">
+                                <div class="link-block-bgimage-wrapper">
+
+                                  <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                    <span class="field-item-single">
+                                      <div
+                                        class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+
+
+                                        <img typeof="foaf:Image"
+                                          src="sites/files/oxford/styles/ow_large_feature/s3/bcar_unig_24f6bc.jpg?itok=2ZnQ07Gj"
+                                          width="1600" height="550" alt="four students on the UNIQ summer school" />
+                                        <div id="file-image-ow-large-feature-group-description-wrapper--3"
+                                          class=" group-description-wrapper field-group-div">
+
+                                          <div
+                                            class="field field-name-field-media-description field-type-text-long field-label-hidden">
+
+
+                                            <span class="field-item-single">Apply for UNIQ 2024 any time between now and the
+                                              23 January</span>
+                                          </div>
+
+
+                                          <div
+                                            class="field field-name-field-additional-description field-type-text-long field-label-hidden">
+
+
+                                            <span class="field-item-single">Credit:&nbsp;Ian Wallman</span>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </span>
+                                  </div>
+                                  <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--3"
+                                    class=" group-slide-description field-group-div">
+
+                                    <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                      <span class="field-item-single">
+                                        <h2>Considering undergraduate life at Oxford? Experience it first with UNIQ</h2>
+                                      </span>
+                                    </div>
+
+
+                                    <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                      <span class="field-item-single">Apply for UNIQ 2024 any time between now and the 23
+                                        January</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="field field-name-main-carousel-pagers field-type-ds field-label-hidden">
+
+
+                        <span class="field-item-single">
+                          <div class="carousel-pager"></div>
+                          <button class="carousel-next-btn" type="button” aria-label=" next="" slide=""></button>
+                          <button class="carousel-prev-btn" type="button” aria-label=" previous="" slide=""></button>
+                        </span>
+                      </div>
+                    </div>
+                         <!-- NEWS SECTION  -->
+                        <div id="node-oxweb-homepage-full-group-discover-carousel"
+                        class=" group-discover-carousel field-group-div">
+                        <div class="newsTitle" >
+                        <h2 style="color: black;"><span>NEWS</span></h2>
+                        
+                          <!-- <h2><a href="discover/news/index.html">News</a></h2> -->
+                          <a class="all" href="discover/news/index.html">All
+                              news</a>
+                        </div>
+
+                          <div class="field field-name-field-discover-carousel field-type-node-reference field-label-hidden">
+                            <div class="field-items">
+                              <!-- NEWS CARD  -->
+                              <div class="field-item even">
+                                <div about="/content/disccrisisresponse" typeof="sioc:Item foaf:Document"
+                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
+
+
+                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                    href="https://bit.ly/dc_3S8QcWn">
+                                    <div class="link-block-bgimage-wrapper">
+
+                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                        <span class="field-item-single"><img typeof="foaf:Image"
+                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_oxford_bw_crisise61b.jpg?itok=uMWhvOgy"
+                                            width="359" height="277" alt="Oxford skyline in black and white" /></span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                        <span class="field-item-single">
+                                          <h2>Lorem ipsum dolor sit amet.</h2>
+                                        </span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum quam praesentium voluptatem sapiente.</span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                              </div>
+                              <!-- NEWS CARD  -->
+                              <div class="field-item odd">
+                                <div about="/content/discreuters2" typeof="sioc:Item foaf:Document"
+                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
+
+
+                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                    href="https://bit.ly/dc_3TsRa00">
+                                    <div class="link-block-bgimage-wrapper">
+
+                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                        <span class="field-item-single"><img typeof="foaf:Image"
+                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_reuters_review234c.png?itok=VKEfMk6Z"
+                                            width="359" height="277" alt="news source chart" /></span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                        <span class="field-item-single">
+                                          <h2>TITLE OF THE NEWS</h2>
+                                        </span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, aut!</span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                              </div>
+                              <!-- NEWS CARD  -->
+                              <div class="field-item even">
+                                <div about="/content/discconversation1" typeof="sioc:Item foaf:Document"
+                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
+
+
+                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                    href="https://bit.ly/dc_483Huh6">
+                                    <div class="link-block-bgimage-wrapper">
+
+                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                        <span class="field-item-single"><img typeof="foaf:Image"
+                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_conv_gut_health324f.jpg?itok=vCjWqBCX"
+                                            width="359" height="277" alt="Model of human intestines" /></span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                        <span class="field-item-single">
+                                          <h2>TITLE OF THE NEWS</h2>
+                                        </span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem.</span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                              </div>
+                              <!-- NEWS CARD  -->
+                              <div class="field-item odd">
+                                <div about="/content/discoiiblog" typeof="sioc:Item foaf:Document"
+                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
+
+
+                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                    href="https://bit.ly/dc_4aihmjY">
+                                    <div class="link-block-bgimage-wrapper">
+
+                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                        <span class="field-item-single"><img typeof="foaf:Image"
+                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_oii_usai75b6.png?itok=JbngafvT"
+                                            width="359" height="277" alt="USA in lights" /></span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                        <span class="field-item-single">
+                                          <h2>THE TITLE OF THE NEWS</h2>
+                                        </span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem aspernatur nam quas fuga atque assumenda.</span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                              </div>
+                              <!-- NEWS CARD  -->
+                              <div class="field-item even">
+                                <div about="/content/discmediumoxplore2" typeof="sioc:Item foaf:Document"
+                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
+
+
+                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                    href="https://bit.ly/dc_2NQy1T6">
+                                    <div class="link-block-bgimage-wrapper">
+
+                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                        <span class="field-item-single"><img typeof="foaf:Image"
+                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_oxplore_agef3c9.jpg?itok=BD2-6RU1"
+                                            width="359" height="277" alt="live forever?" /></span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                        <span class="field-item-single">
+                                          <h2>Oxplore: the Home of Big Questions</h2>
+                                        </span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Explore the University’s innovative website for 11-18
+                                          year olds</span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                              </div>
+                              <!-- NEWS CARD  -->
+                              <div class="field-item odd">
+                                <div about="/content/discukraine" typeof="sioc:Item foaf:Document"
+                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
+
+
+                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                    href="https://bit.ly/ukraine_info">
+                                    <div class="link-block-bgimage-wrapper">
+
+                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                        <span class="field-item-single"><img typeof="foaf:Image"
+                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_ukraine_flag5c0e.jpg?itok=HLfoxG7t"
+                                            width="359" height="277" alt="Ukrainian flag" /></span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                        <span class="field-item-single">
+                                          <h2>University response to the invasion of Ukraine</h2>
+                                        </span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Information, advice and support for staff and students
+                                          impacted</span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                              </div>
+                              <!-- NEWS CARD  -->
+                              <div class="field-item even field-item-last">
+                                <div about="/content/discdevofficenews" typeof="sioc:Item foaf:Document"
+                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
+
+
+                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
+                                    href="https://bit.ly/dc_3Rkkovu">
+                                    <div class="link-block-bgimage-wrapper">
+
+                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                        <span class="field-item-single"><img typeof="foaf:Image"
+                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_dev_radcam345f2.png?itok=yLAkJz_2"
+                                            width="359" height="277" alt="Radcliffe Camera" /></span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                        <span class="field-item-single">
+                                          <h2>Development Office news</h2>
+                                        </span>
+                                      </div>
+
+
+                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Oxford’s Refugee Academic Futures scholarship programme
+                                          receives funding boost</span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                              </div>
+                              <!-- NEWS CARD  -->
+
+                            </div>
+                            <div class="field field-name-discover-carousel-pagers field-type-ds field-label-hidden">
+
+
+                              <span class="field-item-single">
+                                <button class="carousel-next-btn" type="button"></button>
+                                <button class="carousel-prev-btn" type="button"></button></span>
+                            </div>
+                          </div>
+
+
+                         
+                        </div>
+
+                        <!-- STUDY SECTION -->
+                        <div id="block-block-3tu8" class="block block-block homepage-studying-at-oxford block-block-38 " style="background-color: #e0ded9; padding: 4rem 2rem;">
+
+
+
+                          <ul class="study-group-one">
+                            <li class="study-type"><a href="https://bit.ly/so_UOadmissions"><img height="297" width="360"
+                                  class="media-element file-media-original" typeof="foaf:Image"
+                                  src="sites/files/oxford/st_ox_undergrad3.jpg" alt="Undergrad students 3" />
+                                <h3>Study</h3>
+                              </a></li>
+                            <li class="study-type"><a href="https://bit.ly/so_UOPPGInfo"><img height="297" width="360"
+                                  class="media-element file-media-original" typeof="foaf:Image"
+                                  src="sites/files/oxford/st_ox_grad2.jpg" alt="Grad students 2" />
+                                <h3>Undergraduate<h3>
+                              </a></li>
+                          </ul>
+                          <ul class="study-group-two">
+                            <li class="study-type"><a href="https://bit.ly/so_3aSpzN6"><img height="297" width="360"
+                                  class="media-element file-media-original" typeof="foaf:Image"
+                                  src="sites/files/oxford/st_ox_conted2.jpg"
+                                  alt="Mature students in a Continuing Education lecture" />
+                                <h3>Postgraduate</h3>
+                              </a></li>
+                            <li class="study-type"><a href="https://bit.ly/so_36GAqpY"><img height="297" width="361"
+                                  class="media-element file-media-original" typeof="foaf:Image"
+                                  src="sites/files/oxford/st_ox_current2.jpg" alt="CStudents2" />
+                                <h3>Course Finder</h3>
+                              </a></li>
+                          </ul>
+                        </div>
+
+                          <!-- EXPLORE VERITAS  -->
+                        <div id="block-block-38" class="block block-block homepage-studying-at-oxford block-block-38 ">
+
+                            <h2 class="title" style="color: black;">EXPLORE VERITAS</h2>
+
+
+                            <ul class="study-group-one">
+                              <li class="study-type"><a href="https://bit.ly/so_UOadmissions"><img height="297" width="360"
+                                    class="media-element file-media-original" typeof="foaf:Image"
+                                    src="sites/files/oxford/st_ox_undergrad3.jpg" alt="Undergrad students 3" />
+                                  <h3>ABOUT VERITAS</h3>
+                                </a></li>
+                              <li class="study-type"><a href="https://bit.ly/so_UOPPGInfo"><img height="297" width="360"
+                                    class="media-element file-media-original" typeof="foaf:Image"
+                                    src="sites/files/oxford/st_ox_grad2.jpg" alt="Grad students 2" />
+                                  <h3>UNIVERSITY MANAGEMENT</h3>
+                                </a></li>
+                            </ul>
+                            <ul class="study-group-two">
+                              <li class="study-type"><a href="https://bit.ly/so_3aSpzN6"><img height="297" width="360"
+                                    class="media-element file-media-original" typeof="foaf:Image"
+                                    src="sites/files/oxford/st_ox_conted2.jpg"
+                                    alt="Mature students in a Continuing Education lecture" />
+                                  <h3>E-NOTICE BOARD</h3>
+                                </a></li>
+                              <li class="study-type"><a href="https://bit.ly/so_36GAqpY"><img height="297" width="361"
+                                    class="media-element file-media-original" typeof="foaf:Image"
+                                    src="sites/files/oxford/st_ox_current2.jpg" alt="CStudents2" />
+                                  <h3>UNIVERSITY CHAPLAINCY</h3>
+                                </a></li>
+                            </ul>
+                        </div>
+                          <!-- campus life and why veritas   -->
+                        <div id="block-block-38" class="block block-block homepage-studying-at-oxford block-block-38 ">
+
+                            <h2 class="title" style="color: black;">CAMPUS LIFE</h2>
+
+
+                            <ul class="study-group-one">
+                              CONTENT HERE
+                            </ul>
+                            <ul class="study-group-one">
+                              CONTENT HERE
+                            </ul>
+                            
+                            
+                        </div>
               </div>
             </section>
-            
-                        <div class="row">
-              <section class="drupal-messages" id="drupal-messages">
-                                                <div class="messages error">
-<h2 class="element-invisible">Error message</h2>
-Sorry, you are not authorised to access this page</div>
-              </section>
-            </div>
-            
-            <header class="main-title" id="main-title">
-                                            <h1>You need to log in to view this page</h1>
-                                        </header>
-            
-    <form autocomplete="off" action="/sites/files/oxford/styles/ot_graphical_teaser/s3/images/graphical_teasers/UNIQ+306x205.png?itok=vTybTPCv" method="post" id="user-login" accept-charset="UTF-8"><div class="form-item form-type-textfield form-item-name ">
-  <label for="edit-name">Username or e-mail address <span class="form-required" title="This field is required.">*</span></label>
- <input placeholder="Username or e-mail address" type="text" id="edit-name" name="name" value="" size="30" maxlength="60" class="form-text required" required />
 
-<div class="description">You may login with either your assigned username or your e-mail address.</div>
-</div>
-<div class="form-item form-type-password form-item-pass ">
-  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
- <input placeholder="Password" type="password" id="edit-pass" name="pass" size="30" maxlength="128" class="form-text required" />
-
-<div class="description">The password field is case sensitive.</div>
-</div>
-<input type="hidden" name="form_build_id" value="form-QOR7b-2cxddSzvECJ3mmB2gok4GChORW-Wvf1lG9dJQ" />
-<input type="hidden" name="form_id" value="user_login" />
-<div class="sso-login-link"><a href="/saml_login?destination=sites/files/oxford/styles/ot_graphical_teaser/s3/images/graphical_teasers/UNIQ%20306x205.png" class="btn">Login with Oxford SSO (Webauth)</a></div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></form>  
           </section>
-
-
-          <div class="row">
-                                  </div>
-
-                    <section class="page-content-container post-content" id="post-content">
-            
-    
-<div  id="block-block-32" class="block block-block block block-sharebar contextual-links-region block-sharebar-sharebar-social-buttons share-bar-responsive block-block-32 ">
-  
-        <h2 class="title">Share This</h2>
-    
-  
-  <div id="custom-tweet-button-responsive">
-  <a href="https://twitter.com/intent/tweet" onclick="window.open('//twitter.com/intent/tweet?text='+encodeURIComponent(document.title)+'&amp;url='+encodeURIComponent(window.location)); return false">Tweet</a>
-</div>
-<div id="custom-fb-button-responsive">
-  <a href="https://www.facebook.com/sharer/sharer.php" target="_blank">Share on Facebook</a>
-</div>
-<div id="custom-linkedin-button-responsive">
-  <a href="https://www.linkedin.com/shareArticle?mini=true" target="_blank">Share on LinkedIn</a>
-</div>
-<div id="custom-reddit-button-responsive">
-  <a href="//www.reddit.com/submit" onclick="window.open('//www.reddit.com/submit?url='+encodeURIComponent(window.location)); return false">Share on Reddit</a>
-</div>
-<script>
-<!--//--><![CDATA[// ><!--
-(function ($) {
-  var fblink = $('#custom-fb-button-responsive a').attr('href'); 
-  $('#custom-fb-button-responsive a').attr('href', fblink + '?u=' + encodeURIComponent(location.href));
-  var linkedinlink = $('#custom-linkedin-button-responsive a').attr('href'); 
-  $('#custom-linkedin-button-responsive a').attr('href', linkedinlink + '&url=' + encodeURIComponent(location.href) + '&title=' + encodeURIComponent(document.title));
-}(jQuery));
-//--><!]]>
-</script>
-  </div>
-  
-          </section>
-                  </section>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer id="page-footer" class="page-level page-footer">
-    <div class="wrapper">
-      <div class="row">
+    <footer id="page-footer" class="page-level page-footer">
+      <div class="wrapper">
+        <div class="row">
+
+
+          <div id="block-block-15" class="block block-block social-links block-block-15 ">
+
+
+
+            <h2>Connect with us</h2>
+            <ul class="social">
+              <li><a class="itunes" href="#">Podcasts</a></li>
+             
+            </ul>
+          </div>
+
+          <div id="block-block-14" class="block block-block site-map block-block-14 " aria-label="Footer">
+
+
+
+            <div class="sitemap-item">
+              <h2>Information About</h2>
+              <ul>
+                <li><a href="a#">Veritas University Abuja </a></li>
                 
-    
-<div  id="block-block-15" class="block block-block social-links block-block-15 ">
-  
-      
-  
-  <h2>Connect with us</h2>
-<ul class="social">
-<li><a class="itunes" href="https://podcasts.ox.ac.uk/">Podcasts</a></li>
-<li><a class="youtube" href="http://www.youtube.com/oxford">YouTube</a></li>
-<li><a class="twitter" href="https://twitter.com/uniofoxford">Twitter</a></li>
-<li><a class="facebook" href="https://www.facebook.com/the.university.of.oxford">Facebook</a></li>
-<li><a class="tiktok" href="https://www.tiktok.com/@uni.of.oxford">TikTok</a></li>
-<li><a class="linkedin" href="https://www.linkedin.com/company/4477?trk=prof-exp-company-name">LinkedIn</a></li>
-<li><a class="weibo" href="https://weibo.com/OxfordUni">Weibo</a></li>
-<li><a class="instagram" href="https://www.instagram.com/oxford_uni">Instagram</a></li>
-<li><a class="medium" href="https://medium.com/oxford-university">Medium</a></li>
-<li><a class="the-conversation" href="http://theconversation.com/institutions/university-of-oxford-1260">The Conversation</a></li>
-</ul>
-  </div>
+              </ul>
+            </div>
+            <div class="sitemap-item">
+              <h2>Information For</h2>
+              <ul>
+                <li><a href="#">Prospective undergraduates</a></li>
+                
+              </ul>
+            </div>
+            <div class="sitemap-item">
+              <h2>Quick Links</h2>
+              <ul>
+                <li><a href="#">Any questions?</a></li>
+                
+              </ul>
+            </div>
+          </div>
 
-<div  id="block-block-14" class="block block-block site-map block-block-14 " aria-label="Footer">
-  
-      
-  
-  <div class="sitemap-item"><h2>Information About</h2><ul><li><a href="//www.ox.ac.uk/about/organisation">Oxford University</a></li><li><a href="//www.ox.ac.uk/strategicplan">Strategic plan</a></li><li><a href="//www.ox.ac.uk/research">Oxford's research</a></li><li><a href="//www.ox.ac.uk/students/fees-funding">Course fees and funding</a></li><li><a href="//www.ox.ac.uk/research/support-researchers/information-and-data-services/libraries">Libraries</a></li><li><a href="//www.ox.ac.uk/visitors/visiting-oxford/visiting-museums-libraries-places">Museums and collections</a></li><li><a href="//www.ox.ac.uk/admissions/undergraduate/visiting-and-outreach/open-days">Open days</a></li><li><a href="//www.ox.ac.uk/about/organisation/history/oxford-glossary">Oxford glossary</a></li><li><a href="https://compliance.web.ox.ac.uk/freedom-of-speech">Freedom of speech statement</a></li><li><a href="https://compliance.admin.ox.ac.uk/modern-slavery">Statement on Modern Slavery</a></li><li><a href="//www.ox.ac.uk/about/organisation/governance/dataprivacy">Data privacy / GDPR</a></li><li><a href="http://www.sport.ox.ac.uk/">Sport at Oxford</a></li><li><a href="https://www.conference-oxford.com">Conferences at Oxford</a></li><li><a href="//www.ox.ac.uk/cn">牛津大学</a></li></ul></div><div class="sitemap-item"><h2>Information For</h2><ul><li><a href="//www.ox.ac.uk/admissions/undergraduate">Prospective undergraduates</a></li><li><a href="//www.ox.ac.uk/admissions/graduate">Prospective graduate students</a></li><!-- <li><a href="//www.ox.ac.uk/content/guidance-international-students-0">International students</a></li>--><li><a href="//www.ox.ac.uk/admissions/continuing-education">Prospective&nbsp;Continuing Education&nbsp;students</a></li><li><a href="//www.ox.ac.uk/admissions/continuing-education/online-and-distance-courses">Prospective online/distance learning students</a></li><li><a href="//www.ox.ac.uk/students">Current Oxford students</a></li><li><a href="https://staff.admin.ox.ac.uk/">Current Oxford staff</a></li><li><a href="//www.ox.ac.uk/research/engage-with-us/local-community">Oxford residents/Community</a></li><li><a href="//www.ox.ac.uk/visitors">Visitors/Tourists</a></li><li><a href="//www.ox.ac.uk/news-and-events">Media</a></li><li><a href="https://www.alumni.ox.ac.uk/">Alumni</a></li><li><a href="//www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/teachers">Teachers</a></li><li><a href="//www.ox.ac.uk/research/engage-with-us/policy-makers">Parliamentarians</a></li><li><a href="//www.ox.ac.uk/research/engage-with-us/external-organisations">Businesses/Partnerships</a></li></ul></div><div class="sitemap-item"><h2>Quick Links</h2><ul><li><a href="https://uni-of-oxford.custhelp.com/app/home">Any questions?</a></li><li><a href="https://www.jobs.ox.ac.uk/">Jobs and vacancies</a></li><li><a href="//www.ox.ac.uk/about/facts-and-figures/dates-of-term">Term dates</a></li><li><a href="//www.ox.ac.uk/visitors/map">Map</a></li><li><a href="https://outlook.office.com/owa/">Nexus365 email</a></li><li><a href="http://www.campaign.ox.ac.uk">Giving to Oxford</a></li></ul></div>
-  </div>
+          <div id="block-block-16" class="block block-block legals-questions block-block-16 " aria-label="Legal footer">
 
-<div  id="block-block-16" class="block block-block legals-questions block-block-16 " aria-label="Legal footer">
-  
-      
-  
-  
-<ul> 
-  <li class="copyright">
-  ©  University of Oxford 2023
-  </li>  
-  <li>
-    <a href="//www.ox.ac.uk/contact-us">Contact us</a>
-  </li>  
-  <li>
-    <a href="//www.ox.ac.uk/about-this-site">About this site</a>
-  </li>  
-  <li>
-    <a href="//www.ox.ac.uk/legal">Legal</a>
-  </li>  
-  <li>
-    <a href="//www.ox.ac.uk/privacy-policy">Privacy policy</a>
-  </li> 
-  <li>
-    <a href="#cookie-settings">Cookie settings</a>
-  </li> 
- <li>
-    <a href="//www.ox.ac.uk/accessibility">Accessibility Statement</a>
-  </li> 
-</ul>
-  </div>
 
-<div  id="block-block-237" class="block block-block block-block-237 ">
-  
-      
-  
-  <script type="text/javascript">
-<!--//--><![CDATA[// ><!--
 
-  _bizo_data_partner_id = "9293";
 
-//--><!]]>
-</script>
-<script type="text/javascript">
-<!--//--><![CDATA[// ><!--
+            <ul>
+              <li class="copyright">
+                © Veritas University Abuja 2024
+              </li>
+              <li>
+                <a href="contact-us">Contact us</a>
+              </li>
+              <li>
+                <a href="about-this-site.html">About this site</a>
+              </li>
+              <li>
+                <a href="legal.html">Legal</a>
+              </li>
+              <li>
+                <a href="privacy-policy.html">Privacy policy</a>
+              </li>
+              <li>
+                <a href="#cookie-settings">Cookie settings</a>
+              </li>
+              <li>
+                <a href="accessibility.html">Accessibility Statement</a>
+              </li>
+            </ul>
+          </div>
 
-(function() {
-  var s = document.getElementsByTagName("script")[0];
-  var b = document.createElement("script");
-  b.type = "text/javascript";
-  b.async = true;
-  b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
-  s.parentNode.insertBefore(b, s);
-})();
+          <div id="block-block-237" class="block block-block block-block-237 ">
 
-//--><!]]>
-</script>
-<noscript>
-  <img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=9293&amp;fmt=gif" />
-</noscript>
-  </div>
-  
+
+
+            <script type="text/javascript">
+
+          
+            </script>
+            <noscript>
+              <img height="1" width="1" alt="" style="display:none;"
+                src="http://www.bizographics.com/collect/?pid=9293&amp;fmt=gif" />
+            </noscript>
+          </div>
+
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
   </section>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-fccd3ad23e6014d5d85","applicationID":"456895758","transactionName":"MhBSZQoZWBdZAUUMWgtacVIMEVkKFwtcBFIAKkNFARRTO1wHXQxDAAc=","queueTime":0,"applicationTime":426,"atts":"HldRE0IDSxk=","errorBeacon":"bam.eu01.nr-data.net","agent":""}</script></body>
+</body>
+
+
 </html>
