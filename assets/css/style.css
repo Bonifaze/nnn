@@ -1,0 +1,153 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* .card-container {
+  padding-block: 2rem;
+} */
+
+.card-content {
+  margin-inline: 1.75rem;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.card-article {
+  width: 300px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-image {
+  position: relative;
+  padding-top: 1.5rem;
+  margin-bottom: -0.75rem;
+}
+
+.card-data {
+  padding: .5rem 0;
+  position: relative;
+  z-index: 10;
+}
+
+/* Card Img */
+.card-img {
+  width: 180px;
+  height: 240px !important;
+  border-radius: .35rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  margin-bottom: 1.75rem;
+}
+
+.card-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0;
+  /* Initially transparent */
+  transition: opacity 0.3s ease;
+}
+
+.card-img:hover::before {
+  opacity: 0.8;
+  /* Adjust the opacity as needed */
+}
+
+/* Card Text */
+.card-name {
+  font-size: 1.5rem;
+  color: #124e41;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.card-description {
+  font-weight: 500;
+  margin-bottom: 1.75rem;
+  color: black;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Swiper Class */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 4rem;
+  color: #124e41;
+  display: none;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: black;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: #124e41;
+}
+
+/* Media Queries Breakpoints */
+
+/* Small Devices */
+@media screen and (min-width: 768px) {
+  .card-content {
+    margin-inline: 3rem;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card-content {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+
+/* Large Devices */
+@media screen and (min-width: 1120px) {
+  .card-container {
+    max-width: 1500px;
+  }
+  .swiper-button-next {
+    right: -1rem;
+  }
+  .swiper-button-prev {
+    left: -1rem;
+  }
+}

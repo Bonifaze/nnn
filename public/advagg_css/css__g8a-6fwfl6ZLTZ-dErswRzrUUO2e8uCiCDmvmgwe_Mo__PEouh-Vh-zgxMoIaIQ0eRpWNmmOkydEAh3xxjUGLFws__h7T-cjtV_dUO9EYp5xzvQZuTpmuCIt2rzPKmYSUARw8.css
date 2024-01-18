@@ -202,7 +202,7 @@ object {
     filter: alpha(opacity=80);
     width: 42px;
     height: 42px;
-    background: url(../image/handburger.png) no-repeat center center #124e41;
+    background: url(../image/hamburger.png) no-repeat center center #124e41;
     display: block;
     float: right;
 }

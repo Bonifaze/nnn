@@ -5,17 +5,17 @@
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2.0 user-scalable=yes" />
- 
+
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="shortcut icon" href="public/image/favicon.png" />
- 
-  
+
+
   <link rel="canonical" href="index.html" />
   <link rel="shortlink" href="index.html" />
 
   <title>Veritas University Abuja</title>
-  
-  
+
+
   <link rel="stylesheet"
     href="public/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
   <link rel="stylesheet"
@@ -31,6 +31,15 @@
   <link rel="stylesheet"
     href="public/advagg_css/css__11AnryNtyiBVlpoBxV0f-VzqzTBLNVztjjWS60IG0pc__sb8Ujj6tWWssQfu7D3msxBLfh4PrTezTVySEM7hOySI__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css"
     media="print" />
+
+  <!-- === Remix Icons ===  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="" />
+
+  <!-- === Swiper CSS === -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle-min.css" />
+
+  <!-- === CSS === -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
   <style>
     .shared-event-styling .content-meta {
@@ -657,31 +666,56 @@
       overflow: hidden;
       text-indent: -9999%;
     }
-    .newsTitle{
-        padding: 10px 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    
+
+    .newsTitle {
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
     }
-    
-/* .element {
+
+    /* .element {
   display: block;
 } */
-.group-discover-carousel .carousel-next-btn {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 7%;
-  min-width: 110px;
-  position: absolute;
-  z-index: 50;
-  top: 0;
-  right: 0;
-  background-size: contain;
-  background: url('/sites/default/themes/custom/oxweb/images/discover-shadow.png') no-repeat top 60px right 0px;
-}
+    .group-discover-carousel .carousel-next-btn {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 7%;
+      min-width: 110px;
+      position: absolute;
+      z-index: 50;
+      top: 0;
+      right: 0;
+      background-size: contain;
+      background: url('/sites/default/themes/custom/oxweb/images/discover-shadow.png') no-repeat top 60px right 0px;
+    }
+  </style>
 
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      color: black;
+      /* Adjust the gap as needed */
+    }
+
+    /* Responsive layout for large devices */
+    @media (min-width: 1200px) {
+      .grid-container {
+        grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+      }
+    }
+
+    /* Responsive layout for small devices */
+    @media (max-width: 767px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 
   <link rel="stylesheet"
@@ -702,11 +736,11 @@
   <script
     src="public/advagg_js/js__9q_RhUzRB9SYU1-amhF7x_iVsHaJWYLCy9mGerNNw8c__3DMxMgH3xNkeQV3vdQ2jOzvP8JjhrwlJnzuMMy2ffk8__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
   <script>
-  jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "", "setHasJsCookie": 0, "ajaxPageState": { "theme": "oxweb", "theme_token": "9XeEWmTpxHTsxcNa-u83s3u6DizPWkyy9cBKYFR9JBg", "jquery_version": "1.10", "css": { "modules\/system\/system.base.css": 1, "modules\/system\/system.menus.css": 1, "modules\/system\/system.messages.css": 1, "modules\/system\/system.theme.css": 1, "sites\/all\/modules\/cache_consistent\/css\/cache_consistent.css": 1, "sites\/all\/modules\/colorbox_node\/colorbox_node.css": 1, "modules\/comment\/comment.css": 1, "sites\/all\/modules\/domain\/domain_nav\/domain_nav.css": 1, "modules\/field\/theme\/field.css": 1, "sites\/all\/modules\/google_cse\/google_cse.css": 1, "sites\/all\/modules\/logintoboggan\/logintoboggan.css": 1, "modules\/node\/node.css": 1, "modules\/user\/user.css": 1, "modules\/forum\/forum.css": 1, "sites\/all\/modules\/views\/css\/views.css": 1, "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css": 1, "sites\/all\/modules\/ctools\/css\/ctools.css": 1, "https:\/\/fonts.googleapis.com\/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic\u0026subset=latin,latin-ext": 1, "sites\/all\/modules\/date\/date_api\/date.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/reset.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/reset-html5.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/mothership.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/reset-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/base-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/fonts-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/site.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/search.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/menu.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/maintenance.css": 1, "sites\/default\/themes\/custom\/oxweb\/field_collection.theme.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/print.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie8.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/oxweb_homepage.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/event.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/news_item.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/mobile.less": 1 }, "js": { "public:\/\/google_tag\/google_tag.script.js": 1, "sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1, "misc\/jquery-extend-3.4.0.js": 1, "misc\/jquery-html-prefilter-3.5.0-backport.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "misc\/ajax.js": 1, "sites\/all\/modules\/jquery_update\/js\/jquery_update.js": 1, "sites\/all\/modules\/google_cse\/google_cse.js": 1, "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox.js": 1, "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox_load.js": 1, "sites\/all\/modules\/media_colorbox\/media_colorbox.js": 1, "sites\/all\/modules\/field_group\/field_group.js": 1, "misc\/progress.js": 1, "sites\/all\/modules\/colorbox_node\/colorbox_node.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/carouFredSel-6.2.1.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.touchSwipe.min.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery-migrate-1.2.1.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/site.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-show-description.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/html5.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/harvey.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/media-queries.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.fitvids.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/stupidtable.min.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-menu.js": 1 } }, "colorbox": { "transition": "elastic", "speed": "350", "opacity": "0.85", "slideshow": false, "slideshowAuto": true, "slideshowSpeed": "2500", "slideshowStart": "start slideshow", "slideshowStop": "stop slideshow", "current": "{current} of {total}", "previous": "\u00ab Prev", "next": "Next \u00bb", "close": "Close", "overlayClose": true, "returnFocus": true, "maxWidth": "100%", "maxHeight": "100%", "initialWidth": "300", "initialHeight": "250", "fixed": true, "scrolling": true, "mobiledetect": true, "mobiledevicewidth": "500px", "file_public_path": "\/sites\/files\/oxford", "specificPagesDefaultValue": "admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*" }, "googleCSE": { "cx": "012531758793783812323:qgyldcso7qs", "resultsWidth": 600, "domain": "www.google.com", "showWaterMark": 1 }, "field_group": { "div": "ow_large_feature", "usefulformatters_token_link_block": "ow_listing_teaser", "usefulformatters_link_block": "ow_small_homepage_highlight" }, "urlIsAjaxTrusted": { "\/": true }, "oxweb": { "autoPlayCarousel": false, "carouselTimeout": "12" }, "colorbox_node": { "width": "600px", "height": "600px" } });
+    jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "", "setHasJsCookie": 0, "ajaxPageState": { "theme": "oxweb", "theme_token": "9XeEWmTpxHTsxcNa-u83s3u6DizPWkyy9cBKYFR9JBg", "jquery_version": "1.10", "css": { "modules\/system\/system.base.css": 1, "modules\/system\/system.menus.css": 1, "modules\/system\/system.messages.css": 1, "modules\/system\/system.theme.css": 1, "sites\/all\/modules\/cache_consistent\/css\/cache_consistent.css": 1, "sites\/all\/modules\/colorbox_node\/colorbox_node.css": 1, "modules\/comment\/comment.css": 1, "sites\/all\/modules\/domain\/domain_nav\/domain_nav.css": 1, "modules\/field\/theme\/field.css": 1, "sites\/all\/modules\/google_cse\/google_cse.css": 1, "sites\/all\/modules\/logintoboggan\/logintoboggan.css": 1, "modules\/node\/node.css": 1, "modules\/user\/user.css": 1, "modules\/forum\/forum.css": 1, "sites\/all\/modules\/views\/css\/views.css": 1, "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css": 1, "sites\/all\/modules\/ctools\/css\/ctools.css": 1, "https:\/\/fonts.googleapis.com\/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic\u0026subset=latin,latin-ext": 1, "sites\/all\/modules\/date\/date_api\/date.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/reset.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/reset-html5.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/mothership.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/reset-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/base-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/fonts-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/site.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/search.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/menu.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/maintenance.css": 1, "sites\/default\/themes\/custom\/oxweb\/field_collection.theme.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/print.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie8.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/oxweb_homepage.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/event.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/news_item.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/mobile.less": 1 }, "js": { "public:\/\/google_tag\/google_tag.script.js": 1, "sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1, "misc\/jquery-extend-3.4.0.js": 1, "misc\/jquery-html-prefilter-3.5.0-backport.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "misc\/ajax.js": 1, "sites\/all\/modules\/jquery_update\/js\/jquery_update.js": 1, "sites\/all\/modules\/google_cse\/google_cse.js": 1, "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox.js": 1, "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox_load.js": 1, "sites\/all\/modules\/media_colorbox\/media_colorbox.js": 1, "sites\/all\/modules\/field_group\/field_group.js": 1, "misc\/progress.js": 1, "sites\/all\/modules\/colorbox_node\/colorbox_node.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/carouFredSel-6.2.1.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.touchSwipe.min.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery-migrate-1.2.1.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/site.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-show-description.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/html5.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/harvey.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/media-queries.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.fitvids.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/stupidtable.min.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-menu.js": 1 } }, "colorbox": { "transition": "elastic", "speed": "350", "opacity": "0.85", "slideshow": false, "slideshowAuto": true, "slideshowSpeed": "2500", "slideshowStart": "start slideshow", "slideshowStop": "stop slideshow", "current": "{current} of {total}", "previous": "\u00ab Prev", "next": "Next \u00bb", "close": "Close", "overlayClose": true, "returnFocus": true, "maxWidth": "100%", "maxHeight": "100%", "initialWidth": "300", "initialHeight": "250", "fixed": true, "scrolling": true, "mobiledetect": true, "mobiledevicewidth": "500px", "file_public_path": "\/sites\/files\/oxford", "specificPagesDefaultValue": "admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*" }, "googleCSE": { "cx": "012531758793783812323:qgyldcso7qs", "resultsWidth": 600, "domain": "www.google.com", "showWaterMark": 1 }, "field_group": { "div": "ow_large_feature", "usefulformatters_token_link_block": "ow_listing_teaser", "usefulformatters_link_block": "ow_small_homepage_highlight" }, "urlIsAjaxTrusted": { "\/": true }, "oxweb": { "autoPlayCarousel": false, "carouselTimeout": "12" }, "colorbox_node": { "width": "600px", "height": "600px" } });
   </script>
 </head>
 
-<body
+<body style="background-color: white;"
   class="front not-logged-in no-sidebars page-node page-node- page-node-1110 node-type-oxweb-homepage domain-oxweb no-sidebar-first vid-9385296">
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable skip-to-content">Skip to main content</a>
@@ -714,19 +748,20 @@
 
   <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDB29T" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-      
+
   <section id="visible-body" class="visible-body">
-    
+
     <header class="page-level page-header">
       <!-- ANNOUNCEMENT TAG  -->
       <div style="color: #F3F1EC; background-color: rgb(2, 83, 94);">
-    
+
         <span>
-           <marquee behavior="" direction="">We are admitting Prospective Students who admires studying MBBS medicine and Surgery <a href="https://admissions.veritas.edu.ng">Apply&nbsp;Now</a>.</marquee>
+          <marquee behavior="" direction="">We are admitting Prospective Students who admires studying MBBS medicine and
+            Surgery <a href="https://admissions.veritas.edu.ng">Apply&nbsp;Now</a>.</marquee>
         </span>
-    
+
       </div>
-    <!-- ANNOUNCEMENT TAG ENDS -->
+      <!-- ANNOUNCEMENT TAG ENDS -->
       <div class="wrapper">
         <div id="page-header-row" class="row page-header-row">
           <div class="logo">
@@ -737,7 +772,7 @@
             <div id="site-header-top" class="site-header-top">
 
 
-             
+
             </div>
             <div id="site-header-bottom" class="site-header-bottom">
 
@@ -747,12 +782,12 @@
 
 
 
-                <form action="#" method="post" id="oxweb-google-search-block-form"
-                  accept-charset="UTF-8">
+                <form action="#" method="post" id="oxweb-google-search-block-form" accept-charset="UTF-8">
                   <div class="form-item form-type-textfield form-item-query">
                     <label class="element-invisible" for="edit-query">Search </label>
                     <input title="Enter the terms you wish to search for." placeholder="Search..." type="text"
-                      id="edit-query" name="query" style="color: dimgrey;" value="" size="30" maxlength="128" class="form-text" />
+                      id="edit-query" name="query" style="color: dimgrey;" value="" size="30" maxlength="128"
+                      class="form-text" />
                   </div>
                   <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /><input
                     type="hidden" name="form_build_id" value="form-mx5jOXHdss6O6BE78OPO1wr--vkhP06zipbwhjHawoU" />
@@ -761,862 +796,632 @@
               </div>
 
               <nav id="block-menu-block-4"
-              class="block block-menu-block oxweb-secondary-menu-block oxweb-secondary-menu-block-noh2 homepage-oxweb-secondary-menu block-menu-block-4 "
-              aria-label="Primary navigation">
+                class="block block-menu-block oxweb-secondary-menu-block oxweb-secondary-menu-block-noh2 homepage-oxweb-secondary-menu block-menu-block-4 "
+                aria-label="Primary navigation">
 
 
 
-              <ul>
-                <li class="first expanded menu-mlid-2711"><a href="admissions.html">Home</a></li>
-                <li class="first expanded menu-mlid-2711"><a href="admissions.html">Study</a>
-                  <ul>
-                    <li class="first leaf has-children menu-mlid-2511"><a
-                        href="admissions/undergraduate.html">Faculties</a></li>
-                    <li class="leaf has-children menu-mlid-2878"><a href="admissions/graduate.html">Undergraduate</a></li>
-                    <li class="last leaf has-children menu-mlid-10680"><a
-                        href="admissions/continuing-education.html">Postgraduate</a></li>
-                    <li class="last leaf has-children menu-mlid-10680"><a
-                        href="admissions/continuing-education.html">Short Courses / Professional Certificates  </a></li>
-                    <li class="last leaf has-children menu-mlid-10680"><a
-                        href="admissions/continuing-education.html">Fees/Finance</a></li>
-                    <li class="last leaf has-children menu-mlid-10680"><a
-                        href="admissions/continuing-education.html">Campus Life</a></li>
-                    <li class="last leaf has-children menu-mlid-10680"><a
-                        href="admissions/continuing-education.html">E-Learning</a></li>
-                  </ul>
-                </li>
-                <li class="expanded menu-mlid-2549"><a href="research.html">Research</a>
-                  <ul>
-                    <li class="first leaf has-children menu-mlid-10889"><a href="research/engage-with-us.html">Faculties Research</a></li>
-                    <li class="leaf has-children menu-mlid-3934"><a href="research/support-researchers.html">Research news</a></li>
-                    <li class="leaf has-children menu-mlid-10887"><a href="research/using-research-engage.html">Contact </a></li>
+                <ul>
+                  <li class="first expanded menu-mlid-2711"><a href="admissions.html">Home</a></li>
+                  <li class="first expanded menu-mlid-2711"><a href="admissions.html">Study</a>
+                    <ul>
+                      <li class="first leaf has-children menu-mlid-2511"><a
+                          href="admissions/undergraduate.html">Faculties</a></li>
+                      <li class="leaf has-children menu-mlid-2878"><a href="admissions/graduate.html">Undergraduate</a>
+                      </li>
+                      <li class="last leaf has-children menu-mlid-10680"><a
+                          href="admissions/continuing-education.html">Postgraduate</a></li>
+                      <li class="last leaf has-children menu-mlid-10680"><a
+                          href="admissions/continuing-education.html">Short Courses / Professional Certificates </a>
+                      </li>
+                      <li class="last leaf has-children menu-mlid-10680"><a
+                          href="admissions/continuing-education.html">Fees/Finance</a></li>
+                      <li class="last leaf has-children menu-mlid-10680"><a
+                          href="admissions/continuing-education.html">Campus Life</a></li>
+                      <li class="last leaf has-children menu-mlid-10680"><a
+                          href="admissions/continuing-education.html">E-Learning</a></li>
+                    </ul>
+                  </li>
+                  <li class="expanded menu-mlid-2549"><a href="research.html">Research</a>
+                    <ul>
+                      <li class="first leaf has-children menu-mlid-10889"><a
+                          href="research/engage-with-us.html">Faculties Research</a></li>
+                      <li class="leaf has-children menu-mlid-3934"><a href="research/support-researchers.html">Research
+                          news</a></li>
+                      <li class="leaf has-children menu-mlid-10887"><a
+                          href="research/using-research-engage.html">Contact </a></li>
 
-                  </ul>
-                </li>
-                <li class="expanded menu-mlid-1105"><a href="news-and-events.html" title="">Campus Life</a>
-                  <ul>
-                    <li class="first leaf has-children menu-mlid-2137"><a href="events-list.html">SRA</a></li>
-                    <li class="leaf menu-mlid-10797"><a href="news/features.html">NFCS</a></li>
-                    <li class="leaf menu-mlid-10804"><a href="news-and-events/oxford-people.html">Other Students’ Organizations </a>
-                    </li>
-                    <li class="leaf menu-mlid-10320"><a href="coronavirus.html" title="">Residential Halls </a>
-                    </li>
-                    <li class="leaf menu-mlid-3014"><a href="news-and-events/for-journalists.html" title="">Gallery </a></li>
-                    <li class="leaf menu-mlid-2680"><a href="news-and-events/filming-in-oxford.html">Sports </a></li>
-                    <li class="last leaf menu-mlid-5738"><a href="news-and-events/find-an-expert.html">Student Events</a></li>
-                    <li class="last leaf menu-mlid-5738"><a href="news-and-events/find-an-expert.html">Chaplaincy </a></li>
-                  </ul>
-                </li>
-                <li class="last expanded menu-mlid-1892"><a href="about.html">Explore Veritas</a>
-                  <ul>
-                    <li class="first leaf has-children menu-mlid-1326"><a
-                        href="about/organisation.html">E-notice board </a></li>
-                    <li class="leaf menu-mlid-11012"><a
-                        href="about/organisation/university-officers/vice-chancellor.html"
-                        title="">University Management </a></li>
-                    <li class="leaf has-children menu-mlid-1350"><a href="about/facts-and-figures.html">About</a></li>
-                    <li class="leaf has-children menu-mlid-2800"><a href="about/oxford-people.html">Chaplaincy  </a>
-                    </li>
-                    <li class="leaf menu-mlid-9685"><a href="about/oxford-access.html">Veritas and the Holy See</a></li>
-                    <li class="leaf has-children menu-mlid-4292"><a
-                        href="about/international-oxford.html">Exhibitions </a></li>
-                    
-                  </ul>
-                </li>
-              </ul>
+                    </ul>
+                  </li>
+                  <li class="expanded menu-mlid-1105"><a href="news-and-events.html" title="">Campus Life</a>
+                    <ul>
+                      <li class="first leaf has-children menu-mlid-2137"><a href="events-list.html">SRA</a></li>
+                      <li class="leaf menu-mlid-10797"><a href="news/features.html">NFCS</a></li>
+                      <li class="leaf menu-mlid-10804"><a href="news-and-events/oxford-people.html">Other Students’
+                          Organizations </a>
+                      </li>
+                      <li class="leaf menu-mlid-10320"><a href="coronavirus.html" title="">Residential Halls </a>
+                      </li>
+                      <li class="leaf menu-mlid-3014"><a href="news-and-events/for-journalists.html" title="">Gallery
+                        </a></li>
+                      <li class="leaf menu-mlid-2680"><a href="news-and-events/filming-in-oxford.html">Sports </a></li>
+                      <li class="last leaf menu-mlid-5738"><a href="news-and-events/find-an-expert.html">Student
+                          Events</a></li>
+                      <li class="last leaf menu-mlid-5738"><a href="news-and-events/find-an-expert.html">Chaplaincy </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="last expanded menu-mlid-1892"><a href="about.html">Explore Veritas</a>
+                    <ul>
+                      <li class="first leaf has-children menu-mlid-1326"><a href="about/organisation.html">E-notice
+                          board </a></li>
+                      <li class="leaf menu-mlid-11012"><a
+                          href="about/organisation/university-officers/vice-chancellor.html" title="">University
+                          Management </a></li>
+                      <li class="leaf has-children menu-mlid-1350"><a href="about/facts-and-figures.html">About</a></li>
+                      <li class="leaf has-children menu-mlid-2800"><a href="about/oxford-people.html">Chaplaincy </a>
+                      </li>
+                      <li class="leaf menu-mlid-9685"><a href="about/oxford-access.html">Veritas and the Holy See</a>
+                      </li>
+                      <li class="leaf has-children menu-mlid-4292"><a href="about/international-oxford.html">Exhibitions
+                        </a></li>
 
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
 
+              <nav id="block-menu-block-2"
+                class="block block-menu-block oxweb-primary-menu-block homepage-role-base-menu block-menu-block-2 "
+                aria-label="Role-based navigation">
 
+                <ul>
+                  <li class="first leaf has-children menu-mlid-3382"><a href="#/" title="Staff Gateway">News and
+                      Events</a></li>
+                  <li class="leaf menu-mlid-1112"><a href="#" title="">Alumni</a></li>
+                  <li class="leaf has-children menu-mlid-10176"><a href="students.html">Endowment Fund </a></li>
 
+                  <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">A-Z</a>
+                  </li>
+                  <li class="last leaf menu-mlid-10892"><a
+                      href="research/engage-with-us/local-community.html">Admissions </a></li>
+                  <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">FAQ</a>
+                  </li>
+                  <li class="last leaf menu-mlid-10892"><a
+                      href="research/engage-with-us/local-community.html">Library</a></li>
+                </ul>
 
-
-            </nav>
-
-            <nav id="block-menu-block-2"
-              class="block block-menu-block oxweb-primary-menu-block homepage-role-base-menu block-menu-block-2 "
-              aria-label="Role-based navigation">
-
-
-
-              <ul>
-                <li class="first leaf has-children menu-mlid-3382"><a href="#/"
-                    title="Staff Gateway">News and Events</a></li>
-                <li class="leaf menu-mlid-1112"><a href="#" title="">Alumni</a></li>
-                <li class="leaf has-children menu-mlid-10176"><a href="students.html">Endowment Fund  </a></li>
-               
-                <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">A-Z</a></li>
-                <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">Admissions </a></li>
-                <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">FAQ</a></li>
-                <li class="last leaf menu-mlid-10892"><a href="research/engage-with-us/local-community.html">Library</a></li>
-              </ul>
-
-
-
-
-
-
-            </nav>
+              </nav>
 
             </div>
           </div>
         </div>
       </div>
     </header>
-    
+
     <section id="page-content" class="page-level page-content">
       <div class="wrapper">
         <div class="row space-header">
 
 
           <section class="page-content-level column page-content-main" id="page-content-main">
-
-
             <section class="page-content-container main-content" id="main-content">
-
-
 
               <div about="#" typeof="sioc:Item foaf:Document"
                 class="ds-1col node node-oxweb-homepage view-mode-full clearfix">
 
 
-                    <div id="node-oxweb-homepage-full-group-main-carousel" class=" group-main-carousel field-group-div">
+                <div id="node-oxweb-homepage-full-group-main-carousel" class=" group-main-carousel field-group-div">
 
-                      <div class="field field-name-field-main-carousel field-type-node-reference field-label-hidden">
-
-
-                        <div class="field-items">
+                  <div class="field field-name-field-main-carousel field-type-node-reference field-label-hidden">
 
 
-                          <div class="field-item even">
-                            <div about="/content/carouselugdecisions" typeof="sioc:Item foaf:Document"
-                              class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
+                    <div class="field-items">
 
 
-                              <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                href="#">
-                                <div class="link-block-bgimage-wrapper">
-
-                                  <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+                      <div class="field-item even">
+                        <div about="/content/carouselugdecisions" typeof="sioc:Item foaf:Document"
+                          class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
 
 
-                                    <span class="field-item-single">
+                          <a class="field-group-group_link_wrapper link-block  link-block-no-image " href="#">
+                            <div class="link-block-bgimage-wrapper">
+
+                              <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                <span class="field-item-single">
+                                  <div
+                                    class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+
+
+                                    <img typeof="foaf:Image" src="public/image/1.JPG?itok=iFDAgDBl" width="1600"
+                                      height="550" alt="Young black student smiling" />
+                                    <div id="file-image-ow-large-feature-group-description-wrapper"
+                                      class=" group-description-wrapper field-group-div">
+
                                       <div
-                                        class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+                                        class="field field-name-field-media-description field-type-text-long field-label-hidden">
 
 
-                                        <img typeof="foaf:Image"
-                                          src="public/image/1.JPG?itok=iFDAgDBl"
-                                          width="1600" height="550" alt="Young black student smiling" />
-                                        <div id="file-image-ow-large-feature-group-description-wrapper"
-                                          class=" group-description-wrapper field-group-div">
-
-                                          <div
-                                            class="field field-name-field-media-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">listed applicants will hear the outcome
-                                              of their application on 9 January</span>
-                                          </div>
-
-
-                                          <div
-                                            class="field field-name-field-additional-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">Credit: Joy von Waldenfels</span>
-                                          </div>
-                                        </div>
+                                        <span class="field-item-single">listed applicants will hear the outcome
+                                          of their application on 9 January</span>
                                       </div>
 
-                                    </span>
-                                  </div>
-                                  <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description"
-                                    class=" group-slide-description field-group-div">
 
-                                    <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                      <span class="field-item-single">
-                                        <h2>Decisions on undergraduate offers for 2024 entry</h2>
-                                      </span>
-                                    </div>
-
-
-                                    <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                      <span class="field-item-single">All shortlisted applicants will hear the outcome of
-                                        their application on 9 January</span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-
-                          </div>
-
-                          <div class="field-item odd">
-                            <div about="/content/carouselgradcourses" typeof="sioc:Item foaf:Document"
-                              class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
-
-
-                              <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                href="#">
-                                <div class="link-block-bgimage-wrapper">
-
-                                  <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                    <span class="field-item-single">
                                       <div
-                                        class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+                                        class="field field-name-field-additional-description field-type-text-long field-label-hidden">
 
 
-                                        <img typeof="foaf:Image"
-                                          src="public/image/2.JPG?itok=S3gDW26l"
-                                          width="1600" height="550" alt="A student standing in the Divinity School" />
-                                        <div id="file-image-ow-large-feature-group-description-wrapper--2"
-                                          class=" group-description-wrapper field-group-div">
-
-                                          <div
-                                            class="field field-name-field-media-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">Interior of the Divinity School</span>
-                                          </div>
-
-
-                                          <div
-                                            class="field field-name-field-additional-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">(Image credit:&nbsp;Ahmad El Naggar / Graduate
-                                              Photography Competition)</span>
-                                          </div>
-                                        </div>
+                                        <span class="field-item-single">Credit: Joy von Waldenfels</span>
                                       </div>
-
-                                    </span>
-                                  </div>
-                                  <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--2"
-                                    class=" group-slide-description field-group-div">
-
-                                    <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                      <span class="field-item-single">
-                                        <h2>Planning on applying for graduate study for entry in 2024-25?</h2>
-                                      </span>
-                                    </div>
-
-
-                                    <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                      <span class="field-item-single">Read about how to apply on your chosen course page and
-                                        start your application well in advance of your course&#039;s deadline</span>
                                     </div>
                                   </div>
+
+                                </span>
+                              </div>
+                              <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description"
+                                class=" group-slide-description field-group-div">
+
+                                <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                  <span class="field-item-single">
+                                    <h2>Decisions on undergraduate offers for 2024 entry</h2>
+                                  </span>
                                 </div>
-                              </a>
-                            </div>
-
-                          </div>
-
-                          <div class="field-item even field-item-last">
-                            <div about="/content/carouseluguniq" typeof="sioc:Item foaf:Document"
-                              class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
 
 
-                              <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                href="#">
-                                <div class="link-block-bgimage-wrapper">
-
-                                  <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+                                <div class="field field-name-field-intro field-type-text-long field-label-hidden">
 
 
-                                    <span class="field-item-single">
-                                      <div
-                                        class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
-
-
-                                        <img typeof="foaf:Image"
-                                          src="public/image/4.JPG?itok=2ZnQ07Gj"
-                                          width="1600" height="550" alt="four students on the UNIQ summer school" />
-                                        <div id="file-image-ow-large-feature-group-description-wrapper--3"
-                                          class=" group-description-wrapper field-group-div">
-
-                                          <div
-                                            class="field field-name-field-media-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">Title of this image here</span>
-                                          </div>
-
-
-                                          <div
-                                            class="field field-name-field-additional-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">Credit:&nbsp;Ian Wallman</span>
-                                          </div>
-                                        </div>
-                                      </div>
-
-                                    </span>
-                                  </div>
-                                  <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--3"
-                                    class=" group-slide-description field-group-div">
-
-                                    <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                      <span class="field-item-single">
-                                        <h2>Considering undergraduate life at Veritas? Experience it first with Lawerence</h2>
-                                      </span>
-                                    </div>
-
-
-                                    <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                      <span class="field-item-single">Apply for  2024 any time between now and the 23
-                                        January</span>
-                                    </div>
-                                  </div>
+                                  <span class="field-item-single">All shortlisted applicants will hear the outcome of
+                                    their application on 9 January</span>
                                 </div>
-                              </a>
+                              </div>
                             </div>
-
-                          </div>
-
-                          <div class="field-item even field-item-last">
-                            <div about="/content/carouseluguniq" typeof="sioc:Item foaf:Document"
-                              class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
-
-
-                              <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                href="#">
-                                <div class="link-block-bgimage-wrapper">
-
-                                  <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                    <span class="field-item-single">
-                                      <div
-                                        class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
-
-
-                                        <img typeof="foaf:Image"
-                                          src="public/image/5.JPG?itok=2ZnQ07Gj"
-                                          width="1600" height="550" alt="four students on the UNIQ summer school" />
-                                        <div id="file-image-ow-large-feature-group-description-wrapper--3"
-                                          class=" group-description-wrapper field-group-div">
-
-                                          <div
-                                            class="field field-name-field-media-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">Title of this image here</span>
-                                          </div>
-
-
-                                          <div
-                                            class="field field-name-field-additional-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">Credit:&nbsp;Ian Wallman</span>
-                                          </div>
-                                        </div>
-                                      </div>
-
-                                    </span>
-                                  </div>
-                                  <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--3"
-                                    class=" group-slide-description field-group-div">
-
-                                    <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                      <span class="field-item-single">
-                                        <h2>Considering undergraduate life at Veritas? Experience it first with Lawerence</h2>
-                                      </span>
-                                    </div>
-
-
-                                    <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                      <span class="field-item-single">Apply for 2024 any time between now and the 23
-                                        January</span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-
-                          </div>
-
-                          <div class="field-item even field-item-last">
-                            <div about="/content/carouseluguniq" typeof="sioc:Item foaf:Document"
-                              class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
-
-
-                              <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                href="#">
-                                <div class="link-block-bgimage-wrapper">
-
-                                  <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                    <span class="field-item-single">
-                                      <div
-                                        class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
-
-
-                                        <img typeof="foaf:Image"
-                                          src="public/image/3.JPG?itok=2ZnQ07Gj"
-                                          width="1600" height="550" alt="four students on the UNIQ summer school" />
-                                        <div id="file-image-ow-large-feature-group-description-wrapper--3"
-                                          class=" group-description-wrapper field-group-div">
-
-                                          <div
-                                            class="field field-name-field-media-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">Title of this image here</span>
-                                          </div>
-
-
-                                          <div
-                                            class="field field-name-field-additional-description field-type-text-long field-label-hidden">
-
-
-                                            <span class="field-item-single">Credit:&nbsp;Ian Wallman</span>
-                                          </div>
-                                        </div>
-                                      </div>
-
-                                    </span>
-                                  </div>
-                                  <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--3"
-                                    class=" group-slide-description field-group-div">
-
-                                    <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                      <span class="field-item-single">
-                                        <h2>Considering undergraduate life at Veritas ? Experience it first with Lawerence</h2>
-                                      </span>
-                                    </div>
-
-
-                                    <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                      <span class="field-item-single">Apply for 2024 any time between now and the 23
-                                        January</span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-
-                          </div>
+                          </a>
                         </div>
+
                       </div>
 
+                      <div class="field-item odd">
+                        <div about="/content/carouselgradcourses" typeof="sioc:Item foaf:Document"
+                          class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
 
-                      <div class="field field-name-main-carousel-pagers field-type-ds field-label-hidden">
+
+                          <a class="field-group-group_link_wrapper link-block  link-block-no-image " href="#">
+                            <div class="link-block-bgimage-wrapper">
+
+                              <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
 
 
-                        <span class="field-item-single">
-                          <div class="carousel-pager"></div>
-                          <button class="carousel-next-btn" type="button” aria-label=" next="" slide=""></button>
-                          <button class="carousel-prev-btn" type="button” aria-label=" previous="" slide=""></button>
-                        </span>
+                                <span class="field-item-single">
+                                  <div
+                                    class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+
+
+                                    <img typeof="foaf:Image" src="public/image/2.JPG?itok=S3gDW26l" width="1600"
+                                      height="550" alt="A student standing in the Divinity School" />
+                                    <div id="file-image-ow-large-feature-group-description-wrapper--2"
+                                      class=" group-description-wrapper field-group-div">
+
+                                      <div
+                                        class="field field-name-field-media-description field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Interior of the Divinity School</span>
+                                      </div>
+
+
+                                      <div
+                                        class="field field-name-field-additional-description field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">(Image credit:&nbsp;Ahmad El Naggar / Graduate
+                                          Photography Competition)</span>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                </span>
+                              </div>
+                              <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--2"
+                                class=" group-slide-description field-group-div">
+
+                                <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                  <span class="field-item-single">
+                                    <h2>Planning on applying for graduate study for entry in 2024-25?</h2>
+                                  </span>
+                                </div>
+
+
+                                <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                  <span class="field-item-single">Read about how to apply on your chosen course page and
+                                    start your application well in advance of your course&#039;s deadline</span>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+
+                      <div class="field-item even field-item-last">
+                        <div about="/content/carouseluguniq" typeof="sioc:Item foaf:Document"
+                          class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
+
+
+                          <a class="field-group-group_link_wrapper link-block  link-block-no-image " href="#">
+                            <div class="link-block-bgimage-wrapper">
+
+                              <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                <span class="field-item-single">
+                                  <div
+                                    class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+
+
+                                    <img typeof="foaf:Image" src="public/image/4.JPG?itok=2ZnQ07Gj" width="1600"
+                                      height="550" alt="four students on the UNIQ summer school" />
+                                    <div id="file-image-ow-large-feature-group-description-wrapper--3"
+                                      class=" group-description-wrapper field-group-div">
+
+                                      <div
+                                        class="field field-name-field-media-description field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Title of this image here</span>
+                                      </div>
+
+
+                                      <div
+                                        class="field field-name-field-additional-description field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Credit:&nbsp;Ian Wallman</span>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                </span>
+                              </div>
+                              <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--3"
+                                class=" group-slide-description field-group-div">
+
+                                <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                  <span class="field-item-single">
+                                    <h2>Considering undergraduate life at Veritas? Experience it first with Lawerence
+                                    </h2>
+                                  </span>
+                                </div>
+
+
+                                <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                  <span class="field-item-single">Apply for 2024 any time between now and the 23
+                                    January</span>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+
+                      <div class="field-item even field-item-last">
+                        <div about="/content/carouseluguniq" typeof="sioc:Item foaf:Document"
+                          class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
+
+
+                          <a class="field-group-group_link_wrapper link-block  link-block-no-image " href="#">
+                            <div class="link-block-bgimage-wrapper">
+
+                              <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                <span class="field-item-single">
+                                  <div
+                                    class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+
+
+                                    <img typeof="foaf:Image" src="public/image/5.JPG?itok=2ZnQ07Gj" width="1600"
+                                      height="550" alt="four students on the UNIQ summer school" />
+                                    <div id="file-image-ow-large-feature-group-description-wrapper--3"
+                                      class=" group-description-wrapper field-group-div">
+
+                                      <div
+                                        class="field field-name-field-media-description field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Title of this image here</span>
+                                      </div>
+
+
+                                      <div
+                                        class="field field-name-field-additional-description field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Credit:&nbsp;Ian Wallman</span>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                </span>
+                              </div>
+                              <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--3"
+                                class=" group-slide-description field-group-div">
+
+                                <div class="field field-name-field-display-title field-type-text field-label-hidden">
+
+
+                                  <span class="field-item-single">
+                                    <h2>Considering undergraduate life at Veritas? Experience it first with Lawerence
+                                    </h2>
+                                  </span>
+                                </div>
+
+
+                                <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+
+
+                                  <span class="field-item-single">Apply for 2024 any time between now and the 23
+                                    January</span>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+
+                      <div class="field-item even field-item-last">
+                        <div about="/content/carouseluguniq" typeof="sioc:Item foaf:Document"
+                          class="ds-1col node node-oxweb-homepage-highlights field-image-colour-standard view-mode-ow_primary_highlight clearfix">
+
+
+                          <a class="field-group-group_link_wrapper link-block  link-block-no-image " href="#">
+                            <div class="link-block-bgimage-wrapper">
+
+                              <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
+
+
+                                <span class="field-item-single">
+                                  <div
+                                    class="ds-1col file file-image file-image-jpeg view-mode-ow_large_feature clearfix">
+
+
+                                    <img typeof="foaf:Image" src="public/image/3.JPG?itok=2ZnQ07Gj" width="1600"
+                                      height="550" alt="four students on the UNIQ summer school" />
+                                    <div id="file-image-ow-large-feature-group-description-wrapper--3"
+                                      class="group-description-wrapper field-group-div">
+
+                                      <div
+                                        class="field field-name-field-media-description field-type-text-long field-label-hidden">
+                                        <span class="field-item-single">Title of this image here</span>
+                                      </div>
+
+
+                                      <div
+                                        class="field field-name-field-additional-description field-type-text-long field-label-hidden">
+
+
+                                        <span class="field-item-single">Credit:&nbsp;Ian Wallman</span>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                </span>
+                              </div>
+                              <div id="node-oxweb-homepage-highlights-ow-primary-highlight-group-slide-description--3"
+                                class=" group-slide-description field-group-div">
+
+                                <div class="field field-name-field-display-title field-type-text field-label-hidden">
+                                  <span class="field-item-single">
+                                    <h2>Considering undergraduate life at Veritas? Experience it first with Lawerence
+                                    </h2>
+                                  </span>
+                                </div>
+
+
+                                <div class="field field-name-field-intro field-type-text-long field-label-hidden">
+                                  <span class="field-item-single">Apply for 2024 any time between now and the 23
+                                    January</span>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
                       </div>
                     </div>
-                         <!-- NEWS SECTION  -->
-                        <div id="node-oxweb-homepage-full-group-discover-carousel"
-                        class=" group-discover-carousel field-group-div">
-                        <div class="newsTitle" >
-                        <h2 style="color: black;"><span>NEWS</span></h2>
-                        
-                          <!-- <h2><a href="discover/news/index.html">News</a></h2> -->
-                          <a class="all" href="discover/news/index.html">All
-                              news</a>
-                        </div>
-
-                          <div class="field field-name-field-discover-carousel field-type-node-reference field-label-hidden">
-                            <div class="field-items">
-                              <!-- NEWS CARD  -->
-                              <div class="field-item even">
-                                <div about="/content/disccrisisresponse" typeof="sioc:Item foaf:Document"
-                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
-
-
-                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                    href="#">
-                                    <div class="link-block-bgimage-wrapper">
-
-                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                        <span class="field-item-single"><img typeof="foaf:Image"
-                                            src="public/image/newsimage/cardinal-visit.jpg?itok=uMWhvOgy"
-                                           
-                                            width="359" height="277" alt="Oxford skyline in black and white" /></span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                        <span class="field-item-single">
-                                          <h2>VERITAS VARSITY VERITAS HOSTS CARDINAL ONAYEKAN, BISHOP PAPROCKI, FIVE OTHERS.</h2>
-                                        </span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                        <span class="field-item-single">The Veritas University on Wednesday 10 January, 2024 hosted Cardinal Onayekan and his longtime friend, Bishop Thomas John Paprocki of the Catholic Diocese of Springfield, United States of America and five others as part of efforts by the Cardinal to solicit support for the University in areas of funding and academic cooperation. </span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </div>
-
-                              </div>
-                              <!-- NEWS CARD  -->
-                              <div class="field-item odd">
-                                <div about="/content/discreuters2" typeof="sioc:Item foaf:Document"
-                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
-
-
-                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                    href="#">
-                                    <div class="link-block-bgimage-wrapper">
-
-                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                        <span class="field-item-single"><img typeof="foaf:Image"
-                                            src="public/image/newsimage/centerOfExcellence.jpg?itok=VKEfMk6Z"
-                                           
-                                            width="359" height="277" alt="news source chart" /></span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                        <span class="field-item-single">
-                                          <h2>AfDB ADOPTS VERITAS AS CENTRE OF EXCELLENCE FOR COMPUTER CODING.</h2>
-                                        </span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                        <span class="field-item-single">The President of the African Development Bank (AfDB), Dr. Akinwumi Adesina, has announced that the Bank has adopted the Veritas University of Nigeria as it's Centre of Excellence for Computer Coding for Employment in Nigeria. Read More</span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </div>
-
-                              </div>
-                              <!-- NEWS CARD  -->
-                              <div class="field-item even">
-                                <div about="/content/discconversation1" typeof="sioc:Item foaf:Document"
-                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
-
-
-                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                    href="#">
-                                    <div class="link-block-bgimage-wrapper">
-
-                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                        <span class="field-item-single"><img typeof="foaf:Image"
-                                            src="public/image/newsimage/rank.png?itok=vCjWqBCX"
-                                        
-                                            width="359" height="277" alt="Model of human intestines" /></span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                        <span class="field-item-single">
-                                          <h2>VERITAS UNIVERSITY GETS TIMES HIGHER EDUCATION RANKING</h2>
-                                        </span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                        <span class="field-item-single">Veritas University participated for the first time in the 2023 Times Higher Education (THE) Impact Rankings on Sustainable Development Goals (SDGs). It was a First Great Step. The University was ranked among 11 Universities in Nigeria. On Webometric Rankings, Veritas University got the “Reporter Status” For the 2023 World University Rankings </span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </div>
-
-                              </div>
-                              <!-- NEWS CARD  -->
-                              <div class="field-item odd">
-                                <div about="/content/discoiiblog" typeof="sioc:Item foaf:Document"
-                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
-
-
-                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                    href="#">
-                                    <div class="link-block-bgimage-wrapper">
-
-                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                        <span class="field-item-single"><img typeof="foaf:Image"
-                                            src="public/image/newsimage/1.JPG?itok=JbngafvT"
-                                            width="359" height="277" alt="USA in lights" /></span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                        <span class="field-item-single">
-                                          <h2>VERITAS UNIVERSITY HOLDS ITS 12TH ANNUAL CONVOCATION</h2>
-                                        </span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                        <span class="field-item-single">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem aspernatur nam quas fuga atque assumenda.</span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </div>
-
-                              </div>
-                              <!-- NEWS CARD  -->
-                              <div class="field-item even">
-                                <div about="/content/discmediumoxplore2" typeof="sioc:Item foaf:Document"
-                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
-
-
-                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                    href="#">
-                                    <div class="link-block-bgimage-wrapper">
-
-                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                        <span class="field-item-single"><img typeof="foaf:Image"
-                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_oxplore_agef3c9.jpg?itok=BD2-6RU1"
-                                            width="359" height="277" alt="live forever?" /></span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                        <span class="field-item-single">
-                                          <h2>Oxplore: the Home of Big Questions</h2>
-                                        </span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                        <span class="field-item-single">Explore the University’s innovative website for 11-18
-                                          year olds</span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </div>
-
-                              </div>
-                              <!-- NEWS CARD  -->
-                              <div class="field-item odd">
-                                <div about="/content/discukraine" typeof="sioc:Item foaf:Document"
-                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
-
-
-                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                    href="#">
-                                    <div class="link-block-bgimage-wrapper">
-
-                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                        <span class="field-item-single"><img typeof="foaf:Image"
-                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_ukraine_flag5c0e.jpg?itok=HLfoxG7t"
-                                            width="359" height="277" alt="Ukrainian flag" /></span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                        <span class="field-item-single">
-                                          <h2>University response to the invasion of Ukraine</h2>
-                                        </span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                        <span class="field-item-single">Information, advice and support for staff and students
-                                          impacted</span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </div>
-
-                              </div>
-                              <!-- NEWS CARD  -->
-                              <div class="field-item even field-item-last">
-                                <div about="/content/discdevofficenews" typeof="sioc:Item foaf:Document"
-                                  class="ds-1col node node-oxweb-homepage-highlights view-mode-ow_small_homepage_highlight clearfix">
-
-
-                                  <a class="field-group-group_link_wrapper link-block  link-block-no-image "
-                                    href="#">
-                                    <div class="link-block-bgimage-wrapper">
-
-                                      <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
-
-
-                                        <span class="field-item-single"><img typeof="foaf:Image"
-                                            src="sites/files/oxford/styles/ow_small_highlight/s3/disc_dev_radcam345f2.png?itok=yLAkJz_2"
-                                            width="359" height="277" alt="Radcliffe Camera" /></span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-display-title field-type-text field-label-hidden">
-
-
-                                        <span class="field-item-single">
-                                          <h2>Development Office news</h2>
-                                        </span>
-                                      </div>
-
-
-                                      <div class="field field-name-field-intro field-type-text-long field-label-hidden">
-
-
-                                        <span class="field-item-single">Veritas Refugee Academic Futures scholarship programme
-                                          receives funding boost</span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </div>
-
-                              </div>
-                              <!-- NEWS CARD  -->
-
-                            </div>
-                            <div class="field field-name-discover-carousel-pagers field-type-ds field-label-hidden">
-
-
-                              <span class="field-item-single">
-                                <button class="carousel-next-btn" type="button"></button>
-                                <button class="carousel-prev-btn" type="button"></button></span>
-                            </div>
+                  </div>
+
+
+                  <div class="field field-name-main-carousel-pagers field-type-ds field-label-hidden">
+                    <span class="field-item-single">
+                      <div class="carousel-pager"></div>
+                      <button class="carousel-next-btn" type="button” aria-label=" next="" slide=""></button>
+                      <button class="carousel-prev-btn" type="button” aria-label=" previous="" slide=""></button>
+                    </span>
+                  </div>
+                </div>
+
+                <!-- NEWS SECTION  -->
+                <div id="node-oxweb-homepage-full-group-discover-carousel"
+                  class="group-discover-carousel field-group-div" style="background-color: #eaeaea;">
+                  <div class="newsTitle">
+                    <h2 style="color: #124e41;"><span>NEWS</span></h2>
+
+                    <!-- <h2><a href="discover/news/index.html">News</a></h2> -->
+                    <a class="all" href="discover/news/index.html">All
+                      news</a>
+                  </div>
+
+
+
+                  <div class="card-container swiper">
+                    <div class="card-content">
+                      <div class="swiper-wrapper">
+                        <!-- Article -->
+                        <article class="card-article swiper-slide">
+                          <div class="card-image">
+                            <img src="./public/image/newsimage/1.JPG" alt="image" class="card-img" />
+                          </div>
+                          <div class="card-data">
+                            <h3 class="card-name">AfDB ADOPTS VERITAS AS CENTRE OF EXCELLENCE FOR COMPUTER CODING.</h3>
+                            <p class="card-description">
+                              The President of the African Development Bank (AfDB), Dr. Akinwumi Adesina, has announced
+                              that the Bank has adopted the
+                              Veritas University of Nigeria as it's Centre of Excellence for Computer Coding for
+                              Employment in Nigeria
+                            </p>
+
+                          </div>
+                        </article>
+
+                        <!-- Article -->
+                        <article class="card-article swiper-slide">
+                          <div class="card-image">
+                            <img src="./public/image/newsimage/cardinal-visit.jpg" alt="image" class="card-img" />
                           </div>
 
+                          <div class="card-data">
+                            <h3 class="card-name">VERITAS VARSITY VERITAS HOSTS CARDINAL ONAYEKAN, BISHOP PAPROCKI, FIVE
+                              OTHERS.</h3>
+                            <p class="card-description">
+                              Passionate about development and design, I carry out projects
+                              at the request of users. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                              eligendi sunt voluptatum deleniti, labore neque!
+                            </p>
 
-                         
-                        </div>
+                          </div>
+                        </article>
 
-                        <!-- STUDY SECTION -->
-                        <div id="block-block-3tu8" class="block block-block homepage-studying-at-oxford block-block-38 " style="background-color: #e0ded9; padding: 4rem 2rem;">
+                        <!-- Article -->
+                        <article class="card-article swiper-slide">
+                          <div class="card-image">
+                            <img src="./public/image/newsimage/centerOfExcellence.jpg" alt="image" class="card-img" />
+                          </div>
+
+                          <div class="card-data">
+                            <h3 class="card-name">VERITAS UNIVERSITY GETS TIMES HIGHER EDUCATION RANKING</h3>
+                            <p class="card-description">
+                              Passionate about development and design, I carry out projects
+                              at the request of users.
+                            </p>
+
+                          </div>
+                        </article>
+
+                      </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <div class="swiper-button-next">
+                      <i class="ri-arrow-right-s-line"></i>
+                    </div>
+
+                    <div class="swiper-button-prev">
+                      <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+                </div>
+
+                <!-- STUDY SECTION -->
+                <div id="block-block-3tu8" class="block block-block homepage-studying-at-oxford block-block-38 "
+                  style="padding: 2rem; background-color: white; height: 290px; display: flex; align-items: center; justify-content: center;">
+
+                  <div class="">
+                    <ul class="study-group-one">
+                      <li class="study-type"><a href="#"><img height="297" width="360"
+                            class="media-element file-media-original" typeof="foaf:Image" src="public/image/6.JPG"
+                            alt="News Image" />
+                          <h3>Study</h3>
+                        </a></li>
+                      <li class="study-type"><a href="#"><img height="297" width="360"
+                            class="media-element file-media-original" typeof="foaf:Image" src="public/image/3.JPG"
+                            alt="news image" />
+                          <h3>Undergraduate<h3>
+                        </a></li>
+                    </ul>
+                    <ul class="study-group-two">
+                      <li class="study-type"><a href="#"><img height="297" width="360"
+                            class="media-element file-media-original" typeof="foaf:Image" src="public/image/3.JPG"
+                            alt="Mature students in a Continuing Education lecture" />
+                          <h3>Postgraduate</h3>
+                        </a></li>
+                      <li class="study-type"><a href="#"><img height="297" width="361"
+                            class="media-element file-media-original" typeof="foaf:Image" src="public/image/3.JPG"
+                            alt="CStudents2" />
+                          <h3>Short/Professional Courses</h3>
+                        </a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- campus life and why veritas   -->
+                <!-- <div style="background-color: #eaeaea; padding: 5rem 3rem;"> -->
+                  
+                  <h2 class="title" style="color: #124e41;">CAMPUS LIFE</h2>
+                  
+                  
+                  <div class="grid-container" style="padding: 2rem;">
+                    <div class="">Research</div>
+                    <div class="">Research News</div>
+                    <div class="">Course Finder</div>
+                  </div>
 
 
+                <!-- </div> -->
 
-                          <ul class="study-group-one">
-                            <li class="study-type"><a href="#"><img height="297" width="360"
-                                  class="media-element file-media-original" typeof="foaf:Image"
-                                  src="public/image/6.JPG" alt="News Image" />
-                                <h3>Study</h3>
-                              </a></li>
-                            <li class="study-type"><a href="#"><img height="297" width="360"
-                                  class="media-element file-media-original" typeof="foaf:Image"
-                                  src="public/image/3.JPG" alt="news image" />
-                                <h3>Undergraduate<h3>
-                              </a></li>
-                          </ul>
-                          <ul class="study-group-two">
-                            <li class="study-type"><a href="#"><img height="297" width="360"
-                                  class="media-element file-media-original" typeof="foaf:Image"
-                                  src="public/image/3.JPG"
-                                  alt="Mature students in a Continuing Education lecture" />
-                                <h3>Postgraduate</h3>
-                              </a></li>
-                            <li class="study-type"><a href="#"><img height="297" width="361"
-                                  class="media-element file-media-original" typeof="foaf:Image"
-                                  src="public/image/3.JPG" alt="CStudents2" />
-                                <h3>Course Finder</h3>
-                              </a></li>
-                          </ul>
-                        </div>
+                <!-- EXPLORE VERITAS  -->
+                <div id="block-block-38" class="block block-block homepage-studying-at-oxford block-block-38"
+                  style="background-color: #eaeaea; padding: 5rem 2rem;">
 
-                          <!-- EXPLORE VERITAS  -->
-                        <div id="block-block-38" class="block block-block homepage-studying-at-oxford block-block-38 ">
+                  <h2 class="title" style="color: #124e41;">EXPLORE VERITAS</h2>
 
-                            <h2 class="title" style="color: black;">EXPLORE VERITAS</h2>
-
-
-                            <ul class="study-group-one">
-                              <li class="study-type"><a href="#"><img height="297" width="360"
-                                    class="media-element file-media-original" typeof="foaf:Image"
-                                    src="public/image/3.JPG" alt="Undergrad students 3" />
-                                  <h3>ABOUT VERITAS</h3>
-                                </a></li>
-                              <li class="study-type"><a href="#"><img height="297" width="360"
-                                    class="media-element file-media-original" typeof="foaf:Image"
-                                    src="public/image/3.JPG" alt="Grad students 2" />
-                                  <h3>UNIVERSITY MANAGEMENT</h3>
-                                </a></li>
-                            </ul>
-                            <ul class="study-group-two">
-                              <li class="study-type"><a href="#"><img height="297" width="360"
-                                    class="media-element file-media-original" typeof="foaf:Image"
-                                    src="public/image/3.JPG"
-                                    alt="Mature students in a Continuing Education lecture" />
-                                  <h3>E-NOTICE BOARD</h3>
-                                </a></li>
-                              <li class="study-type"><a href="#"><img height="297" width="361"
-                                    class="media-element file-media-original" typeof="foaf:Image"
-                                    src="public/image/3.JPG" alt="CStudents2" />
-                                  <h3>UNIVERSITY CHAPLAINCY</h3>
-                                </a></li>
-                            </ul>
-                        </div>
-                          <!-- campus life and why veritas   -->
-                        <div id="block-block-38" class="block block-block homepage-studying-at-oxford block-block-38 ">
-
-                            <h2 class="title" style="color: black;">CAMPUS LIFE</h2>
+                  <div class="" style="margin-top: 2rem;">
+                    <ul class="study-group-one">
+                      <li class="study-type"><a href="#"><img height="297" width="360"
+                            class="media-element file-media-original" typeof="foaf:Image" src="public/image/3.JPG"
+                            alt="Undergrad students 3" />
+                          <h3>ABOUT VERITAS</h3>
+                        </a></li>
+                      <li class="study-type"><a href="#"><img height="297" width="360"
+                            class="media-element file-media-original" typeof="foaf:Image" src="public/image/3.JPG"
+                            alt="Grad students 2" />
+                          <h3>UNIVERSITY MANAGEMENT</h3>
+                        </a></li>
+                    </ul>
+                    <ul class="study-group-two">
+                      <li class="study-type"><a href="#"><img height="297" width="360"
+                            class="media-element file-media-original" typeof="foaf:Image" src="public/image/3.JPG"
+                            alt="Mature students in a Continuing Education lecture" />
+                          <h3>E-NOTICE BOARD</h3>
+                        </a></li>
+                      <li class="study-type"><a href="#"><img height="297" width="361"
+                            class="media-element file-media-original" typeof="foaf:Image" src="public/image/3.JPG"
+                            alt="CStudents2" />
+                          <h3>UNIVERSITY CHAPLAINCY</h3>
+                        </a></li>
+                    </ul>
+                  </div>
+                </div>
 
 
-                            <ul class="study-group-one">
-                              CONTENT HERE
-                            </ul>
-                            <ul class="study-group-one">
-                              CONTENT HERE
-                            </ul>
-                            
-                            
-                        </div>
               </div>
             </section>
 
@@ -1637,7 +1442,7 @@
             <h2>Connect with us</h2>
             <ul class="social">
               <li><a class="itunes" href="#">Podcasts</a></li>
-             
+
             </ul>
           </div>
 
@@ -1649,21 +1454,21 @@
               <h2>Information About</h2>
               <ul>
                 <li><a href="a#">Veritas University Abuja </a></li>
-                
+
               </ul>
             </div>
             <div class="sitemap-item">
               <h2>Information For</h2>
               <ul>
                 <li><a href="#">Prospective undergraduates</a></li>
-                
+
               </ul>
             </div>
             <div class="sitemap-item">
               <h2>Quick Links</h2>
               <ul>
                 <li><a href="#">Any questions?</a></li>
-                
+
               </ul>
             </div>
           </div>
@@ -1704,7 +1509,7 @@
 
             <script type="text/javascript">
 
-          
+
             </script>
             <noscript>
               <img height="1" width="1" alt="" style="display:none;"
@@ -1716,6 +1521,12 @@
       </div>
     </footer>
   </section>
+
+  <!-- === Swiper JS === -->
+  <script src="./assets/js/swiper-bundle-min.js"></script>
+
+  <!-- === Script === -->
+  <script src="./assets/js/script.js"></script>
 
 </body>
 
