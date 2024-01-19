@@ -3355,7 +3355,7 @@ object {
 
     .page-footer .row .social-links .social li.any-questions {
         float: left;
-        border-top: 1px solid #122f53;
+        border-top: 1px solid #55616f;
         width: 100%;
         padding: 1em 0 0;
     }
@@ -3369,7 +3369,7 @@ object {
         padding: 0 0 0.25em 0;
         margin: 0 0 1.65em 0;
         border: none;
-        border-bottom: 1px solid #122f53;
+        border-bottom: 1px solid #55616f;
         *zoom: 1;
     }
 

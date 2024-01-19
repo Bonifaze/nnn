@@ -8167,14 +8167,14 @@ body.page-full-width.two-sidebars .main-content {
   padding-right: 5%;
   float: left;
   padding-bottom: 30px;
-  border-bottom: 1px solid #122f53;
+  border-bottom: 1px solid #55616f;
 }
 
 .page-footer .row .site-map .sitemap-item {
   float: left;
   padding-left: 2.5%;
   padding-right: 2.5%;
-  border-left: 1px solid #122f53;
+  border-left: 1px solid #55616f;
   width: 25%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -8213,7 +8213,7 @@ body.page-full-width.two-sidebars .main-content {
 }
 
 .page-footer .row .social-links {
-  border-bottom: 1px solid #122f53;
+  border-bottom: 1px solid #55616f;
   padding: 0 0 1em 0;
   margin: 0 0 2em 0;
   color: #fff;
@@ -8415,7 +8415,7 @@ body.page-full-width.two-sidebars .main-content {
 
 .page-footer .row .legals-questions {
   margin-top: 1.5em;
-  border-top: 1px solid #122f53;
+  border-top: 1px solid #55616f;
   padding: 1em 0;
 }
 
