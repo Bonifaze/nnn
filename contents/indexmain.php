@@ -361,7 +361,7 @@
                     <h2 style="color: #124e41;"><span>NEWS</span></h2>
 
                     <!-- <h2><a href="discover/news/index.html">News</a></h2> -->
-                    <a class="all" href="discover/news/index.html">All
+                    <a href="./allnews.php">All
                       news</a>
                   </div>
 
@@ -371,7 +371,8 @@
                     <div class="card-content">
                       <div class="swiper-wrapper">
                         <!-- Article -->
-                        <article class="card-article swiper-slide">
+                        <a href="./singlenews.php"> 
+                          <article class="card-article swiper-slide">
                           <div class="card-image">
                             <img src="./public/image/newsimage/1.JPG" alt="image" class="card-img" />
                           </div>
@@ -386,6 +387,7 @@
 
                           </div>
                         </article>
+                      </a>
 
                         <!-- Article -->
                         <article class="card-article swiper-slide">

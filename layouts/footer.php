@@ -1,3 +1,4 @@
+
 <footer id="page-footer" class="page-level page-footer">
       <div class="wrapper">
         <div class="row">
@@ -88,12 +89,3 @@
         </div>
       </div>
     </footer>
-    </section>
-
-<!-- === Swiper JS === -->
-<script src="./assets/js/swiper-bundle-min.js"></script>
-
-<!-- === Script === -->
-<script src="./assets/js/script.js"></script>
-
-</body>

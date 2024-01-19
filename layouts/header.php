@@ -1,6 +1,6 @@
 <header class="page-level page-header">
       <!-- ANNOUNCEMENT TAG  -->
-      <div style="color: #070500; background-color: #F3F1EC;">
+      <div style="color: #F3F1EC; background-color: rgb(2, 83, 94);">
 
         <span>
           <marquee behavior="" direction="">We are admitting Prospective Students who admires studying MBBS medicine and
