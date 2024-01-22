@@ -21,10 +21,10 @@ let swiperCard = new Swiper(".card-content", {
       slidesPerView: 1,
     },
     520: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     950: {
-      slidesPerView: 5,
+      slidesPerView: 3,
     },
   },
 });

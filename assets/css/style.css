@@ -9,10 +9,6 @@ img {
   object-fit: cover;
 }
 
-/* .card-container {
-  padding-block: 2rem;
-} */
-
 .card-content {
   margin-inline: 1.75rem;
   overflow: hidden;
@@ -29,6 +25,12 @@ img {
   position: relative;
   padding-top: 1.5rem;
   margin-bottom: -0.75rem;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(0.95);
+}
+
+.card-image:hover {
+  transform: scale(1);
 }
 
 .card-data {
@@ -69,15 +71,21 @@ img {
 /* Card Text */
 .card-name {
   font-size: 1.5rem;
-  color: #124e41;
+  color: rgba(0, 0, 0, 0.75);
   margin-bottom: 0.75rem;
   font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-name:hover {
+  color: #124e41;
+  text-decoration: underline;
 }
 
 .card-description {
   font-weight: 500;
   margin-bottom: 1.75rem;
-  color: black;
+  color: rgba(0, 0, 0, 0.75);
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -102,6 +110,7 @@ img {
 .swiper-button-prev {
   left: 0;
 }
+
 .swiper-button-next {
   right: 0;
 }
@@ -110,6 +119,7 @@ img {
   background-color: black;
   opacity: 1;
 }
+
 .swiper-pagination-bullet-active {
   background-color: #124e41;
 }
@@ -121,6 +131,7 @@ img {
   .card-content {
     margin-inline: 3rem;
   }
+
   .swiper-button-next,
   .swiper-button-prev {
     display: block;
@@ -139,15 +150,158 @@ img {
   }
 }
 
+
 /* Large Devices */
 @media screen and (min-width: 1120px) {
-  .card-container {
-    max-width: 1500px;
-  }
+
   .swiper-button-next {
     right: -1rem;
   }
+
   .swiper-button-prev {
     left: -1rem;
+  }
+}
+
+/* NEWS AND EVENTS section */
+.card-container {
+  flex: 70%;
+  width: 100%;
+}
+
+.news-and-events-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 5rem;
+}
+
+.events-section {
+  flex: 30%;
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section-titles {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3.5rem;
+  padding-top: 2rem;
+}
+
+.section-title {
+  display: flex;
+  gap: .5rem;
+}
+
+.single-event {
+  color: black !important;
+}
+
+.single-event i {
+  font-size: medium;
+}
+
+.single-event a {
+  color: black !important;
+}
+
+.single-event a:hover {
+  color: #124e41 !important;
+}
+
+.main-section-title {
+  color: #124e41;
+  font-size: 2.5rem;
+}
+
+.course-finder {
+  background-color: #eaeaea;
+  padding: 16px;
+  border-radius: 1rem;
+  max-width: 800px;
+}
+
+.course-finder-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.course-finder-form>label {
+  margin-bottom: 4px;
+}
+
+#course-finder-learning-mode,
+#course-finder-program,
+#course-finder-level {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #124e41;
+  border-radius: 4px;
+}
+
+.course-finder-form>button {
+  background-color: #124e41;
+  opacity: 0.85;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.course-finder-form>button:hover {
+  opacity: 1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 16px;
+  width: 100%;
+}
+
+/* Responsive layout for small devices */
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .news-and-events-section {
+    padding: 1rem;
+  }
+
+  .news-and-events-section {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+
+  /* Responsive styling for screens less than 600px wide */
+  .card-container,
+  .events-section {
+    /* Make each child take 100% width on small screens */
+    flex: 100%;
+  }
+
+  .events-section {
+    padding-left: 0;
+  }
+
+  .study-image-container {
+    width: 100%;
+    /* Make sure each container takes full width on smaller screens */
+  }
+
+  .study-container {
+    padding: 1rem;
   }
 }
