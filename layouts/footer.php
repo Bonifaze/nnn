@@ -10,7 +10,21 @@
 
             <h2>Connect with us</h2>
             <ul class="social">
-              <li><a class="itunes" href="#">Podcasts</a></li>
+              <li>
+                <a class="itunes" href="#">Facebook</a>
+              </li>
+              <li>
+                <a class="itunes" href="#">Facebook</a>
+              </li>
+              <li>
+                <a class="itunes" href="#">Facebook</a>
+              </li>
+              <li>
+                <a class="itunes" href="#">Facebook</a>
+              </li>
+              <li>
+                <a class="itunes" href="#">Facebook</a>
+              </li>
 
             </ul>
           </div>

@@ -16,7 +16,14 @@
     <?php include('./layouts/head.php'); ?>
 
 
-   
+    <!-- === Remix Icons ===  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="" />
+
+    <!-- === Swiper CSS === -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle-min.css" />
+
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
 
 </head>
@@ -26,10 +33,7 @@
         <a href="#main-content" class="element-invisible element-focusable skip-to-content">Skip to main content</a>
     </div>
 
-    <noscript aria-hidden="true">
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDB29T" height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-        </noscript>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDB29T" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <section id="visible-body" class="visible-body">
 
@@ -48,20 +52,21 @@
                             <div about="#" typeof="sioc:Item foaf:Document" class="ds-1col node node-oxweb-homepage view-mode-full clearfix">
 
                                 <!-- SLIDER SECTION  -->
-
+                                
                                 <?php include('./home/slidersection.php'); ?>
+
 
                                 <!-- SLIDER SECTION ENDS  -->
                                 <!-- NEWS AND EVENTS SECTION  -->
-
-
+                                
+                                
                                 <?php include('./home/newssection.php'); ?>
 
 
                                 <!-- NEWS AND EVENTS SECTION  ends -->
 
                                 <!-- STUDY SECTION -->
-
+                            
                                 <?php include('./home/studysection.php'); ?>
 
 
@@ -70,7 +75,7 @@
 
                                 <!-- Course Finder Section -->
                                 <?php include('./home/findersection.php'); ?>
-
+                                
 
 
 
@@ -91,7 +96,7 @@
         </section>
         <!-- FOOTER SECTIONS  -->
         <?php include('./layouts/footer.php'); ?>
-
+        
     </section>
 
     <!-- === Swiper JS === -->

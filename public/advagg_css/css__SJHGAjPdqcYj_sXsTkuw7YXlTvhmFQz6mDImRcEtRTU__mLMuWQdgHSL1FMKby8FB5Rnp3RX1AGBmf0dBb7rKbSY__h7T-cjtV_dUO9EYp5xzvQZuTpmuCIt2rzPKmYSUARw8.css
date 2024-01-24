@@ -3192,9 +3192,9 @@ strong em {
 body {
   font-size: 16px;
   font-family: "PT Serif", Georgia, 'Times New Roman', serif;
-  color: #F3F1EC;
+  color: #124e41;
   line-height: 1.5em;
-  background: #353c47;
+  /* background: #353c47; */
 }
 
 #tinymce {
@@ -4473,7 +4473,7 @@ form input[type="text"]:focus,
 form input[type="url"]:focus,
 form input[type="number"]:focus,
 form select:focus {
-  color: #F3F1EC;
+  color: #124e41;
   background: #fffdf7;
   -webkit-box-shadow: 0px 0px 10px #94bfe1;
   -moz-box-shadow: 0px 0px 10px #94bfe1;
@@ -10235,7 +10235,7 @@ body.page-full-width .field-name-field-style-element-menu-link {
 }
 
 .node.view-mode-ow_listing_teaser a {
-  color: #F3F1EC;
+  color: #124e41;
   text-decoration: none;
 }
 

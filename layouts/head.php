@@ -11,21 +11,13 @@
 
 
 
-  <link rel="stylesheet"
-    href="public/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-  <link rel="stylesheet"
-    href="public/advagg_css/css__OyUP6r6gWDd7g9HyyAPkKcCADXUItAUJ0V1T56grclU__FuqzBzxXKRNUpj8PLQAdrhyLDXCwU45tzRGQV4CBhIw__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-  <link rel="stylesheet"
-    href="public/advagg_css/css__UY0etF999x6scvHTvffNHjT4VTicfJnEfYWgom9UZQI__dNVH3JLLE0t7cJHT-k4bgEZN3astY3g0CO9bzrNM3u0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic&amp;subset=latin,latin-ext" />
-  <link rel="stylesheet"
-    href="public/advagg_css/css__Oz20qOQtvbB-9QPNXbkEmvXxZkRpN5JqI3a0oW0mizY__vnEXWi1F5OQkYa79BesqDZVMtrkp_htpoYiQ075PpfI__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-  <link rel="stylesheet"
-    href="public/advagg_css/css__SJHGAjPdqcYj_sXsTkuw7YXlTvhmFQz6mDImRcEtRTU__mLMuWQdgHSL1FMKby8FB5Rnp3RX1AGBmf0dBb7rKbSY__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-  <link rel="stylesheet"
-    href="public/advagg_css/css__11AnryNtyiBVlpoBxV0f-VzqzTBLNVztjjWS60IG0pc__sb8Ujj6tWWssQfu7D3msxBLfh4PrTezTVySEM7hOySI__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css"
-    media="print" />
+  <link rel="stylesheet" href="public/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet" href="public/advagg_css/css__OyUP6r6gWDd7g9HyyAPkKcCADXUItAUJ0V1T56grclU__FuqzBzxXKRNUpj8PLQAdrhyLDXCwU45tzRGQV4CBhIw__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet" href="public/advagg_css/css__UY0etF999x6scvHTvffNHjT4VTicfJnEfYWgom9UZQI__dNVH3JLLE0t7cJHT-k4bgEZN3astY3g0CO9bzrNM3u0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic&amp;subset=latin,latin-ext" />
+  <link rel="stylesheet" href="public/advagg_css/css__Oz20qOQtvbB-9QPNXbkEmvXxZkRpN5JqI3a0oW0mizY__vnEXWi1F5OQkYa79BesqDZVMtrkp_htpoYiQ075PpfI__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet" href="public/advagg_css/css__SJHGAjPdqcYj_sXsTkuw7YXlTvhmFQz6mDImRcEtRTU__mLMuWQdgHSL1FMKby8FB5Rnp3RX1AGBmf0dBb7rKbSY__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet" href="public/advagg_css/css__11AnryNtyiBVlpoBxV0f-VzqzTBLNVztjjWS60IG0pc__sb8Ujj6tWWssQfu7D3msxBLfh4PrTezTVySEM7hOySI__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" media="print" />
 
   <!-- === Remix Icons ===  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="" />
@@ -304,7 +296,7 @@
       height: 110px;
       display: block;
       background: url('public/image/logo.png') no-repeat center center;
-      /* background: url('sites/default/themes/custom/oxweb/images/oxweb-logo.gif') no-repeat center center; */
+     
       overflow: hidden;
       text-indent: -9999%;
     }
@@ -313,7 +305,6 @@
     (min-resolution:192dpi) {
       .logo a.square {
         background: url('public/image/logomobile.png') no-repeat center center;
-        /* background: url('sites/default/themes/custom/oxweb/images/oxweb-logo-square.svg') no-repeat center center; */
         background-size: 100% 100%;
         image-rendering: -moz-crisp-edges;
         image-rendering: -o-crisp-edges;
@@ -603,7 +594,7 @@
       font-family: "PT Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif;
       margin: 0 0 0.5em 0;
       line-height: 1.2em;
-      color: #F3F1EC;
+      #124e41
     }
 
     h1 {
@@ -684,7 +675,84 @@
       top: 0;
       right: 0;
       background-size: contain;
-      background: url('/sites/default/themes/custom/oxweb/images/discover-shadow.png') no-repeat top 60px right 0px;
+      background: url('sites/default/themes/custom/oxweb/images/discover-shadow.png') no-repeat top 60px right 0px;
+    }
+
+    
+ /* Resetting default margin and padding */
+ body, h2, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Card Container */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center; /* Center the cards horizontally */
+    }
+
+    /* Individual Card */
+    .card {
+      width: 100%; /* Full width on all devices */
+      max-width: 300px; /* Maximum width for larger screens */
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    /* Hover Effect */
+    .card:hover {
+      transform: scale(1.05);
+      color: green;
+    }
+
+    /* Card Image */
+    .card img {
+      width: 100%;
+      height: 150px; /* Adjust the height as needed */
+      object-fit: cover;
+    }
+
+    /* Card Content */
+    .card-content {
+      padding: 15px;
+    }
+
+    /* Title */
+    .card-content h2 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    /* Description */
+    .card-content p {
+      margin-bottom: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* Show up to 3 lines */
+      -webkit-box-orient: vertical;
+      color: black;
+    }
+
+    /* Media Query for Responsive Design */
+    @media (max-width: 768px) {
+      .card {
+        max-width: 100%; /* Full width for smaller screens */
+      }
+    }
+
+    @media (max-width: 576px) {
+      .card {
+        display: none; /* Hide cards on screens smaller than 576px */
+      }
+      .card:nth-child(-n+2) {
+        display: block; /* Show the first two cards on screens smaller than 576px */
+      }
     }
   </style>
 
@@ -713,24 +781,152 @@
     }
   </style>
 
-  <link rel="stylesheet"
-    href="sites/files/oxford/advagg_css/css__VCgxAtneuJG94bSMsW3WtPydq_lTdG9D6PIvLts3ok0__JVePZqyFbFKeRYnRMRk-fUID1Dvt6cFmMcIBLRYP6O4__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-  <link rel="stylesheet"
-    href="public/advagg_css/css__g8a-6fwfl6ZLTZ-dErswRzrUUO2e8uCiCDmvmgwe_Mo__PEouh-Vh-zgxMoIaIQ0eRpWNmmOkydEAh3xxjUGLFws__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
-  <script
-    src="public/advagg_js/js__SlxZR0T0y0knhPGspoKKlEQqbk_RdNNsHwLrlCQRTSo__jRyIJdNHHPQDI24D74GCcZq-Uqnrf4Vs1Wh5VKn50M0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"
-    defer="defer"></script>
-  <script
-    src="public/advagg_js/js__ihdwYz7z62m5viS1EMhNOpB9bfVJ_3N7-eC3gKeS-sI__ATnX8WF8ltra-g2RmFaF163qjG6u_xdvxVSENyHJmQk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-  <script
-    src="public/advagg_js/js__T73ujsOjK-1cyTby7fEe8eK8r1o3_6UM-pyXbhgxLPM__WRsh3RAG-_KLWXWdUSL4k-yHTn1vu2dbvluPCCmj_wc__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-  <script
-    src="public/advagg_js/js__9o6MTP80DXWHri8ze4nKy9qC5QYGmn5CmTwGsjeqoRs__t7QMh2Q0VAdZOqg2nX8lHHSSz0oEF4l8S4NpWKqSdpE__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-  <script
-    src="public/advagg_js/js__g6HAL4XtohiHzS9CG4SIugqNOzdAq58xVph4DbYxlNE__FXbP-shVaE-Ead14Ak6kOd0fQWhUhFFfe_k4n9WHxo8__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
-  <script
-    src="public/advagg_js/js__9q_RhUzRB9SYU1-amhF7x_iVsHaJWYLCy9mGerNNw8c__3DMxMgH3xNkeQV3vdQ2jOzvP8JjhrwlJnzuMMy2ffk8__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <link rel="stylesheet" href="sites/files/oxford/advagg_css/css__VCgxAtneuJG94bSMsW3WtPydq_lTdG9D6PIvLts3ok0__JVePZqyFbFKeRYnRMRk-fUID1Dvt6cFmMcIBLRYP6O4__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet" href="public/advagg_css/css__g8a-6fwfl6ZLTZ-dErswRzrUUO2e8uCiCDmvmgwe_Mo__PEouh-Vh-zgxMoIaIQ0eRpWNmmOkydEAh3xxjUGLFws__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet" href="public/advagg_css/css__26qqyLytH66XnCHAQPb7TQs2FQi7FpHZ23w7Km0WoBM__Ogz1RhSCXRfUObeqUzN1BjlTNCDLMH-6N6xAfzlZ8ow__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <script src="public/advagg_js/js__SlxZR0T0y0knhPGspoKKlEQqbk_RdNNsHwLrlCQRTSo__jRyIJdNHHPQDI24D74GCcZq-Uqnrf4Vs1Wh5VKn50M0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js" defer="defer"></script>
+  <script src="public/advagg_js/js__ihdwYz7z62m5viS1EMhNOpB9bfVJ_3N7-eC3gKeS-sI__ATnX8WF8ltra-g2RmFaF163qjG6u_xdvxVSENyHJmQk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script src="public/advagg_js/js__T73ujsOjK-1cyTby7fEe8eK8r1o3_6UM-pyXbhgxLPM__WRsh3RAG-_KLWXWdUSL4k-yHTn1vu2dbvluPCCmj_wc__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script src="public/advagg_js/js__9o6MTP80DXWHri8ze4nKy9qC5QYGmn5CmTwGsjeqoRs__t7QMh2Q0VAdZOqg2nX8lHHSSz0oEF4l8S4NpWKqSdpE__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script src="public/advagg_js/js__g6HAL4XtohiHzS9CG4SIugqNOzdAq58xVph4DbYxlNE__FXbP-shVaE-Ead14Ak6kOd0fQWhUhFFfe_k4n9WHxo8__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
+  <script src="public/advagg_js/js__9q_RhUzRB9SYU1-amhF7x_iVsHaJWYLCy9mGerNNw8c__3DMxMgH3xNkeQV3vdQ2jOzvP8JjhrwlJnzuMMy2ffk8__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js"></script>
   <script>
-    jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "", "setHasJsCookie": 0, "ajaxPageState": { "theme": "oxweb", "theme_token": "9XeEWmTpxHTsxcNa-u83s3u6DizPWkyy9cBKYFR9JBg", "jquery_version": "1.10", "css": { "modules\/system\/system.base.css": 1, "modules\/system\/system.menus.css": 1, "modules\/system\/system.messages.css": 1, "modules\/system\/system.theme.css": 1, "sites\/all\/modules\/cache_consistent\/css\/cache_consistent.css": 1, "sites\/all\/modules\/colorbox_node\/colorbox_node.css": 1, "modules\/comment\/comment.css": 1, "sites\/all\/modules\/domain\/domain_nav\/domain_nav.css": 1, "modules\/field\/theme\/field.css": 1, "sites\/all\/modules\/google_cse\/google_cse.css": 1, "sites\/all\/modules\/logintoboggan\/logintoboggan.css": 1, "modules\/node\/node.css": 1, "modules\/user\/user.css": 1, "modules\/forum\/forum.css": 1, "sites\/all\/modules\/views\/css\/views.css": 1, "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css": 1, "sites\/all\/modules\/ctools\/css\/ctools.css": 1, "https:\/\/fonts.googleapis.com\/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic\u0026subset=latin,latin-ext": 1, "sites\/all\/modules\/date\/date_api\/date.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/reset.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/reset-html5.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css": 1, "sites\/all\/themes\/mothership\/mothership\/css\/mothership.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/reset-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/base-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/yui\/fonts-min.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/site.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/search.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/menu.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/maintenance.css": 1, "sites\/default\/themes\/custom\/oxweb\/field_collection.theme.css": 1, "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/print.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie8.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/oxweb_homepage.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/event.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/types\/news_item.less": 1, "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/mobile.less": 1 }, "js": { "public:\/\/google_tag\/google_tag.script.js": 1, "sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1, "misc\/jquery-extend-3.4.0.js": 1, "misc\/jquery-html-prefilter-3.5.0-backport.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "misc\/ajax.js": 1, "sites\/all\/modules\/jquery_update\/js\/jquery_update.js": 1, "sites\/all\/modules\/google_cse\/google_cse.js": 1, "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox.js": 1, "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox_load.js": 1, "sites\/all\/modules\/media_colorbox\/media_colorbox.js": 1, "sites\/all\/modules\/field_group\/field_group.js": 1, "misc\/progress.js": 1, "sites\/all\/modules\/colorbox_node\/colorbox_node.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/carouFredSel-6.2.1.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.touchSwipe.min.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery-migrate-1.2.1.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/site.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-show-description.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/html5.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/harvey.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/media-queries.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.fitvids.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/stupidtable.min.js": 1, "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-menu.js": 1 } }, "colorbox": { "transition": "elastic", "speed": "350", "opacity": "0.85", "slideshow": false, "slideshowAuto": true, "slideshowSpeed": "2500", "slideshowStart": "start slideshow", "slideshowStop": "stop slideshow", "current": "{current} of {total}", "previous": "\u00ab Prev", "next": "Next \u00bb", "close": "Close", "overlayClose": true, "returnFocus": true, "maxWidth": "100%", "maxHeight": "100%", "initialWidth": "300", "initialHeight": "250", "fixed": true, "scrolling": true, "mobiledetect": true, "mobiledevicewidth": "500px", "file_public_path": "\/sites\/files\/oxford", "specificPagesDefaultValue": "admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*" }, "googleCSE": { "cx": "012531758793783812323:qgyldcso7qs", "resultsWidth": 600, "domain": "www.google.com", "showWaterMark": 1 }, "field_group": { "div": "ow_large_feature", "usefulformatters_token_link_block": "ow_listing_teaser", "usefulformatters_link_block": "ow_small_homepage_highlight" }, "urlIsAjaxTrusted": { "\/": true }, "oxweb": { "autoPlayCarousel": false, "carouselTimeout": "12" }, "colorbox_node": { "width": "600px", "height": "600px" } });
+    jQuery.extend(Drupal.settings, {
+      "basePath": "\/",
+      "pathPrefix": "",
+      "setHasJsCookie": 0,
+      "ajaxPageState": {
+        "theme": "oxweb",
+        "theme_token": "9XeEWmTpxHTsxcNa-u83s3u6DizPWkyy9cBKYFR9JBg",
+        "jquery_version": "1.10",
+        "css": {
+          "modules\/system\/system.base.css": 1,
+          "modules\/system\/system.menus.css": 1,
+          "modules\/system\/system.messages.css": 1,
+          "modules\/system\/system.theme.css": 1,
+          "sites\/all\/modules\/cache_consistent\/css\/cache_consistent.css": 1,
+          "sites\/all\/modules\/colorbox_node\/colorbox_node.css": 1,
+          "modules\/comment\/comment.css": 1,
+          "sites\/all\/modules\/domain\/domain_nav\/domain_nav.css": 1,
+          "modules\/field\/theme\/field.css": 1,
+          "sites\/all\/modules\/google_cse\/google_cse.css": 1,
+          "sites\/all\/modules\/logintoboggan\/logintoboggan.css": 1,
+          "modules\/node\/node.css": 1,
+          "modules\/user\/user.css": 1,
+          "modules\/forum\/forum.css": 1,
+          "sites\/all\/modules\/views\/css\/views.css": 1,
+          "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css": 1,
+          "sites\/all\/modules\/ctools\/css\/ctools.css": 1,
+          "https:\/\/fonts.googleapis.com\/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic\u0026subset=latin,latin-ext": 1,
+          "sites\/all\/modules\/date\/date_api\/date.css": 1,
+          "sites\/all\/themes\/mothership\/mothership\/css\/reset.css": 1,
+          "sites\/all\/themes\/mothership\/mothership\/css\/reset-html5.css": 1,
+          "sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css": 1,
+          "sites\/all\/themes\/mothership\/mothership\/css\/mothership.css": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/yui\/reset-min.css": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/yui\/base-min.css": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/yui\/fonts-min.css": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/site.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/search.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/menu.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/maintenance.css": 1,
+          "sites\/default\/themes\/custom\/oxweb\/field_collection.theme.css": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/print.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie8.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/types\/oxweb_homepage.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/types\/event.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/types\/news_item.less": 1,
+          "sites\/default\/themes\/custom\/oxweb\/css\/alternative\/mobile.less": 1
+        },
+        "js": {
+          "public:\/\/google_tag\/google_tag.script.js": 1,
+          "sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1,
+          "misc\/jquery-extend-3.4.0.js": 1,
+          "misc\/jquery-html-prefilter-3.5.0-backport.js": 1,
+          "misc\/jquery.once.js": 1,
+          "misc\/drupal.js": 1,
+          "misc\/ajax.js": 1,
+          "sites\/all\/modules\/jquery_update\/js\/jquery_update.js": 1,
+          "sites\/all\/modules\/google_cse\/google_cse.js": 1,
+          "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1,
+          "sites\/all\/modules\/colorbox\/js\/colorbox.js": 1,
+          "sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js": 1,
+          "sites\/all\/modules\/colorbox\/js\/colorbox_load.js": 1,
+          "sites\/all\/modules\/media_colorbox\/media_colorbox.js": 1,
+          "sites\/all\/modules\/field_group\/field_group.js": 1,
+          "misc\/progress.js": 1,
+          "sites\/all\/modules\/colorbox_node\/colorbox_node.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/carouFredSel-6.2.1.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.touchSwipe.min.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery-migrate-1.2.1.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/site.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-show-description.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/html5.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/harvey.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/media-queries.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.fitvids.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/vendor\/stupidtable.min.js": 1,
+          "sites\/default\/themes\/custom\/oxweb\/js\/oxweb-menu.js": 1
+        }
+      },
+      "colorbox": {
+        "transition": "elastic",
+        "speed": "350",
+        "opacity": "0.85",
+        "slideshow": false,
+        "slideshowAuto": true,
+        "slideshowSpeed": "2500",
+        "slideshowStart": "start slideshow",
+        "slideshowStop": "stop slideshow",
+        "current": "{current} of {total}",
+        "previous": "\u00ab Prev",
+        "next": "Next \u00bb",
+        "close": "Close",
+        "overlayClose": true,
+        "returnFocus": true,
+        "maxWidth": "100%",
+        "maxHeight": "100%",
+        "initialWidth": "300",
+        "initialHeight": "250",
+        "fixed": true,
+        "scrolling": true,
+        "mobiledetect": true,
+        "mobiledevicewidth": "500px",
+        "file_public_path": "\/sites\/files\/oxford",
+        "specificPagesDefaultValue": "admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"
+      },
+      "googleCSE": {
+        "cx": "012531758793783812323:qgyldcso7qs",
+        "resultsWidth": 600,
+        "domain": "www.google.com",
+        "showWaterMark": 1
+      },
+      "field_group": {
+        "div": "ow_large_feature",
+        "usefulformatters_token_link_block": "ow_listing_teaser",
+        "usefulformatters_link_block": "ow_small_homepage_highlight"
+      },
+      "urlIsAjaxTrusted": {
+        "\/": true
+      },
+      "oxweb": {
+        "autoPlayCarousel": false,
+        "carouselTimeout": "12"
+      },
+      "colorbox_node": {
+        "width": "600px",
+        "height": "600px"
+      }
+    });
   </script>
+
+   <!-- === Remix Icons ===  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="" />
+
+<!-- === Swiper CSS === -->
+<link rel="stylesheet" href="../assets/css/swiper-bundle-min.css" />
+
+<!-- === CSS === -->
+<link rel="stylesheet" href="../assets/css/style.css" />
 </head>
