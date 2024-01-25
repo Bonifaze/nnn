@@ -11,7 +11,7 @@
 
     <link rel="canonical" href="index.php" />
     <link rel="shortlink" href="index.php" />
-
+<!-- title of the page  -->
     <title>All New Page | Veritas University Abuja</title>
         <?php include('./layouts/head.php'); ?>
 
